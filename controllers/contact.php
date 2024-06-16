@@ -1,0 +1,36 @@
+<?php
+
+
+$name = 'Home';
+
+function generateUUID()
+{
+    // Generate 16 bytes of random data
+    $data = random_bytes(16);
+
+    // Set the version (4) and variant (2 bits of '10') bits
+    $data[6] = chr(ord($data[6]) & 0x0f | 0x40); // version 4
+    $data[8] = chr(ord($data[8]) & 0x3f | 0x80); // variant 2
+
+    // Format as a UUID (16 bytes)
+    return vsprintf('%s%s-%s-%s-%s-%s%s%s', str_split(bin2hex($data), 4));
+}
+
+// Generate 200 UUIDs
+$uuids = [];
+for ($i = 0; $i < 121; $i++) {
+    $uuids[] = generateUUID();
+}
+
+// Output the generated UUIDs
+echo "<table>";
+
+
+foreach ($uuids as $uuid) {
+    echo "<tr><td>";
+    echo $uuid;
+    echo "<td>
+</tr>";
+}
+echo "</table>";
+// require "views/contact.view.php";
