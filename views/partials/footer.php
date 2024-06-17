@@ -1,127 +1,109 @@
-<footer>
-    <div class="container">
-        <div class="row no-gutters">
-            <div class="col-xxl-5 col-lg-5">
-                <div class="row">
-                    <div class="col-xxl-6 col-sm-6">
-                        <div class="footer-widget">
-                            <h4 class="widget-title">About Us</h4>
-                            <p class="footer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                                urna lectus, mattis non accumsan in, tempor dictum neque.</p>
-                            <div class="social-icons">
-                                <ul class="list-unstyled">
-                                    <li><a href="javascript:"><i class="bi bi-facebook"></i></a></li>
-                                    <li><a href="javascript:"><i class="bi bi-twitter-x"></i></a></li>
-                                    <li><a href="javascript:"><i class="bi bi-instagram"></i></a></li>
-                                    <li><a href="javascript:"><i class="bi bi-linkedin"></i></a></li>
-                                    <li><a href="javascript:"><i class="bi bi-youtube"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="footer-widget-contact d-none">
-                                <ul class="list-unstyled">
-                                    <li>
-                                        <div><i class="bi bi-geo-alt"></i></div>
-                                        <div>Envato Pty Ltd, 13/2 Elizabeth St Melbourne VIC 3000, Australia
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div><i class="bi bi-phone"></i></div>
-                                        <div><a href="tel:+1234567899">(+01) 123 456 7890</a></div>
-                                    </li>
-                                    <li>
-                                        <div><i class="bi bi-envelope"></i></div>
-                                        <div><a
-                                                href="https://mannatstudio.com/cdn-cgi/l/email-protection#08606d6478487b6d7a6d66617c6d7c266b6765"><span
-                                                    class="__cf_email__"
-                                                    data-cfemail="ef878a839faf9c8a9d8a81869b8a9bc18c8082">[email&#160;protected]</span></a>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
+<section class="tp-footer-area">
+    <div class="tp-footer-top pt-110 pb-55" data-background="assets/img/footer/footer-bg.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-50">
+                    <div class="tp-footer-widget footer-cols-1 wow fadeInUp" data-wow-delay=".3s"
+                        data-wow-duration="1s">
+                        <div class="tp-footer-logo">
+                            <a href="index.html"><img src="assets/img/footer/footer-logo.png" alt=""></a>
+                        </div>
+                        <div class="tp-footer-text">
+                            <p>West Palm Besach,304 Donald <br>Gardens 234 FL 33410</p>
+                            <a class="tp-footer-call" href="tel:+0067834598568">(+00) 678 345 98568</a>
+                        </div>
+                        <div class="tp-footer-social">
+                            <a href="#"><i class="flaticon-facebook-circular-logo"></i></a>
+                            <a href="#"><i class="flaticon-instagram"></i></a>
+                            <a href="#"><i class="flaticon-social"></i></a>
+                            <a href="#"><i class="flaticon-pinterest-logo"></i></a>
                         </div>
                     </div>
-                    <div class="col-xxl-5 col-sm-6 ms-auto">
-                        <div class="footer-widget">
-                            <h4 class="widget-title">Company</h4>
-                            <ul class="list-unstyled icons-listing mb-0 widget-listing">
-                                <li><a href="javascript:">About</a></li>
-                                <li><a href="javascript:">Contact Us</a></li>
-                                <li><a href="javascript:">Blog</a></li>
-                                <li><a href="javascript:">Culture</a></li>
-                                <li><a href="javascript:">Jobs</a></li>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-50 ">
+                    <div class="tp-footer-widget tp-footer-widget-2-footer footer-cols-2 wow fadeInUp"
+                        data-wow-delay=".5s" data-wow-duration="1s">
+                        <h4 class="tp-footer-title">Usefull links</h4>
+                        <div class="tp-footer-list">
+                            <ul>
+                                <li><a href="about.html">About us</a></li>
+                                <li><a href=".html">FAQ’s</a></li>
+                                <li><a href="blog-details.html">News</a></li>
+                                <li><a href="service.html">Service</a></li>
+                                <li><a href="team.html">Our Team</a></li>
+                                <li><a href="portfolio-details.html">Project</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                                <li><a href="contact.html">Privacy</a></li>
+                                <li><a href="#">Careers</a></li>
+                                <li><a href="#">Support</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-xxl-7 col-lg-7 mr-top-footer">
-                <div class="row">
-                    <div class="col-md-4 col-sm-6 col-12">
-                        <div class="footer-widget">
-                            <h4 class="widget-title">Support</h4>
-                            <ul class="list-unstyled icons-listing mb-0 widget-listing">
-                                <li><a href="javascript:">Getting started</a></li>
-                                <li><a href="javascript:">Chat our support</a></li>
-                                <li><a href="javascript:">Help center</a></li>
-                                <li><a href="javascript:">Services status</a></li>
-                                <li><a href="javascript:">Report a bug</a></li>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-50">
+                    <div class="tp-footer-widget tp-footer-widget-2 footer-cols-3 wow fadeInUp" data-wow-delay=".7s"
+                        data-wow-duration="1s">
+                        <h4 class="tp-footer-title">Contact info</h4>
+                        <div class="tp-footer-list">
+                            <div class="tp-footer-widget-member d-flex">
+                                <div class="tp-footer-widget-img">
+                                    <img src="assets/img/footer/footer-member.png" alt="">
+                                </div>
+                                <div class="tp-footer-widget-img-content">
+                                    <p>Chat with an expert</p>
+                                    <span>Active now</span>
+                                </div>
+                            </div>
+                            <ul>
+                                <li><a href="tel:999212354685894"><i class="flaticon-phone-call"></i> + 999 2123 5468
+                                        5894</a></li>
+                                <li><a href="mailto:techubinfo@mail.com"><i class="fal fa-envelope"></i>
+                                        techubinfo@mail.com</a></li>
+                                <li><a href="https://www.google.com/maps/@41.6758525,-86.2531698,18.17z"><i
+                                            class="fa-light fa-location-dot"></i> <span>2307 Beverley Rd brook <br> New
+                                            York 11226 U.S.</span></a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 col-12">
-                        <div class="footer-widget">
-                            <h4 class="widget-title">Services</h4>
-                            <ul class="list-unstyled icons-listing mb-0 widget-listing">
-                                <li><a href="javascript:">Pricing</a></li>
-                                <li><a href="javascript:">Support</a></li>
-                                <li><a href="javascript:">Sales and Refunds</a></li>
-                                <li><a href="javascript:">Legal</a></li>
-                                <li><a href="javascript:">Testimonials & Faq’s</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-4 ol-12">
-                        <div class="footer-widget">
-                            <h4 class="widget-title">Contact Us</h4>
-                            <div class="footer-widget-contact">
-                                <ul class="list-unstyled">
-                                    <li>
-                                        <div><i class="bi bi-geo-alt"></i></div>
-                                        <div>4789 Melmorn Street,Zakila Ton Mashintron Town</div>
-                                    </li>
-                                    <li>
-                                        <div><i class="bi bi-phone"></i></div>
-                                        <div><a href="tel:+1234567899">(+01) 123 456 7890</a></div>
-                                    </li>
-                                    <li>
-                                        <div><i class="bi bi-envelope"></i></div>
-                                        <div><a
-                                                href="https://mannatstudio.com/cdn-cgi/l/email-protection#254d40495565564057404b4c5140510b464a48"><span
-                                                    class="__cf_email__"
-                                                    data-cfemail="90f8f5fce0d0e3f5e2f5fef9e4f5e4bef3fffd">[email&#160;protected]</span></a>
-                                        </div>
-                                    </li>
-                                </ul>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-50">
+                    <div class="tp-footer-widget footer-cols-4 wow fadeInUp" data-wow-delay=".9s"
+                        data-wow-duration="1s">
+                        <h4 class="tp-footer-title">Subscribe</h4>
+                        <div class="tp-footer-thumb-wrap">
+                            <p class="tp-footer-parag">Get Special Offers. We Never Spam.</p>
+                            <div class="tp-footer-widget-content-input tp-footer-widget-content-input-2">
+                                <form class="tp-footer-form"
+                                    action="https://html.hixstudio.net/techub-prev/techub/index.html">
+                                    <input type="email" placeholder="Your Email">
+                                    <span class="tp-footer-email tp-footer-email-2"><i
+                                            class="fal fa-envelope"></i></span>
+                                    <span class="tp-footer-link-btn"><button><i
+                                                class="fa-solid fa-arrow-up-right"></i></button></span>
+                                </form>
+                            </div>
+                            <div class="tp-footer-widget-check-box">
+                                <div class="tp-checkout-option">
+                                    <input id="create_free_account" type="checkbox">
+                                    <label for="create_free_account">I agree with your terms & condition</label>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="tiny-footer">
-            <div class="row align-items-center">
-                <div class="col-md-6 mb-0">Copyright &copy; <span id="yearText"></span>
-                    <strong>Serenite</strong> Theme All rights reserved.
-                </div>
-                <div class="col-md-6">
-                    <div class="tiny-footer-links">
-                        <ul class="list-unstyled list-inline">
-                            <li><a href="#">Terms of Use</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                        </ul>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</footer>
+    <div class="tp-footer-bottom pt-30 pb-30">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="tp-footer-copy-right text-center wow fadeInUp">
+                        <p class="tp-footer-copy-paragraph">Full Copyright & Design By @<a href="#">Theme pure</a> –
+                            2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -23,7 +23,7 @@ $url = parse_url($_SERVER['REQUEST_URI'])['path'];
 
 $routes = [
     '/' => 'controllers/index.php',
-    '/contact' => 'controllers/contact.php',
+    '/contact/' => 'controllers/contact.php',
 ];
 
 routeToController($url, $routes);

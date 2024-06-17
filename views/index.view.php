@@ -1,419 +1,97 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
 <?php require "partials/head.php"; ?>
 
 <body>
-    <div id="pageloader">
-        <div class="loader-item"><img src="assets/images/tail-spin.svg" width="80" alt></div>
-    </div>
-    <div class="home-default">
-        <?php require "partials/menu.php"; ?>
-        <div class="home-default-banner">
-            <div class="container pos-rel">
-                <div class="banner-abstract-shape"></div>
-                <div class="matrix-vertical"><img src="assets/images/matrix_vertical.svg" alt></div>
-                <div class="rectangle-small"><img src="assets/images/rectangle_small.svg" alt></div>
-                <div class="row align-items-center">
-                    <div class="col-lg-7">
-                        <div class="marketing-banner">
-                            <div class="title"><span>Cortia Technologies</span>
-                                <h1 class="wow">We create digitals <strong>products that matters</strong></h1>
-                                <p class="lead">Contented continued any happiness instantly objection yet her allowance.
-                                    Use correct day new brought tedious. Kept easy or sons my it done.</p>
-                                <div class="cta-group">
-                                    <a href="about" class="btn btn-secondary">
-                                        <span class="outer-wrap">
-                                            <span data-text="Learn More">Learn More</span>
-                                        </span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-5">
-                        <div class="banner-img"><img src="assets/images/home-default-banner-img.png" alt="banner"></div>
-                    </div>
-                </div>
-            </div>
-        </div><b class="screen-overlay"></b>
-        <article class="mobile-offcanvas offcanvas-right" id="signup"><button class="btn-close"><i
-                    class="bi bi-x"></i></button>
-            <div class="popup-wrapper">
-                <div class="content">
-                    <h3>Create an account</h3>
-                    <div class="social-login-btn"><a href="javascript:" class="gm"><i class="bi bi-google"></i> With
-                            Google </a><a href="javascript:" class="fb"><i class="bi bi-facebook"></i> With Facebook</a>
-                    </div>
-                    <div class="or-text"><span>Or Signup with your email</span></div>
-                </div>
-                <div class="form-wrap">
-                    <div class>
-                        <div class="mb-4"><input type="text" class="form-control bordered bottom-only"
-                                placeholder="Mobile Number or Email"></div>
-                        <div class="mb-4"><input type="text" class="form-control bordered bottom-only"
-                                placeholder="Full Name"></div>
-                        <div class="mb-4"><input type="text" class="form-control bordered bottom-only"
-                                placeholder="Username"></div>
-                        <div class="mb-4"><input type="text" class="form-control bordered bottom-only"
-                                placeholder="Password"></div>
-                        <div class="mb-4 info-form"><small>By signing up, you agree to our <a
-                                    href="javscript:">Terms</a> , <a href="javscript:">Data Policy</a> and <a
-                                    href="javscript:">Cookies Policy</a>.</small></div>
-                        <div class="d-grid"><button type="button" class="btn btn-outline-primary btn-sm"><span
-                                    class="outer-wrap"><span data-text="Singup">Singup</span></span></button></div>
-                    </div>
-                </div>
-            </div>
-        </article>
-    </div>
-    <main id="body-content">
-        <section class="section-spacing logo-carousel">
-            <div class="container">
-                <div class="owl-carousel owl-theme top-right-arrow" id="client-home-default">
-                    <div class="item">
-                        <div class="img-partner"><img src="assets/images/partner/img-client1.png" alt></div>
-                    </div>
-                    <div class="item">
-                        <div class="img-partner"><img src="assets/images/partner/img-client2.png" alt></div>
-                    </div>
-                    <div class="item">
-                        <div class="img-partner"><img src="assets/images/partner/img-client3.png" alt></div>
-                    </div>
-                    <div class="item">
-                        <div class="img-partner"><img src="assets/images/partner/img-client4.png" alt></div>
-                    </div>
-                    <div class="item">
-                        <div class="img-partner"><img src="assets/images/partner/img-client5.png" alt></div>
-                    </div>
-                    <div class="item">
-                        <div class="img-partner"><img src="assets/images/partner/img-client6.png" alt></div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="section-spacing home-ideas-wrap">
-            <div class="container pos-rel">
-                <div class="square-top"><img src="assets/images/square_large.svg" alt></div>
-                <div class="row">
-                    <div class="col-xl-3 col-lg-6 col-md-6">
-                        <div class="section-title text-start mb-0"><span>Why Chose Us?</span>
-                            <h2 class="wow">Turn Your Amazing <strong>Ideas Into Reality</strong></h2>
-                            <ul class="list-unstyled icons-listing theme-primary check">
-                                <li>Machine learning enabled projections</li>
-                                <li>Visitor mouse and click tracking</li>
-                                <li>Automated revenue suggestions</li>
-                            </ul><a href="our-services.html" class="btn btn-default btn-rounded mt-3"><span
-                                    class="outer-wrap"><span data-text="View All Services">View All
-                                        Services</span></span></a>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-6 col-md-6">
-                        <div class="icon-style-top">
-                            <div class="icon"><i class="srn-icon-design-creativity"></i></div>
-                            <div class="text">
-                                <h6>Design & Creativity</h6>
-                                <p>We use the latest technologies it voluptatem accusantium do loremque laudantium.</p>
-                                <div class="arrow-icon"><a href="service-single.html"><i
-                                            class="srn-arrow-right"></i></a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="w-100 spacer-30 d-none d-md-block d-lg-block d-xl-none d-sm-none"></div>
-                    <div class="col-xl-3 col-lg-6 col-md-6">
-                        <div class="icon-style-top">
-                            <div class="icon"><i class="srn-icon-digital-marketing"></i></div>
-                            <div class="text">
-                                <h6>Digital Marketing</h6>
-                                <p>We use the latest technologies it voluptatem accusantium do loremque laudantium.</p>
-                                <div class="arrow-icon"><a href="service-single.html"><i
-                                            class="srn-arrow-right"></i></a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-6 col-md-6">
-                        <div class="icon-style-top">
-                            <div class="icon"><i class="srn-icon-technology-innovation"></i></div>
-                            <div class="text">
-                                <h6>Technology Innovation</h6>
-                                <p>We use the latest technologies it voluptatem accusantium do loremque laudantium.</p>
-                                <div class="arrow-icon"><a href="service-single.html"><i
-                                            class="srn-arrow-right"></i></a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mt-5">
-                        <p class="text-center wow pulse" data-wow-delay="0.5s">Let’s Come Up With a <strong
-                                class="txt-primary">Start Free Trial 30-Day Money Back Guarantee</strong> For New
-                            Purchases&ZeroWidthSpace;.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="section-spacing">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6 col-xl-5 col-sm-12">
-                        <div class="section-title text-start mb-4"><span>About</span>
-                            <h2 class="wow">Popular Features that your <strong>Business Needs</strong></h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna lectus, mattis non
-                                accumsan in, tempor dictum neque. In hac habitasse platea dictumst. Lorem ipsum dolor
-                                sit amet, consectetur adipiscing.</p>
-                        </div>
-                        <ul class="list-unstyled icons-listing theme-primary mb-4 w-half check">
-                            <li>Intregrations</li>
-                            <li>Business Strategy</li>
-                            <li>Business Setup</li>
-                            <li>Easy Documentation</li>
-                        </ul>
-                        <a href="our-services.html" class="btn btn-secondary">
-                            <span class="outer-wrap">
-                                <span data-text="View All Features">View All Features</span>
-                            </span>
-                        </a>
-                    </div>
-                    <div class="col-lg-6 col-xl-7 wow slideInLeft"><img src="assets/images/tabbing_img.png" alt></div>
-                </div>
-            </div>
-        </section>
+    <?php require "partials/menu.php"; ?>
+    <main>
+        <!-- slider area start -->
+        <section class="tp-slider-area p-relative">
+            <div class="tp-slider-wrapper p-relative">
+                <div class="swiper-container tp-slider-active">
+                    <div class="swiper-wrapper">
 
-        <section class="section-spacing bg-light-blue section-padding home-default-video pb-0">
-            <div class="container">
-                <div class="row pos-rel">
-                    <div class="col-lg-5 mb-0">
-                        <div class="section-title text-start"><span>The work we do willingly</span>
-                            <h2 class="wow">Inspiration comes only <strong>during work.</strong></h2>
-                            <p>This letter expresses our sincere gratitude for the excellent work that your company has
-                                done. I would like to note the high professionalism of the entire team, the ability to
-                                work with the customer.</p>
-                        </div>
-                        <div class="mb-3">
-                            <div class="progress-wrap">
-                                <h6>Project delivered on time</h6>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" data-width="90"><span>90%</span></div>
+                        <!-- slide item 1 -->
+                        <div class="swiper-slide">
+                            <div class="tp-slider-height tp-slider-height-2 tp-slider-overlay">
+                                <div class="tp-slider-bg" data-background="views/assets/img/slider/slider-2-bg-1.jpg">
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-xl-12">
+                                            <div class="tp-slider-content p-relative z-index-1">
+                                                <div class="tp-slider-title-box">
+                                                    <div class="tp-slider-shape">
+                                                        <h2 class="tp-slider-shape-heading">CORTIA</h2>
+                                                    </div>
+                                                    <h1 class="tp-slider-title tp-slider-title-2">IT Solution <br>&
+                                                        Technology</h1>
+                                                </div>
+                                                <div class="tp-slider-btn-box d-inline-flex mt-45">
+                                                    <a class="tp-btn tp-btn-white" rel="noreferrer" href="contact.html"
+                                                        target="_blank"><span>Get Started</span></a>
+                                                    <a class="tp-btn tp-btn-border" rel="noreferrer" href="contact.html"
+                                                        target="_blank"><span>Contact Us</span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="progress-wrap">
-                                <h6>Availability</h6>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" data-width="70"><span>70%</span></div>
-                                </div>
-                            </div>
-                        </div><a href="about-us.html" class="btn btn-secondary"><span class="outer-wrap"><span
-                                    data-text="Read More">Read More</span></span></a>
-                    </div>
-                    <div class="col-lg-7 mt-5 mt-lg-0">
-                        <div class="video-padding">
-                            <div class="section-title text-start"><span>Achievement</span>
-                                <h2 class="wow">Products successfully launced <strong>in the previous 12 months</strong>
-                                </h2>
-                            </div>
                         </div>
-                        <div class="video-bg-off wow fadeInUp"><img src="assets/images/video_bg_off.png" alt>
-                            <div class="video-play-btn"><a class="popup-video"
-                                    href="https://player.vimeo.com/video/7449107" target="_blank" role="button"><i
-                                        class="bi bi-play"></i></a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
 
-        <section class="txt-white section-padding pattern_abstract_bg pos-rel">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-6 col-lg-7 mb-0">
-                        <div class="section-title text-start light"><span>Get To Know Us</span>
-                            <h2 class="wow">We Working For You To <strong>Build Your Business Fast</strong></h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna lectus, mattis non
-                                accumsan in, tempor dictum neque. In hac habitasse platea dictumst. Lorem ipsum dolor
-                                sit amet, consectetur adipiscing.</p>
-                        </div>
-                        <div class="hstack gap-4 mb-5 home-stats">
-                            <div class="tick-icon-big">
-                                <div class="icon-space"><i class="bi bi-check2"></i></div>
-                                <div class="text-space fun-fact">
-                                    <h2><span class="timer" data-to="99" data-speed="2000">99.7</span>%</h2>
-                                    <div>Satisfaction rate</div>
-                                    <div class="stars"><i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i>
-                                        <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i
-                                            class="bi bi-star-fill"></i>
-                                    </div>
+                        <!-- slide item 2 -->
+                        <div class="swiper-slide">
+                            <div class="tp-slider-height tp-slider-height-2 tp-slider-overlay">
+                                <div class="tp-slider-bg" data-background="views/assets/img/slider/slider-2-bg-2.jpg">
                                 </div>
-                            </div>
-                            <div class="tick-icon-big">
-                                <div class="icon-space"><i class="bi bi-check2"></i></div>
-                                <div class="text-space fun-fact">
-                                    <h2>$<span class="timer" data-to="9" data-speed="2000"></span>M</h2>
-                                    <div>Global revenue</div>
-                                    <div class="stars"><i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i>
-                                        <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i
-                                            class="bi bi-star-fill"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><a href="about-us.html" class="btn btn-outline-light"><span class="outer-wrap"><span
-                                    data-text="Read More">Read More</span></span></a>
-                    </div>
-                    <div class="stats-img-abstract">&nbsp;</div>
-                    <div class="stats-img wow slideInRight"><img src="assets/images/stats_img.png" class alt></div>
-                </div>
-            </div>
-        </section>
-        <section class="section-spacing bg-light-blue section-padding home-case-study">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6 col-xl-5 mb-0">
-                        <div class="section-title text-start"><span>Our Case Studies</span>
-                            <h2 class="mb-0 wow">Our work we do and <strong>The client we help</strong></h2>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xl-6 ms-auto mb-4 mb-lg-0">
-                        <div class="section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna
-                            lectus, mattis non accumsan in, tempor dictum neque. In hac habitasse platea dictumst. Lorem
-                            ipsum dolor sit amet, consectetur adipiscing.</div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <div class="portfolio-gallery-item">
-                            <div class="item-img">
-                                <div class="portfolio-img-gallery"><a href="assets/images/portfolio/portfolio_img_1.jpg"
-                                        class="portfolio-img-gallery" title="Title Come here"><img
-                                            src="assets/images/portfolio/portfolio_img_1.jpg" class="rounded" alt></a>
-                                    <div class="img-over"><i class="bi bi-plus-lg"></i></div>
-                                </div><a href="portfolio-single.html" class="arrow"><i class="srn-arrow-right"></i></a>
-                            </div>
-                            <div class="item-content">
-                                <h6><a href="portfolio-single.html">Global revenue</a></h6>
-                                <div class="sub-head">It Services & Consultancy</div>
-                                <p>We use the latest technologies it voluptatem accusantium We do this by discerning the
-                                    ships</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <div class="portfolio-gallery-item">
-                            <div class="item-img">
-                                <div class="portfolio-img-gallery"><a href="assets/images/portfolio/portfolio_img_2.jpg"
-                                        class="portfolio-img-gallery" title="Title Come here"><img
-                                            src="assets/images/portfolio/portfolio_img_2.jpg" class="rounded" alt></a>
-                                    <div class="img-over"><i class="bi bi-plus-lg"></i></div>
-                                </div><a href="portfolio-single.html" class="arrow"><i class="srn-arrow-right"></i></a>
-                            </div>
-                            <div class="item-content">
-                                <h6><a href="portfolio-single.html">Global revenue</a></h6>
-                                <div class="sub-head">It Services & Consultancy</div>
-                                <p>We use the latest technologies it voluptatem accusantium We do this by discerning the
-                                    ships</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-12 mx-auto">
-                        <div class="portfolio-gallery-item">
-                            <div class="item-img">
-                                <div class="portfolio-img-gallery"><a href="assets/images/portfolio/portfolio_img_3.jpg"
-                                        class="portfolio-img-gallery" title="Title Come here"><img
-                                            src="assets/images/portfolio/portfolio_img_3.jpg" class="rounded" alt></a>
-                                    <div class="img-over"><i class="bi bi-plus-lg"></i></div>
-                                </div><a href="portfolio-single.html" class="arrow"><i class="srn-arrow-right"></i></a>
-                            </div>
-                            <div class="item-content">
-                                <h6><a href="portfolio-single.html">Global revenue</a></h6>
-                                <div class="sub-head">It Services & Consultancy</div>
-                                <p>We use the latest technologies it voluptatem accusantium We do this by discerning the
-                                    ships</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="section-spacing">
-            <div class="container pos-rel">
-                <div class="row align-items-center">
-                    <div class="col-xl-7 mx-auto col-lg-8 mb-0">
-                        <div class="home-default-faqs-counter-wrap">
-                            <div class="text-center"><img src="assets/images/home-default-faqs.png" alt></div>
-                            <div class="home-default-faqs-counter">
-                                <div class="hstack gap-3">
-                                    <div class="counter-text fun-fact">
-                                        <h2><span class="timer" data-to="12" data-speed="2000">12</span><sub>K</sub>
-                                        </h2>
-                                        <div class="text">Support Request resolved</div>
-                                    </div>
-                                    <div class="vr"></div>
-                                    <div class="counter-text fun-fact">
-                                        <h2><span class="timer" data-to="97" data-speed="2000">97</span>.8<sub>%</sub>
-                                        </h2>
-                                        <div class="text">Customer satisfaction</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mx-auto col-xl-5 col-lg-8 mt-5 mt-xl-0">
-                        <div class="section-title text-start"><span>Get Your Answer Fast</span>
-                            <h2 class="wow">Everything you need to <strong>Know to work better</strong></h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna lectus, mattis non
-                                accumsan in, tempor dictum neque. In hac habitasse platea dictumst. Lorem ipsum dolor
-                                sit amet, consectetur adipiscing.</p>
-                        </div>
-                        <div class="theme-accordian">
-                            <div class="accordion accordion-flush theme-accordian" id="accordionFlushExampleSimple">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="flush-gap-headingOne"><button
-                                            class="accordion-button" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#flush-gap-collapseOne" aria-expanded="false"
-                                            aria-controls="flush-gap-collapseOne">First and foremost, you never want to
-                                            go?</button></h2>
-                                    <div id="flush-gap-collapseOne" class="accordion-collapse collapse show"
-                                        aria-labelledby="flush-gap-headingOne"
-                                        data-bs-parent="#accordionFlushExampleSimple">
-                                        <div class="accordion-body">Ned ut perspiciatis unde omnis iste natus error sit
-                                            voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque Arya.
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-xl-12">
+                                            <div class="tp-slider-content p-relative z-index-1">
+                                                <div class="tp-slider-title-box">
+                                                    <div class="tp-slider-shape">
+                                                        <h2 class="tp-slider-shape-heading">CORTIA</h2>
+                                                    </div>
+                                                    <h1 class="tp-slider-title tp-slider-title-2"> Innovation <br>
+                                                        Tech Solution</h1>
+                                                </div>
+                                                <div class="tp-slider-btn-box d-inline-flex mt-45">
+                                                    <a class="tp-btn tp-btn-white" rel="noreferrer" href="contact.html"
+                                                        target="_blank"><span>Get Started</span></a>
+                                                    <a class="tp-btn tp-btn-border" rel="noreferrer" href="contact.html"
+                                                        target="_blank"><span>Contact Us</span></a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="flush-gap-headingTwo"><button
-                                            class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#flush-gap-collapseTwo" aria-expanded="false"
-                                            aria-controls="flush-gap-collapseTwo">How can i customized this
-                                            theme?</button></h2>
-                                    <div id="flush-gap-collapseTwo" class="accordion-collapse collapse"
-                                        aria-labelledby="flush-gap-headingTwo"
-                                        data-bs-parent="#accordionFlushExampleSimple">
-                                        <div class="accordion-body">Ned ut perspiciatis unde omnis iste natus error sit
-                                            voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque Arya.
-                                        </div>
-                                    </div>
+                            </div>
+                        </div>
+
+                        <!-- slide item 3 -->
+                        <div class="swiper-slide">
+                            <div class="tp-slider-height tp-slider-height-2 tp-slider-overlay">
+                                <div class="tp-slider-bg" data-background="views/assets/img/slider/slider-2-bg-3.jpg">
                                 </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="flush-gap-headingThree"><button
-                                            class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#flush-gap-collapseThree" aria-expanded="false"
-                                            aria-controls="flush-gap-collapseThree">Can I cancel or change my
-                                            order?</button></h2>
-                                    <div id="flush-gap-collapseThree" class="accordion-collapse collapse"
-                                        aria-labelledby="flush-gap-headingThree"
-                                        data-bs-parent="#accordionFlushExampleSimple">
-                                        <div class="accordion-body">Ned ut perspiciatis unde omnis iste natus error sit
-                                            voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque Arya.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="flush-gap-headingFour"><button
-                                            class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#flush-gap-collapseFour" aria-expanded="false"
-                                            aria-controls="flush-gap-collapseFour">How can I exchange an item bought
-                                            online?</button></h2>
-                                    <div id="flush-gap-collapseFour" class="accordion-collapse collapse"
-                                        aria-labelledby="flush-gap-headingFour"
-                                        data-bs-parent="#accordionFlushExampleSimple">
-                                        <div class="accordion-body">Ned ut perspiciatis unde omnis iste natus error sit
-                                            voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque Arya.
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-xl-12">
+                                            <div class="tp-slider-content p-relative z-index-1">
+                                                <div class="tp-slider-title-box">
+                                                    <div class="tp-slider-shape">
+                                                        <h2 class="tp-slider-shape-heading">CORTIA</h2>
+                                                    </div>
+                                                    <h1 class="tp-slider-title tp-slider-title-2">Tools For <br>
+                                                        Development</h1>
+                                                </div>
+                                                <div class="tp-slider-btn-box d-inline-flex mt-45">
+                                                    <a class="tp-btn tp-btn-white" rel="noreferrer" href="contact.html"
+                                                        target="_blank"><span>Get Started</span></a>
+                                                    <a class="tp-btn tp-btn-border" rel="noreferrer" href="contact.html"
+                                                        target="_blank"><span>Contact Us</span></a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -421,264 +99,1363 @@
                         </div>
                     </div>
                 </div>
+                <div class="tp-slider-arrow-box tp-slider-arrow-box-2">
+                    <button class="slider-prev" tabindex="0" aria-label="Previous slide">
+                        <i class="fa-regular fa-arrow-left"></i>
+                    </button>
+                    <button class="slider-next" tabindex="0" aria-label="Next slide">
+                        <i class="fa-regular fa-arrow-right"></i>
+                    </button>
+                </div>
+                <div
+                    class="tp-slider-dots tp-slider-dots-2 dots-color swiper-pagination-clickable swiper-pagination-bullets">
+                    <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span>
+                    <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span>
+                    <span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button"
+                        aria-label="Go to slide 3"></span>
+                </div>
             </div>
         </section>
-        <section class="bg-light-blue section-padding">
+        <!-- slider area end -->
+
+
+
+        <!-- About area Start -->
+        <section class="tp-about-2-area pt-120 pb-120 p-relative z-index-1 fix">
+            <div class="tp-about-2-bg-overlay"></div>
+            <div class="tp-about-2-bg-shape">
+                <img class="tp-about-2-bg-shape1" src="views/assets/img/about/about-2-shape-left.png" alt="">
+                <img class="tp-about-2-bg-shape2" src="views/assets/img/about/about-2-shape-right.png" alt="">
+            </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-9 col-xl-5 mx-auto text-center">
-                        <div class="section-title text-center"><span>Our Pricing Plan Suits Every Need</span>
-                            <h2 class="wow">Pricing are Made Simple <strong>Suites to your needs</strong></h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna lectus, mattis non
-                                accumsan in, tempor dictum neque. In hac habitasse platea dictumst. Lorem ipsum dolor
-                                sit amet, consectetur adipiscing.</p>
+                    <div class="col-xl-6 col-lg-5">
+                        <div class="tp-about-2-thumb-wrapper wow fadeInLeft">
+                            <div class="tp-about-2-thumb p-relative">
+                                <img src="views/assets/img/about/about-2-img.jpg" alt="" style="border-radius:20px; border: 1px solid #7d2df4;">
+                                <!-- <div class="tp-about-2-shape-top text-center">
+                                    <h3 class="tp-about-2-shape-top-title">35</h3>
+                                    <span class="tp-about-2-shape-top-paragraph">YEARS <br>EXPERIENCE</span>
+                                </div> -->
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-xl-3 col-lg-6 col-md-6">
-                        <div class="pricing-wrap alternate-version wow pulse" data-wow-delay="0.1s">
-                            <div class="pricing-saving-wrap"><span class="pricing-saving">Save Upto 100%</span></div>
-                            <div class="plan-name">Free Plan</div>
-                            <h2 class="plan-price"><sup>$</sup> 00.0</h2>
-                            <p class="pricing-info">Best for one-man bands, web creators, and freelancers.</p>
-                            <hr class="divider-default">
-                            <ul class="list-unstyled icons-listing theme-primary tick mb-0">
-                                <li>3 projects</li>
-                                <li>10 GB storage</li>
-                            </ul>
-                            <ul class="list-unstyled icons-listing theme-primary tick not-included">
-                                <li>13 Collaborators</li>
-                                <li>100 Accounts</li>
-                                <li>No team members</li>
-                            </ul>
-                            <div class="text-center"><a href="our-pricing.html"
-                                    class="text-uppercase btn btn-default"><span class="outer-wrap"><span
-                                            data-text="Try this Package">Try this Package</span></span></a></div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-6 col-md-6">
-                        <div class="pricing-wrap popular-plan alternate-version wow pulse" data-wow-delay="0.2s">
-                            <div class="pricing-saving-wrap"><span class="pricing-saving">Save Upto 60% </span><span
-                                    class="pricing-saving popular-saving">Popular</span></div>
-                            <div class="plan-name">Starter Plan</div>
-                            <h2 class="plan-price"><sup>$</sup> 29.0</h2>
-                            <p class="pricing-info">Best for one-man bands, web creators, and freelancers.</p>
-                            <hr class="divider-default">
-                            <ul class="list-unstyled icons-listing theme-white txt-light tick mb-0">
-                                <li>3 projects</li>
-                                <li>10 GB storage</li>
-                                <li>13 Collaborators</li>
-                            </ul>
-                            <ul class="list-unstyled icons-listing theme-white txt-light tick not-included">
-                                <li>100 Accounts</li>
-                                <li>No team members</li>
-                            </ul>
-                            <div class="text-center"><a href="our-pricing.html"
-                                    class="text-uppercase btn btn-outline-light"><span class="outer-wrap"><span
-                                            data-text="Try this Package">Try this Package</span></span></a></div>
-                        </div>
-                    </div>
-                    <div class="w-100 spacer-30 d-none d-md-block d-lg-block d-xl-none d-sm-none"></div>
-                    <div class="col-xl-3 col-lg-6 col-md-6">
-                        <div class="pricing-wrap alternate-version wow pulse" data-wow-delay="0.3s">
-                            <div class="pricing-saving-wrap"><span class="pricing-saving">Save Upto 80%</span></div>
-                            <div class="plan-name">Professional Plan</div>
-                            <h2 class="plan-price"><sup>$</sup> 79.0</h2>
-                            <p class="pricing-info">Best for one-man bands, web creators, and freelancers.</p>
-                            <hr class="divider-default">
-                            <ul class="list-unstyled icons-listing theme-primary tick">
-                                <li>3 projects</li>
-                                <li>10 GB storage</li>
-                                <li>13 Collaborators</li>
-                                <li>100 Accounts</li>
-                                <li>3 team members</li>
-                            </ul>
-                            <div class="text-center"><a href="our-pricing.html"
-                                    class="text-uppercase btn btn-default"><span class="outer-wrap"><span
-                                            data-text="Try this Package">Try this Package</span></span></a></div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-6 col-md-6">
-                        <div class="pricing-wrap alternate-version wow pulse" data-wow-delay="0.4s">
-                            <div class="pricing-saving-wrap"><span class="pricing-saving">Save Upto 90%</span></div>
-                            <div class="plan-name">Platinum Plan</div>
-                            <h2 class="plan-price"><sup>$</sup> 159.0</h2>
-                            <p class="pricing-info">Best for one-man bands, web creators, and freelancers.</p>
-                            <hr class="divider-default">
-                            <ul class="list-unstyled icons-listing theme-primary tick">
-                                <li>3 projects</li>
-                                <li>10 GB storage</li>
-                                <li>13 Collaborators</li>
-                                <li>100 Accounts</li>
-                                <li>10 team members</li>
-                            </ul>
-                            <div class="text-center"><a href="our-pricing.html"
-                                    class="text-uppercase btn btn-default"><span class="outer-wrap"><span
-                                            data-text="Try this Package">Try this Package</span></span></a></div>
+                    <div class="col-xl-6 col-lg-7">
+                        <div class="tp-about-2-wrapper wow fadeInRight">
+                            <div class="tp-section-title-wrapper mb-35">
+                                <span class="tp-section-subtitle style-2">KNOW ABOUT OUR CORTIA</span>
+                                <h3 class="tp-section-title style-2">Improve and innovate <br>
+                                    the CORTIA trends</h3>
+                                <p class="tp-section-paragraph">Middle removes the guesswork by organising and sharing
+                                    all the information
+                                    your broker Middle needs to recommend the best home loan for your situation
+                                    Get. your mortgage journey moving with less admin</p>
+                            </div>
+                            <div class="tp-about-2-feature-item d-flex mb-15">
+                                <div class="tp-about-2-feature-icon">
+                                    <span><i class="flaticon-technology-1"></i></span>
+                                </div>
+                                <div class="tp-about-2-feature-content">
+                                    <h4 class="tp-about-2-fc-title">Professional IT Solutions</h4>
+                                    <p class="tp-about-2-fc-paragraph">Neque porro quisquam est, qui dolorem ipsum
+                                        ctetur, adipisci velit, sed eligendi optio</p>
+                                </div>
+                            </div>
+                            <div class="tp-about-2-feature-item d-flex mb-40">
+                                <div class="tp-about-2-feature-icon">
+                                    <span><i class="flaticon-management"></i></span>
+                                </div>
+                                <div class="tp-about-2-feature-content">
+                                    <h4 class="tp-about-2-fc-title">Experience Team Member</h4>
+                                    <p class="tp-about-2-fc-paragraph">Neque porro quisquam est, qui dolorem ipsum
+                                        ctetur, adipisci velit, sed eligendi optio</p>
+                                </div>
+                            </div>
+
+                            <div class="tp-about-2-button-item d-flex">
+                                <div class="tp-about-2-btn">
+                                    <a class="tp-btn" rel="noreferrer" href="about.html" target="_blank"><span>Discover
+                                            More</span></a>
+                                </div>
+
+                                <div class="tp-about-2-call-item d-flex align-items-center ml-20">
+                                    <div class="tp-about-2-call-icon">
+                                        <a href="tel:+9978687653695"><i class="flaticon-phone-call"></i></a>
+                                    </div>
+                                    <div class="tp-about-2-call-number ml-20">
+                                        <span>Talk to an expert </span>
+                                        <a href="tel:+9978687653695">+99 (786) 8765 3695</a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="section-spacing">
-            <div class="container">
-                <div class="home-default-testimonials">
+        <!-- About area end -->
+
+
+
+        <!-- Feature area start -->
+        <section class="tp-feature-2-area p-relative z-index-11">
+            <div class="tp-feature-2-top pt-115 pb-160" data-background="views/assets/img/project/project-2-bg.jpg">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-xl-8 col-lg-9 col-md-9">
+                            <div class="tp-feature-2-wrapper wow fadeInUp">
+                                <div class="tp-section-title-wrapper mb-35">
+                                    <span class="tp-section-subtitle style-2 tp-feature-2-section-subtitle">RECENTLY
+                                        COMPLETED PORTFOLIO</span>
+                                    <h3 class="tp-section-title style-2 tp-feature-2-section-title">We advise more than
+                                        25 <br>
+                                        companies from all sectors</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-3 col-md-3">
+                            <div class="tp-feature-2-arrow-box">
+                                <button class="slider-prev" tabindex="0" aria-label="Previous slide">
+                                    <i class="fa-sharp fa-regular fa-arrow-left"></i>
+                                </button>
+                                <button class="slider-next" tabindex="0" aria-label="Next slide">
+                                    <i class="fa-sharp fa-regular fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tp-feature-2-bottom">
+                <div class="container">
                     <div class="row">
-                        <div class="col-md-7 col-lg-5 col-xxl-5 text-start">
-                            <div class="section-title light pos-rel">
-                                <div class="svg-wrap wow fadeInDown"><svg xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 512 512">
-                                        <path
-                                            d="M437 75a254 254 0 0 0-362 0 254 254 0 0 0-39 312L1 492a15 15 0 0 0 19 19l105-35a255 255 0 0 0 387-220c0-68-27-133-75-181zM256 482c-43 0-84-12-121-35a15 15 0 0 0-12-2l-84 28 28-84c1-4 1-9-2-12A225 225 0 0 1 256 30a226 226 0 0 1 0 452z" />
-                                        <path
-                                            d="M346 161h-40c-19 0-35 16-35 35v40c0 19 16 35 35 35h43c-7 29-32 50-63 50a15 15 0 0 0 0 30c52 0 95-43 95-95v-60c0-19-16-35-35-35zm-45 75v-40c0-3 2-5 5-5h40c3 0 5 2 5 5v45h-45c-3 0-5-2-5-5zm-95-75h-40c-19 0-35 16-35 35v40c0 19 16 35 35 35h43c-7 29-32 50-63 50a15 15 0 0 0 0 30c52 0 95-43 95-95v-60c0-19-16-35-35-35zm-45 75v-40c0-3 2-5 5-5h40c3 0 5 2 5 5v45h-45c-3 0-5-2-5-5z" />
-                                    </svg></div><span>Real User Reviews</span>
-                                <h2 class="wow">What our client’s are <strong>Saying about us</strong></h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="owl-carousel owl-theme top-right-arrow" id="home-default-testimonials">
-                        <div class="item">
-                            <div class="testimonial-single-left">
-                                <hr class="divider-secondary">
-                                <h6>My business is growing faster and I’m very happy with that</h6>
-                                <p>Thank you for your excellent work. No one could hear us as well as you and make our
-                                    wishes come true so beautifully and beautifully. Starting from the very first day,
-                                    the work was inspired and gave positive results.</p>
-                                <div class="testimonial-box">
-                                    <div class="thumb-img"><img src="assets/images/thumb_1.jpg" alt></div>
-                                    <div class="content">
-                                        <h6 class="name">Rider Smith</h6>
-                                        <div class="post">Marketing Envato Pty Ltd.</div>
-                                        <div class="rating"><i class="bi bi-star-fill"></i> <i
-                                                class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i
-                                                class="bi bi-star-fill"></i> <i class="bi bi-star"></i></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="testimonial-single-left">
-                                <hr class="divider-secondary">
-                                <h6>My business is growing faster and I’m very happy with that</h6>
-                                <p>Thank you for your excellent work. No one could hear us as well as you and make our
-                                    wishes come true so beautifully and beautifully. Starting from the very first day,
-                                    the work was inspired and gave positive results.</p>
-                                <div class="testimonial-box">
-                                    <div class="thumb-img"><img src="assets/images/thumb_2.jpg" alt></div>
-                                    <div class="content">
-                                        <h6 class="name">Kevin Martin</h6>
-                                        <div class="post">Marketing Consultant</div>
-                                        <div class="rating"><i class="bi bi-star-fill"></i> <i
-                                                class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i
-                                                class="bi bi-star-fill"></i> <i class="bi bi-star"></i></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="testimonial-single-left">
-                                <hr class="divider-secondary">
-                                <h6>My business is growing faster and I’m very happy with that</h6>
-                                <p>Thank you for your excellent work. No one could hear us as well as you and make our
-                                    wishes come true so beautifully and beautifully. Starting from the very first day,
-                                    the work was inspired and gave positive results.</p>
-                                <div class="testimonial-box">
-                                    <div class="thumb-img"><img src="assets/images/thumb_3.jpg" alt></div>
-                                    <div class="content">
-                                        <h6 class="name">Sarah Albert</h6>
-                                        <div class="post">Senior Advisor</div>
-                                        <div class="rating"><i class="bi bi-star-fill"></i> <i
-                                                class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i
-                                                class="bi bi-star-fill"></i> <i class="bi bi-star"></i></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="testimonial-single-left">
-                                <hr class="divider-secondary">
-                                <h6>My business is growing faster and I’m very happy with that</h6>
-                                <p>Thank you for your excellent work. No one could hear us as well as you and make our
-                                    wishes come true so beautifully and beautifully. Starting from the very first day,
-                                    the work was inspired and gave positive results.</p>
-                                <div class="testimonial-box">
-                                    <div class="thumb-img"><img src="assets/images/thumb_4.jpg" alt></div>
-                                    <div class="content">
-                                        <h6 class="name">David Cooper</h6>
-                                        <div class="post">Freelance Consultant</div>
-                                        <div class="rating"><i class="bi bi-star-fill"></i> <i
-                                                class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i
-                                                class="bi bi-star-fill"></i> <i class="bi bi-star"></i></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="faqs-bg section-spacing home-default-abstract pt-5">
-            <div class="container pos-rel">
-                <div class="row">
-                    <div class="col-xl-5 col-lg-6">
-                        <div class="home-services-imgs"><img src="assets/images/home-default-img-1.png" alt> <img
-                                src="assets/images/home-default-img-2.png" class="off-pattern" alt></div>
-                    </div>
-                    <div class="col-xl-7 col-lg-6 text-start">
-                        <div class="section-title"><span>Need Help With Our Services</span>
-                            <h2 class="wow">Are you looking for <strong>our services or want to try it for
-                                    free?</strong></h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna lectus, mattis non
-                                accumsan in, tempor dictum neque. In hac habitasse platea dictumst. Lorem ipsum dolor
-                                sit amet, consectetur adipiscing.</p>
-                        </div>
-                        <div class="btn-set wow fadeInUp"><a href="javascript:" class="btn btn-primary"
-                                data-trigger="#signup"><span class="outer-wrap"><span data-text="Try for free">Try for
-                                        free</span></span></a> <a href="contact.html" class="btn btn-secondary"><span
-                                    class="outer-wrap"><span data-text="Learn More">Learn More</span></span></a></div>
-                    </div>
-                </div>
-                <div class="img-abstract">&nbsp;</div>
-            </div>
-        </section>
-    </main>
-    <div class="footer-wrap home-default">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-3 col-md-4">
-                    <div class="logo-footer"><a href="index.html"><img src="assets/images/logo_light.svg" alt></a></div>
-                </div>
-                <div class="col-lg-9 col-md-8">
-                    <div class="subscribe-form">
-                        <div class="head">Subscribe Our Newsletter</div>
-                        <div class="input-wrap"><input type="text" name="subscribe"
-                                placeholder="Enter your email address" class="form-control bordered bottom-only">
-                            <button type="submit" class="btn btn-primary"><span class="outer-wrap"><span
-                                        data-text="Subscribe">Subscribe</span></span></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <?php require 'partials/footer.php'; ?>
-    </div><a id="back-to-top" href="javascript:" class="back-to-top"><i class="bi bi-chevron-up"></i></a>
-    <div class="overlay overlay-hugeinc">
-        <form class="form-inline mt-2 mt-md-0">
-            <div class="form-inner">
-                <div class="form-inner-div hstack"><i class="srn-search"></i>
-                    <div class="w-100"><input class="form-control form-light" type="text" placeholder="Search"
-                            aria-label="Search"></div><a href="#" class="overlay-close link-oragne"><i
-                            class="bi bi-x"></i></a>
-                </div>
-            </div>
-        </form>
-    </div>
+                        <div class="col-xxl-12">
+                            <div class="tp-feature-slider p-relative">
+                                <div class="tp-feature-slider-active swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="tp-feature-item swiper-slide">
 
-    <script src="assets/js/scripts.min.js"></script>
+                                            <div class="tp-feature-2-item-wrapper">
+                                                <div class="tp-feature-2-content p-relative z-index-1 fix">
+                                                    <div class="tp-feature-2-content-box">
+                                                        <div
+                                                            class="tp-feature-2-content-top d-flex justify-content-between">
+                                                            <div class="tp-feature-2-content-title">
+                                                                <h3 class="tp-feature-2-cnt-title"><a
+                                                                        href="portfolio-details.html"> Higher <br>
+                                                                        education</a></h3>
+                                                            </div>
+                                                            <div class="tp-feature-2-cnt-icon">
+                                                                <span><i class="flaticon-open-book"></i></span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="tp-feature-2-content-bottom">
+                                                            <div class="tp-feature-2-content-paragraph">
+                                                                <p>What we offer for the higher
+                                                                    education sector?</p>
+                                                            </div>
+                                                            <div class="tp-feature-2-icon">
+                                                                <a href="portfolio-details.html"><span><i
+                                                                            class="flaticon-right-arrow"></i></span></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="tp-feature-item swiper-slide">
+
+                                            <div class="tp-feature-2-item-wrapper">
+                                                <div class="tp-feature-2-content p-relative z-index-1 fix">
+                                                    <div class="tp-feature-2-content-box">
+                                                        <div
+                                                            class="tp-feature-2-content-top d-flex justify-content-between">
+                                                            <div class="tp-feature-2-content-title">
+                                                                <h3 class="tp-feature-2-cnt-title"><a
+                                                                        href="portfolio-details.html">Enterprise <br>
+                                                                        technology</a></h3>
+                                                            </div>
+                                                            <div class="tp-feature-2-cnt-icon">
+                                                                <span><i class="flaticon-technology-1"></i></span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="tp-feature-2-content-bottom">
+                                                            <div class="tp-feature-2-content-paragraph">
+                                                                <p>What we offer for the higher
+                                                                    education sector?</p>
+                                                            </div>
+                                                            <div class="tp-feature-2-icon">
+                                                                <a href="portfolio-details.html"><span><i
+                                                                            class="flaticon-right-arrow"></i></span></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="tp-feature-item swiper-slide">
+                                            <div class="tp-feature-2-item-wrapper">
+
+                                                <div class="tp-feature-2-item-wrapper">
+                                                    <div class="tp-feature-2-content p-relative z-index-1 fix">
+                                                        <div class="tp-feature-2-content-box">
+                                                            <div
+                                                                class="tp-feature-2-content-top d-flex justify-content-between">
+                                                                <div class="tp-feature-2-content-title">
+                                                                    <h3 class="tp-feature-2-cnt-title"><a
+                                                                            href="portfolio-details.html">Software <br>
+                                                                            agency</a></h3>
+                                                                </div>
+                                                                <div class="tp-feature-2-cnt-icon">
+                                                                    <span><i class="flaticon-layers"></i></span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="tp-feature-2-content-bottom">
+                                                                <div class="tp-feature-2-content-paragraph">
+                                                                    <p>What we offer for the higher
+                                                                        education sector?</p>
+                                                                </div>
+                                                                <div class="tp-feature-2-icon">
+                                                                    <a href="portfolio-details.html"><span><i
+                                                                                class="flaticon-right-arrow"></i></span></a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="tp-feature-item swiper-slide">
+
+                                            <div class="tp-feature-2-item-wrapper">
+                                                <div class="tp-feature-2-content p-relative z-index-1 fix">
+                                                    <div class="tp-feature-2-content-box">
+                                                        <div
+                                                            class="tp-feature-2-content-top d-flex justify-content-between">
+                                                            <div class="tp-feature-2-content-title">
+                                                                <h3 class="tp-feature-2-cnt-title"><a
+                                                                        href="portfolio-details.html">Large <br>
+                                                                        enterprise</a></h3>
+                                                            </div>
+                                                            <div class="tp-feature-2-cnt-icon">
+                                                                <span><i class="flaticon-management-1"></i></span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="tp-feature-2-content-bottom">
+                                                            <div class="tp-feature-2-content-paragraph">
+                                                                <p>What we offer for the higher
+                                                                    education sector?</p>
+                                                            </div>
+                                                            <div class="tp-feature-2-icon">
+                                                                <a href="portfolio-details.html"><span><i
+                                                                            class="flaticon-right-arrow"></i></span></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="tp-feature-item swiper-slide">
+
+                                            <div class="tp-feature-2-item-wrapper">
+                                                <div class="tp-feature-2-content p-relative z-index-1 fix">
+                                                    <div class="tp-feature-2-content-box">
+                                                        <div
+                                                            class="tp-feature-2-content-top d-flex justify-content-between">
+                                                            <div class="tp-feature-2-content-title">
+                                                                <h3 class="tp-feature-2-cnt-title"><a
+                                                                        href="portfolio-details.html">Higher <br>
+                                                                        education</a></h3>
+                                                            </div>
+                                                            <div class="tp-feature-2-cnt-icon">
+                                                                <span><i class="flaticon-startup"></i></span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="tp-feature-2-content-bottom">
+                                                            <div class="tp-feature-2-content-paragraph">
+                                                                <p>What we offer for the higher
+                                                                    education sector?</p>
+                                                            </div>
+                                                            <div class="tp-feature-2-icon">
+                                                                <a href="portfolio-details.html"><span><i
+                                                                            class="flaticon-right-arrow"></i></span></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="tp-feature-item swiper-slide">
+
+                                            <div class="tp-feature-2-item-wrapper">
+                                                <div class="tp-feature-2-content p-relative z-index-1 fix">
+                                                    <div class="tp-feature-2-content-box">
+                                                        <div
+                                                            class="tp-feature-2-content-top d-flex justify-content-between">
+                                                            <div class="tp-feature-2-content-title">
+                                                                <h3 class="tp-feature-2-cnt-title"><a
+                                                                        href="portfolio-details.html">Enterprise <br>
+                                                                        technology</a></h3>
+                                                            </div>
+                                                            <div class="tp-feature-2-cnt-icon">
+                                                                <span><i class="flaticon-it-service"></i></span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="tp-feature-2-content-bottom">
+                                                            <div class="tp-feature-2-content-paragraph">
+                                                                <p>What we offer for the higher
+                                                                    education sector?</p>
+                                                            </div>
+                                                            <div class="tp-feature-2-icon">
+                                                                <a href="portfolio-details.html"><span><i
+                                                                            class="flaticon-right-arrow"></i></span></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Feature area end -->
+
+
+
+        <!-- Service area start -->
+        <section class="tp-service-2-area p-relative fix z-index-1">
+            <div class="container">
+                <div class="row">
+                    <div class="tp-section-title-wrapper text-center mb-40 wow fadeInUp">
+                        <span class="tp-section-subtitle style-2">WHAT WE OFFER</span>
+                        <h3 class="tp-section-title style-2 tp-section-title-xs">We offer quality service <br>
+                            for our clients
+                        </h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xxl-12">
+                        <div class="tp-service-2-slider">
+                            <div class="tp-service-2-slider-active swiper-container tp-service-2-swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="tp-service-2 swiper-slide">
+                                        <div class="tp-service-2-item-wrapper">
+                                            <div class="tp-service-2-item-wrapper">
+                                                <div class="tp-service-2-thum">
+                                                    <img src="views/assets/img/service/service-2-img1.jpg" alt="">
+                                                </div>
+                                                <div class="tp-service-2-box text-center">
+                                                    <div class="tp-service-2-icon">
+                                                        <div class="tp-service-2-inner-item">
+                                                            <span><i class="flaticon-it-service"></i></span>
+                                                            <h3 class="tp-service-2-icon-title"><a
+                                                                    href="service-details.html">IT management</a></h3>
+                                                        </div>
+                                                        <div class="tp-service-2-paragraph">
+                                                            <p>Software development
+                                                                outsourcing is just a tool to
+                                                                achieve business...</p>
+                                                        </div>
+                                                    </div>
+                                                    <a class="tp-service-2-btn" href="service-details.html">Read More <i
+                                                            class="flaticon-right-arrow"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tp-2-service-item swiper-slide">
+                                        <div class="tp-service-2-item-wrapper">
+                                            <div class="tp-service-2-item-wrapper">
+                                                <div class="tp-service-2-thum p-relative">
+                                                    <img src="views/assets/img/service/service-2-img2.jpg" alt="">
+                                                    <div class="tp-service-2-box text-center">
+                                                        <div class="tp-service-2-icon p-relative">
+                                                            <div class="tp-service-2-inner-item">
+                                                                <span><i class="flaticon-it-service"></i></span>
+                                                                <h3 class="tp-service-2-icon-title"><a
+                                                                        href="service-details.html">Network Security</a>
+                                                                </h3>
+                                                            </div>
+                                                            <div class="tp-service-2-paragraph">
+                                                                <p>Software development
+                                                                    outsourcing is just a tool to
+                                                                    achieve business...</p>
+                                                            </div>
+                                                        </div>
+                                                        <a class="tp-service-2-btn" href="service-details.html">Read
+                                                            More <i class="flaticon-right-arrow"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tp-2-service-item swiper-slide">
+                                        <div class="tp-service-2-item-wrapper">
+                                            <div class="tp-service-2-item-wrapper">
+                                                <div class="tp-service-2-thum">
+                                                    <img src="views/assets/img/service/service-2-img3.jpg" alt="">
+                                                </div>
+                                                <div class="tp-service-2-box text-center">
+                                                    <div class="tp-service-2-icon">
+                                                        <div class="tp-service-2-inner-item">
+                                                            <span><i class="flaticon-it-service"></i></span>
+                                                            <h3 class="tp-service-2-icon-title"><a
+                                                                    href="service-details.html">IT Solution</a></h3>
+                                                        </div>
+                                                        <div class="tp-service-2-paragraph">
+                                                            <p>Software development
+                                                                outsourcing is just a tool to
+                                                                achieve business...</p>
+                                                        </div>
+                                                    </div>
+                                                    <a class="tp-service-2-btn" href="service-details.html">Read More <i
+                                                            class="flaticon-right-arrow"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tp-2-service-item swiper-slide">
+                                        <div class="tp-service-2-item-wrapper">
+                                            <div class="tp-service-2-item-wrapper">
+                                                <div class="tp-service-2-thum">
+                                                    <img src="views/assets/img/service/service-2-img5.jpg" alt="">
+                                                </div>
+                                                <div class="tp-service-2-box text-center">
+                                                    <div class="tp-service-2-icon">
+                                                        <div class="tp-service-2-inner-item">
+                                                            <span><i class="flaticon-it-service"></i></span>
+                                                            <h3 class="tp-service-2-icon-title"><a
+                                                                    href="service-details.html">Platform
+                                                                    Integration</a></h3>
+                                                        </div>
+                                                        <div class="tp-service-2-paragraph">
+                                                            <p>Software development
+                                                                outsourcing is just a tool to
+                                                                achieve business...</p>
+                                                        </div>
+                                                    </div>
+                                                    <a class="tp-service-2-btn" href="service-details.html">Read More <i
+                                                            class="flaticon-right-arrow"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-slider-dot tp-service-2-slider-dot tp-swiper-dot text-center mt-50"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tp-service-2-shape">
+                <img class="tp-service-2-bg-shape1" src="views/assets/img/service/service-2-shape1.png" alt="">
+                <img class="tp-service-2-bg-shape2" src="views/assets/img/service/service-2-shape22.png" alt="">
+                <img class="tp-service-2-bg-shape3" src="views/assets/img/service/service-2-shape3.png" alt="">
+            </div>
+        </section>
+        <!-- Service area end -->
+
+
+
+        <!-- Chose-us area start -->
+        <section class="tp-chose-us-2-area pt-115 pb-120 p-relative">
+            <div class="tp-chose-us-2-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-7">
+                            <div class="tp-section-title-wrapper mb-50 wow fadeInUp">
+                                <span class="tp-section-subtitle style-2">WHY ARE YOU CHOOSE CORTIA</span>
+                                <h3 class="tp-section-title style-2">We execute our ideas <br>
+                                    from the start to finish</h3>
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div
+                                class="tp-chose-us-2-right-btn d-flex justify-content-end align-items-center mt-90 wow fadeInUp">
+                                <a class="tp-btn tp-btn-border" rel="noreferrer" href="portfolio.html"
+                                    target="_blank"><span>Know More</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tp-chose-us-2-bottom">
+                <div class="container tp-chose-us-2-container wow fadeInUp">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="tp-chose-us-2-wrapper p-relative z-index-11">
+
+                                <ul class="nav nav-pills d-flex" id="pills-tab" role="tablist">
+                                    <li class="nav-item tp-chose-us-2-tab-li" role="presentation">
+                                        <button class="nav-link tp-chose-us-2-tab-btn active" id="pills-home-tab"
+                                            data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab"
+                                            aria-controls="pills-home" aria-selected="true">Personalized
+                                            Consultation</button>
+                                    </li>
+                                    <li class="nav-item tp-chose-us-2-tab-li" role="presentation">
+                                        <button class="nav-link tp-chose-us-2-tab-btn tab-btn-2" id="pills-profile-tab"
+                                            data-bs-toggle="pill" data-bs-target="#pills-profile" type="button"
+                                            role="tab" aria-controls="pills-profile" aria-selected="false">End to End
+                                            Support</button>
+                                    </li>
+                                    <li class="nav-item tp-chose-us-2-tab-li" role="presentation">
+                                        <button class="nav-link tp-chose-us-2-tab-btn tab-btn-3" id="pills-contact-tab"
+                                            data-bs-toggle="pill" data-bs-target="#pills-contact" type="button"
+                                            role="tab" aria-controls="pills-contact" aria-selected="false">Intergrated
+                                            Digital Platforms</button>
+                                    </li>
+                                </ul>
+
+                                <div class="tab-content" id="pills-tabContent">
+                                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                                        aria-labelledby="pills-home-tab">
+                                        <div class="tp-chose-us-2-box">
+                                            <div class="row">
+                                                <div class="col-xl-6 col-lg-6">
+                                                    <div class="tp-chose-us-2-left-wrapper">
+                                                        <div class="tp-chose-us-2-left-content">
+                                                            <div class="tp-chose-us-2-left-heading">
+                                                                <h3 class="tp-chose-us-2-left-title">Your comprehensive
+                                                                    guide <br>
+                                                                    through integration </h3>
+                                                                <p>We recognize many challenges today's complex world
+                                                                    require a
+                                                                    multifaceted approach. Our integrated consultation.
+                                                                </p>
+                                                            </div>
+                                                            <div class="tp-chose-us-2-left-item d-flex">
+                                                                <div class="tp-chose-us-2-left-icon-box">
+                                                                    <span><i class="flaticon-feedback"></i></span>
+                                                                    <h4 class="tp-chose-us-2-left-icon-title">Feedback
+                                                                        help</h4>
+                                                                    <p>Customized insights tailored<br>
+                                                                        to your unique challenges</p>
+                                                                </div>
+                                                                <div class="tp-chose-us-2-left-icon-box ml-90">
+                                                                    <span><i class="flaticon-analysis"></i></span>
+                                                                    <h4 class="tp-chose-us-2-left-icon-title">Data
+                                                                        analysis</h4>
+                                                                    <p>Customized insights tailored <br>
+                                                                        to your unique challenges</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-6 col-lg-6">
+                                                    <div class="tp-chose-us-2-right-wrapper">
+                                                        <div class="tp-chose-us-2-right-thumb p-relative">
+                                                            <img class="main-thumb"
+                                                                src="views/assets/img/chose-us/chose-us-2-right-thum.jpg"
+                                                                alt="">
+                                                            <div class="tp-chose-us-2-right-thumb-shape">
+                                                                <img class="tp-chose-us-2-right-thumb-shape1"
+                                                                    src="views/assets/img/chose-us/chose-us-2-shape1.jpg"
+                                                                    alt="">
+                                                                <img class="tp-chose-us-2-right-thumb-shape2"
+                                                                    src="views/assets/img/chose-us/chose-us-2-shape2.jpg"
+                                                                    alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                                        aria-labelledby="pills-profile-tab">
+                                        <div class="tp-chose-us-2-box">
+                                            <div class="row">
+                                                <div class="col-xl-6 col-lg-6">
+                                                    <div class="tp-chose-us-2-left-wrapper">
+                                                        <div class="tp-chose-us-2-left-content">
+                                                            <div class="tp-chose-us-2-left-heading">
+                                                                <h3 class="tp-chose-us-2-left-title">Your comprehensive
+                                                                    guide <br>
+                                                                    through integration </h3>
+                                                                <p>We recognize many challenges today's complex world
+                                                                    require a
+                                                                    multifaceted approach. Our integrated consultation.
+                                                                </p>
+                                                            </div>
+                                                            <div class="tp-chose-us-2-left-item d-flex">
+                                                                <div class="tp-chose-us-2-left-icon-box">
+                                                                    <span><i class="flaticon-feedback"></i></span>
+                                                                    <h4 class="tp-chose-us-2-left-icon-title">Feedback
+                                                                        help</h4>
+                                                                    <p>Customized insights tailored<br>
+                                                                        to your unique challenges</p>
+                                                                </div>
+                                                                <div class="tp-chose-us-2-left-icon-box ml-90">
+                                                                    <span><i class="flaticon-analysis"></i></span>
+                                                                    <h4 class="tp-chose-us-2-left-icon-title">Data
+                                                                        analysis</h4>
+                                                                    <p>Customized insights tailored <br>
+                                                                        to your unique challenges</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-6 col-lg-6">
+                                                    <div class="tp-chose-us-2-right-wrapper">
+                                                        <div class="tp-chose-us-2-right-thumb p-relative">
+                                                            <img class="main-thumb"
+                                                                src="views/assets/img/chose-us/chose-us-2-right-thum2.jpg"
+                                                                alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-contact" role="tabpanel"
+                                        aria-labelledby="pills-contact-tab">
+                                        <div class="tp-chose-us-2-box">
+                                            <div class="row">
+                                                <div class="col-xl-6 col-lg-6">
+                                                    <div class="tp-chose-us-2-left-wrapper">
+                                                        <div class="tp-chose-us-2-left-content">
+                                                            <div class="tp-chose-us-2-left-heading">
+                                                                <h3 class="tp-chose-us-2-left-title">Tailored HR
+                                                                    guidance to <br>
+                                                                    navigate your challenges </h3>
+                                                                <p>We recognize many challenges today's complex world
+                                                                    require a
+                                                                    multifaceted approach. Our integrated consultation.
+                                                                </p>
+                                                            </div>
+                                                            <div class="tp-chose-us-2-left-item d-flex">
+                                                                <div class="tp-chose-us-2-left-icon-box">
+                                                                    <span><i class="flaticon-feedback"></i></span>
+                                                                    <h4 class="tp-chose-us-2-left-icon-title">Data
+                                                                        analytics</h4>
+                                                                    <p>Customized insights tailored<br>
+                                                                        to your unique challenges</p>
+                                                                </div>
+                                                                <div class="tp-chose-us-2-left-icon-box ml-90">
+                                                                    <span><i class="flaticon-analysis"></i></span>
+                                                                    <h4 class="tp-chose-us-2-left-icon-title">Project
+                                                                        manage</h4>
+                                                                    <p>Customized insights tailored <br>
+                                                                        to your unique challenges</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-6 col-lg-6">
+                                                    <div class="tp-chose-us-2-right-wrapper">
+                                                        <div class="tp-chose-us-2-right-thumb p-relative">
+                                                            <img class="main-thumb"
+                                                                src="views/assets/img/chose-us/chose-us-2-right-thum3.jpg"
+                                                                alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tp-chose-us-2-bg-shape">
+                <img class="tp-chose-us-2-bg-s1" src="views/assets/img/chose-us/chose-us-2-bg-shape1.png" alt="">
+                <img class="tp-chose-us-2-bg-s2" src="views/assets/img/chose-us/chose-us-2-bg-shape2.png" alt="">
+                <img class="tp-chose-us-2-bg-s3" src="views/assets/img/chose-us/chose-us-2-bg-shape3.png" alt="">
+            </div>
+        </section>
+        <!-- Chose-us area end -->
+
+
+
+        <!-- Project area start -->
+        <section class="tp-project-2-area pb-90 p-relative z-index-1">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="tp-section-title-wrapper text-center mb-45 wow fadeInUp">
+                        <span class="tp-section-subtitle style-2">RECENTLY COMPLETED PROJECT</span>
+                        <h3 class="tp-section-title style-2 ">Check our recent projects <br>
+                            we have done
+                        </h3>
+                    </div>
+                </div>
+                <div class="row tp-project-2-with">
+                    <div class="col-xl-3 col-lg-3 col-md-6">
+                        <div class="tp-project-2-wrapper mb-30 wow fadeInUp" data-wow-delay=".3s"
+                            data-wow-duration="1s">
+                            <div class="tp-project-2-item">
+                                <div class="tp-project-2-thumb p-relative">
+                                    <img src="views/assets/img/project/project-2-img1.jpg" alt="">
+                                    <div class="tp-project-2-link-btn">
+                                        <a href="portfolio-details.html"><span><i class="flaticon-link"></i></span></a>
+                                    </div>
+                                </div>
+                                <div class="tp-project-2-inner-item">
+                                    <div class="tp-project-2-content">
+                                        <span>Design</span>
+                                        <h4 class="tp-project-2-content-title"><a href="portfolio-details.html">Social
+                                                media app</a></h4>
+                                    </div>
+                                    <div class="tp-project-2-button d-flex align-items-center">
+                                        <a class="tp-project-2-btn" href="portfolio-details.html">Read More </a>
+                                        <a href="portfolio-details.html"><span><i
+                                                    class="flaticon-right-arrow"></i></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6">
+                        <div class="tp-project-2-wrapper mb-30 wow fadeInUp" data-wow-delay=".5s"
+                            data-wow-duration="1s">
+                            <div class="tp-project-2-item">
+                                <div class="tp-project-2-thumb p-relative">
+                                    <img src="views/assets/img/project/project-2-img2.jpg" alt="">
+                                    <div class="tp-project-2-link-btn">
+                                        <a href="portfolio-details.html"><span><i class="flaticon-link"></i></span></a>
+                                    </div>
+                                </div>
+                                <div class="tp-project-2-inner-item">
+                                    <div class="tp-project-2-content">
+                                        <span>Technology</span>
+                                        <h4 class="tp-project-2-content-title"><a href="portfolio-details.html">Smart
+                                                Technology</a></h4>
+                                    </div>
+                                    <div class="tp-project-2-button d-flex align-items-center">
+                                        <a class="tp-project-2-btn" href="portfolio-details.html">Read More</a>
+                                        <a href="portfolio-details.html"><span><i
+                                                    class="flaticon-right-arrow"></i></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6">
+                        <div class="tp-project-2-wrapper mb-30 wow fadeInUp" data-wow-delay=".7s"
+                            data-wow-duration="1s">
+                            <div class="tp-project-2-item">
+                                <div class="tp-project-2-thumb p-relative">
+                                    <img src="views/assets/img/project/project-2-img3.jpg" alt="">
+                                    <div class="tp-project-2-link-btn">
+                                        <a href="portfolio-details.html"><span><i class="flaticon-link"></i></span></a>
+                                    </div>
+                                </div>
+                                <div class="tp-project-2-inner-item">
+                                    <div class="tp-project-2-content">
+                                        <span>Developer</span>
+                                        <h4 class="tp-project-2-content-title"><a href="portfolio-details.html">Web
+                                                development</a></h4>
+                                    </div>
+                                    <div class="tp-project-2-button d-flex align-items-center">
+                                        <a class="tp-project-2-btn" href="portfolio-details.html">Read More</a>
+                                        <a href="portfolio-details.html"><span><i
+                                                    class="flaticon-right-arrow"></i></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6">
+                        <div class="tp-project-2-wrapper mb-30 wow fadeInUp" data-wow-delay=".9s"
+                            data-wow-duration="1s">
+                            <div class="tp-project-2-item">
+                                <div class="tp-project-2-thumb p-relative">
+                                    <img src="views/assets/img/project/project-2-img4.jpg" alt="">
+                                    <div class="tp-project-2-link-btn">
+                                        <a href="portfolio-details.html"><span><i class="flaticon-link"></i></span></a>
+                                    </div>
+                                </div>
+                                <div class="tp-project-2-inner-item">
+                                    <div class="tp-project-2-content">
+                                        <span>Branding</span>
+                                        <h4 class="tp-project-2-content-title"><a
+                                                href="portfolio-details.html">Technology solution</a></h4>
+                                    </div>
+                                    <div class="tp-project-2-button d-flex align-items-center">
+                                        <a class="tp-project-2-btn" href="portfolio-details.html">Read More</a>
+                                        <a href="portfolio-details.html"><span><i
+                                                    class="flaticon-right-arrow"></i></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tp-project-2-bg-shape">
+                <img src="views/assets/img/project/project-2-bg-shape.png" alt="">
+            </div>
+        </section>
+        <!-- Project area end -->
+
+
+
+        <!-- Technology area start -->
+        <section class="tp-technology-2-area pt-120 pb-105 p-relative z-index-1"
+            data-background="views/assets/img/technology/technology-2-bg.jpg">
+            <div class="tp-technology-2-bg-overlay"></div>
+            <div class="tp-technology-2-bg-shape">
+                <img src="views/assets/img/technology/technology-2-bg-shape.png" alt="">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6">
+                        <div class="tp-technology-2-wrapper wow fadeInLeft">
+
+                            <ul class="nav nav-tabs tp-technology-2-nav-tabs mb-50" id="myTab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link tp-technology-2-nav-link active" id="home-tab"
+                                        data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab"
+                                        aria-controls="home" aria-selected="true">VISSION</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link tp-technology-2-nav-link" id="profile-tab"
+                                        data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab"
+                                        aria-controls="profile" aria-selected="false">MISSION</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link tp-technology-2-nav-link" id="contact-tab"
+                                        data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab"
+                                        aria-controls="contact" aria-selected="false">ANALYTICS</button>
+                                </li>
+                            </ul>
+
+                            <div class="tab-content" id="myTabContent">
+
+                                <div class="tab-pane fade show active" id="home" role="tabpanel"
+                                    aria-labelledby="home-tab">
+                                    <div class="tp-technology-2-item d-flex">
+                                        <div class="tp-technology-2-thumb p-relative">
+                                            <img src="views/assets/img/technology/technology-2-img.jpg" alt="">
+                                            <div class="tp-technology-2-thumb-icon">
+                                                <a class="tp-technology-2-play-btn popup-video"
+                                                    href="https://www.youtube.com/watch?v=PO_fBTkoznc"><span><i
+                                                            class="flaticon-play-button"></i></span></a>
+                                            </div>
+                                        </div>
+                                        <div class="tp-technology-2-content ml-30">
+                                            <h4 class="tp-technology-2-heading mb-20">We deal with the aspects of
+                                                professional IT services </h4>
+
+                                            <div class="tp-technology-2-tab-icon d-flex mb-10">
+                                                <span><img src="views/assets/img/technology/technology-2-tab-icon.png"
+                                                        alt=""></span>
+                                                <h4 class="tp-technology-2-tab-title">Advertising and marketing </h4>
+                                            </div>
+                                            <div class="tp-technology-2-tab-icon d-flex mb-10">
+                                                <span><img src="views/assets/img/technology/technology-2-tab-icon.png"
+                                                        alt=""></span>
+                                                <h4 class="tp-technology-2-tab-title">Mobile app development</h4>
+                                            </div>
+                                            <div class="tp-technology-2-tab-icon d-flex mb-10">
+                                                <span><img src="views/assets/img/technology/technology-2-tab-icon.png"
+                                                        alt=""></span>
+                                                <h4 class="tp-technology-2-tab-title">Advertising and marketing </h4>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                    <div class="tp-technology-2-item d-flex">
+                                        <div class="tp-technology-2-thumb p-relative">
+                                            <img src="views/assets/img/technology/technology-2-img2.jpg" alt="">
+                                            <div class="tp-technology-2-thumb-icon">
+                                                <a class="tp-technology-2-play-btn popup-video"
+                                                    href="https://www.youtube.com/watch?v=PO_fBTkoznc"><span><i
+                                                            class="flaticon-play-button"></i></span></a>
+                                            </div>
+                                        </div>
+                                        <div class="tp-technology-2-content ml-30">
+                                            <h4 class="tp-technology-2-heading mb-20">Professional IT services can
+                                                encompass a wide</h4>
+
+                                            <div class="tp-technology-2-tab-icon d-flex mb-10">
+                                                <span><img src="views/assets/img/technology/technology-2-tab-icon.png"
+                                                        alt=""></span>
+                                                <h4 class="tp-technology-2-tab-title">Advertising and marketing </h4>
+                                            </div>
+                                            <div class="tp-technology-2-tab-icon d-flex mb-10">
+                                                <span><img src="views/assets/img/technology/technology-2-tab-icon.png"
+                                                        alt=""></span>
+                                                <h4 class="tp-technology-2-tab-title">Mobile app development</h4>
+                                            </div>
+                                            <div class="tp-technology-2-tab-icon d-flex mb-10">
+                                                <span><img src="views/assets/img/technology/technology-2-tab-icon.png"
+                                                        alt=""></span>
+                                                <h4 class="tp-technology-2-tab-title">Advertising and marketing </h4>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                                    <div class="tp-technology-2-item d-flex">
+                                        <div class="tp-technology-2-thumb p-relative">
+                                            <img src="views/assets/img/technology/technology-2-img3.jpg" alt="">
+                                            <div class="tp-technology-2-thumb-icon">
+                                                <a class="tp-technology-2-play-btn popup-video"
+                                                    href="https://www.youtube.com/watch?v=PO_fBTkoznc"><span><i
+                                                            class="flaticon-play-button"></i></span></a>
+                                            </div>
+                                        </div>
+                                        <div class="tp-technology-2-content ml-30">
+                                            <h4 class="tp-technology-2-heading mb-20">What specific aspects are you in
+                                                discussing</h4>
+
+                                            <div class="tp-technology-2-tab-icon d-flex mb-10">
+                                                <span><img src="views/assets/img/technology/technology-2-tab-icon.png"
+                                                        alt=""></span>
+                                                <h4 class="tp-technology-2-tab-title">Advertising and marketing </h4>
+                                            </div>
+                                            <div class="tp-technology-2-tab-icon d-flex mb-10">
+                                                <span><img src="views/assets/img/technology/technology-2-tab-icon.png"
+                                                        alt=""></span>
+                                                <h4 class="tp-technology-2-tab-title">Mobile app development</h4>
+                                            </div>
+                                            <div class="tp-technology-2-tab-icon d-flex mb-10">
+                                                <span><img src="views/assets/img/technology/technology-2-tab-icon.png"
+                                                        alt=""></span>
+                                                <h4 class="tp-technology-2-tab-title">Advertising and marketing </h4>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-8 col-md-10">
+                        <div class="tp-technology-2-right-wrapper wow fadeInUp">
+                            <div class="tp-technology-2-contact text-right">
+                                <div class="tp-section-title-wrapper mb-30">
+                                    <span class="tp-section-subtitle style-2">CONTACT US</span>
+                                    <h3 class="tp-technology-2-title">Need technology <br>
+                                        support
+                                    </h3>
+                                    <span class="tp-technology-2-sec-paragraph">Don’t hesitate to call us on any
+                                        elctrical service, our <br>
+                                        team wait for your call</span>
+                                </div>
+                                <div class="tp-technology-2-call-item d-flex align-items-center">
+                                    <div class="tp-technology-2-call-icon">
+                                        <a href="tel:+999454594569"><i class="flaticon-phone-call"></i></a>
+                                    </div>
+                                    <div class="tp-technology-2-call-number ml-25">
+                                        <span>Talk to an expert </span>
+                                        <a href="tel:+999454594569">+999 4545 94569</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Technology area end -->
+
+
+
+        <!-- Counter area start -->
+        <section class="tp-counter-2-area pt-185 pb-85 p-relative">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                        <div class="tp-counter-2-wrapper text-center mb-30 wow fadeInUp" data-wow-delay=".3s"
+                            data-wow-duration="1s">
+                            <div class="tp-counter-2-icon">
+                                <span><i class="flaticon-light-bulb"></i></span>
+                            </div>
+                            <div class="tp-counter-2-number-item d-flex justify-content-center">
+                                <h2 class="tp-counter tp-counter-2-count"><span class="purecounter"
+                                        data-purecounter-duration="4" data-purecounter-end="820"></span>+</h2>
+                            </div>
+                            <div class="tp-counter-2-text text-center">
+                                <p class="tp-counter-2-text-paragraph">Succesfull projects</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                        <div class="tp-counter-2-wrapper text-center mb-30 wow fadeInUp" data-wow-delay=".5s"
+                            data-wow-duration="1s">
+                            <div class="tp-counter-2-icon">
+                                <span><i class="flaticon-planning"></i></span>
+                            </div>
+                            <div class="tp-counter-2-number-item d-flex justify-content-center">
+                                <h2 class="tp-counter tp-counter-2-count"><span class="purecounter"
+                                        data-purecounter-duration="5" data-purecounter-end="3"></span>.8 M</h2>
+                            </div>
+                            <div class="tp-counter-2-text text-center">
+                                <p class="tp-counter-2-text-paragraph">Satisfied clients</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                        <div class="tp-counter-2-wrapper text-center mb-30 wow fadeInUp" data-wow-delay=".7s"
+                            data-wow-duration="1s">
+                            <div class="tp-counter-2-icon">
+                                <span><i class="flaticon-technical-support"></i></span>
+                            </div>
+                            <div class="tp-counter-2-number-item d-flex justify-content-center">
+                                <h2 class="tp-counter tp-counter-2-count"><span class="purecounter"
+                                        data-purecounter-duration="2" data-purecounter-end="45"></span>+</h2>
+                            </div>
+                            <div class="tp-counter-2-text text-center">
+                                <p class="tp-counter-2-text-paragraph">Experienced staff</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                        <div class="tp-counter-2-wrapper text-center mb-30 wow fadeInUp" data-wow-delay=".9s"
+                            data-wow-duration="1s">
+                            <div class="tp-counter-2-icon">
+                                <span><i class="flaticon-success"></i></span>
+                            </div>
+                            <div class="tp-counter-2-number-item d-flex justify-content-center">
+                                <h2 class="tp-counter tp-counter-2-count"><span class="purecounter"
+                                        data-purecounter-duration="3" data-purecounter-end="848"></span>+</h2>
+                            </div>
+                            <div class="tp-counter-2-text text-center">
+                                <p class="tp-counter-2-text-paragraph">Awards winning</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tp-counter-2-bg-shape">
+                <img src="views/assets/img/counter/counter-2-shape.png" alt="">
+            </div>
+        </section>
+        <!-- Counter area end -->
+
+
+
+        <!-- Pricing area start -->
+        <section class="tp-pricing-area pt-115 pb-120">
+            <div class="container">
+                <div class="row">
+                    <div class="tp-section-title-wrapper text-center mb-100 wow fadeInUp">
+                        <span class="tp-section-subtitle style-2">OUR PERFECT PRICING PLAN</span>
+                        <h3 class="tp-section-title style-2"> We provide an smart pricing <br>
+                            package for client</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="tp-price-wrapper">
+                        <div class="col-xl-12">
+                            <div class="tp-price-tab-content">
+                                <div class="row">
+
+                                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                                        <div class="tp-price-item wow fadeInUp" data-wow-delay=".3s"
+                                            data-wow-duration="1s">
+                                            <div
+                                                class="tp-price-top-box mb-20 d-flex align-items-start justify-content-between">
+                                                <span>Basic</span>
+                                                <span class="tp-btn-top-icon"><i
+                                                        class="flaticon-good-feedback"></i></span>
+                                            </div>
+                                            <div class="tp-price-middle-box mb-85">
+                                                <h5 class="tp-price-middle-number">$428</h5>
+                                                <span>PER MONTH</span>
+                                            </div>
+                                            <div class="tp-price-list mb-35">
+                                                <ul>
+                                                    <li><i class="fa-light fa-badge-check"></i>Unlimited features</li>
+                                                    <li><i class="fa-light fa-badge-check"></i>Multi language content
+                                                    </li>
+                                                    <li><i class="fa-light fa-badge-check"></i>30 Days free trial
+                                                        features</li>
+                                                    <li class="color"><i class="fa-light fa-badge-check"></i>Data backup
+                                                        and recovery</li>
+                                                    <li><i class="fa-light fa-badge-check"></i>Synced to cloud dadabage
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="tp-price-button">
+                                                <a class="tp-btn" rel="noreferrer" href="contact.html"
+                                                    target="_blank"><span>Choose a Plan</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                                        <div class="tp-price-item p-relative fix active wow fadeInUp"
+                                            data-wow-delay=".5s" data-wow-duration="1s">
+                                            <div class="tp-price-shape">
+                                                <img src="views/assets/img/price/shape-1.png" alt="">
+                                            </div>
+                                            <div
+                                                class="tp-price-top-box mb-20 d-flex align-items-start justify-content-between">
+                                                <span>Standard</span>
+                                                <span class="tp-btn-top-icon white"><i
+                                                        class="flaticon-startup"></i></span>
+                                            </div>
+                                            <div class="tp-price-middle-box mb-85">
+                                                <h5 class="tp-price-middle-number">$520</h5>
+                                                <span>PER MONTH</span>
+                                            </div>
+                                            <div class="tp-price-list mb-35">
+                                                <ul>
+                                                    <li><i class="fa-light fa-badge-check"></i>Unlimited features</li>
+                                                    <li><i class="fa-light fa-badge-check"></i>Multi language content
+                                                    </li>
+                                                    <li><i class="fa-light fa-badge-check"></i>30 Days free trial
+                                                        features</li>
+                                                    <li><i class="fa-light fa-badge-check"></i>Data backup and recovery
+                                                    </li>
+                                                    <li class="color"><i class="fa-light fa-badge-check"></i>Synced to
+                                                        cloud dadabage</li>
+                                                </ul>
+                                            </div>
+                                            <div class="tp-price-button">
+                                                <a class="tp-btn-white" rel="noreferrer" href="contact.html"
+                                                    target="_blank"><span>Choose a Plan</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                                        <div class="tp-price-item wow fadeInUp" data-wow-delay=".7s"
+                                            data-wow-duration="1s">
+                                            <div
+                                                class="tp-price-top-box mb-20 d-flex align-items-start justify-content-between">
+                                                <span>Premium</span>
+                                                <span class="tp-btn-top-icon"><i class="flaticon-diamond"></i></span>
+                                            </div>
+                                            <div class="tp-price-middle-box mb-85">
+                                                <h5 class="tp-price-middle-number">$960</h5>
+                                                <span>PER MONTH</span>
+                                            </div>
+                                            <div class="tp-price-list mb-35">
+                                                <ul>
+                                                    <li><i class="fa-light fa-badge-check"></i>Unlimited features</li>
+                                                    <li><i class="fa-light fa-badge-check"></i>Multi language content
+                                                    </li>
+                                                    <li><i class="fa-light fa-badge-check"></i>30 Days free trial
+                                                        features</li>
+                                                    <li class="color"><i class="fa-light fa-badge-check"></i>Data backup
+                                                        and recovery</li>
+                                                    <li><i class="fa-light fa-badge-check"></i>Synced to cloud dadabage
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="tp-price-button">
+                                                <a class="tp-btn" rel="noreferrer" href="contact.html"
+                                                    target="_blank"><span>Choose a Plan</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Pricing area end -->
+
+
+
+
+        <!-- Contact area start -->
+        <section class="tp-contact-area p-relative pt-105">
+            <div class="tp-contact-bg" data-background="views/assets/img/contact/contact-bg.jpg"></div>
+            <div class="tp-contact-shape">
+                <img src="views/assets/img/contact/contact-man-img.png" alt="">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 col-md-6">
+                        <div class="tp-contact-title-wrapper wow fadeInUp">
+                            <h3 class="tp-section-title">Need any technology <br>
+                                service solution</h3>
+                            <div class="tp-contact-7-btn">
+                                <a class="tp-btn" rel="noreferrer" href="contact.html" target="_blank"><span>Contact
+                                        Us</span></a>
+                            </div>
+                        </div>
+                        <div class="tp-contact-project justify-content-lg-end d-flex">
+                            <div class="tp-contact-complete text-center wow fadeInLeft">
+                                <h4 class="tp-contact-count"><span class="purecounter" data-purecounter-duration="2"
+                                        data-purecounter-end="140">140</span>+</h4>
+                                <span class="tp-contact-paragraph">Completed projects</span>
+                            </div>
+                            <div class="tp-contact-complete text-center wow fadeInRight">
+                                <h4 class="tp-contact-count"><span class="purecounter" data-purecounter-duration="2"
+                                        data-purecounter-end="90">240</span>+</h4>
+                                <span class="tp-contact-paragraph">Completed projects</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-6">
+                        <div class="tp-contact-box wow fadeInUp">
+                            <h3 class="tp-contact-title">Request a service</h3>
+                            <div class="tp-contact-form">
+                                <input type="text" placeholder="Name">
+                                <input type="email" placeholder="Email">
+                                <input type="text" placeholder="Phone Number">
+                                <textarea placeholder="Write Your Message"></textarea>
+                                <div class="tp-contact-submit">
+                                    <button class="tp-btn tp-contact-btn w-100" type="submit"><span>Submit
+                                            Now</span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact area end -->
+
+
+
+
+
+
+        <!-- Blog area start -->
+        <section class="tp-blog-2-area">
+            <div class="container">
+                <div class="row">
+                    <div class="tp-section-title-wrapper text-center mb-55 wow fadeInUp">
+                        <span class="tp-section-subtitle style-2">OUR LATEST BLOG</span>
+                        <h3 class="tp-section-title style-2">Read our blog & post</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xxl-12">
+                        <div class="tp-blog-2-slider">
+                            <div class="tp-blog-2-slider-active swiper-container">
+                                <div class="swiper-wrapper">
+
+                                    <div class="tp-blog-2-item swiper-slide wow fadeInUp" data-wow-delay=".3s"
+                                        data-wow-duration="1s">
+                                        <div class="tp-blog-2-wrapper">
+                                            <div class="tp-blog-2-thumb">
+                                                <a href="blog-details.html"><img
+                                                        src="views/assets/img/blog/blog-2-img1.jpg" alt=""></a>
+                                            </div>
+                                            <div class="tp-blog-2-item-box">
+                                                <div class="tp-blog-2-date d-flex">
+                                                    <span>Technology</span>
+                                                    <span>March 13, 2024</span>
+                                                </div>
+                                                <div class="tp-blog-2-content">
+                                                    <h3 class="tp-blog-2-title"><a href="blog-details.html">How to
+                                                            become a successful businessman </a></h3>
+                                                    <a class="tp-blog-2-btn" rel="noreferrer" href="blog-details.html"
+                                                        target="_blank"><span>Read More</span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="tp-blog-2-item swiper-slide wow fadeInUp" data-wow-delay=".5s"
+                                        data-wow-duration="1s">
+                                        <div class="tp-blog-2-wrapper">
+                                            <div class="tp-blog-2-thumb">
+                                                <a href="blog-details.html"><img
+                                                        src="views/assets/img/blog/blog-2-img2.jpg" alt=""></a>
+                                            </div>
+                                            <div class="tp-blog-2-item-box">
+                                                <div class="tp-blog-2-date d-flex">
+                                                    <span>Technology</span>
+                                                    <span>March 13, 2024</span>
+                                                </div>
+                                                <div class="tp-blog-2-content">
+                                                    <h3 class="tp-blog-2-title"><a href="blog-details.html">Adipiscing
+                                                            sem neque
+                                                            sed ipsum nam quam </a></h3>
+                                                    <a class="tp-blog-2-btn" rel="noreferrer" href="blog-details.html"
+                                                        target="_blank"><span>Read More</span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="tp-blog-2-item swiper-slide wow fadeInUp" data-wow-delay=".7s"
+                                        data-wow-duration="1s">
+                                        <div class="tp-blog-2-wrapper">
+                                            <div class="tp-blog-2-thumb">
+                                                <a href="blog-details.html"><img
+                                                        src="views/assets/img/blog/blog-2-img3.jpg" alt=""></a>
+                                            </div>
+                                            <div class="tp-blog-2-item-box">
+                                                <div class="tp-blog-2-date d-flex">
+                                                    <span>Technology</span>
+                                                    <span>March 13, 2024</span>
+                                                </div>
+                                                <div class="tp-blog-2-content">
+                                                    <h3 class="tp-blog-2-title"><a href="blog-details.html">Who Needs
+                                                            Extract Value From Data? </a></h3>
+                                                    <a class="tp-blog-2-btn" rel="noreferrer" href="blog-details.html"
+                                                        target="_blank"><span>Read More</span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="tp-blog-2-item swiper-slide wow fadeInUp" data-wow-delay=".9s"
+                                        data-wow-duration="1s">
+                                        <div class="tp-blog-2-wrapper">
+                                            <div class="tp-blog-2-thumb">
+                                                <a href="blog-details.html"><img
+                                                        src="views/assets/img/blog/blog-2-img4.jpg" alt=""></a>
+                                            </div>
+                                            <div class="tp-blog-2-item-box">
+                                                <div class="tp-blog-2-date d-flex">
+                                                    <span>Technology</span>
+                                                    <span>March 13, 2024</span>
+                                                </div>
+                                                <div class="tp-blog-2-content">
+                                                    <h3 class="tp-blog-2-title"><a href="blog-details.html">Easy and
+                                                            Most Powerful Server and Platform.</a></h3>
+                                                    <a class="tp-blog-2-btn" rel="noreferrer" href="blog-details.html"
+                                                        target="_blank"><span>Read More</span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tp-blog-2-slider-dot text-center mt-50"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Blog area end -->
+
+
+    </main>
+
+    <!-- Footer area start -->
+    <?php require "partials/footer.php"; ?>
+    <!-- Footer area end -->
+
+    <?php require "partials/js.php"; ?>
+
+
 
 </body>
-<!-- Mirrored from mannatstudio.com/html/serenite/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 27 Feb 2024 08:19:18 GMT -->
 
 </html>
