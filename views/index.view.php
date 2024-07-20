@@ -28,10 +28,8 @@
                                                         Technology</h1>
                                                 </div>
                                                 <div class="tp-slider-btn-box d-inline-flex mt-45">
-                                                    <a class="tp-btn tp-btn-white" rel="noreferrer" href="contact.html"
-                                                        target="_blank"><span>Get Started</span></a>
-                                                    <a class="tp-btn tp-btn-border" rel="noreferrer" href="contact.html"
-                                                        target="_blank"><span>Contact Us</span></a>
+                                                    <a class="tp-btn tp-btn-white" rel="noreferrer" href="contact.html" target="_blank"><span>Get Started</span></a>
+                                                    <a class="tp-btn tp-btn-border" rel="noreferrer" href="contact.html" target="_blank"><span>Contact Us</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -57,10 +55,8 @@
                                                         Tech Solution</h1>
                                                 </div>
                                                 <div class="tp-slider-btn-box d-inline-flex mt-45">
-                                                    <a class="tp-btn tp-btn-white" rel="noreferrer" href="contact.html"
-                                                        target="_blank"><span>Get Started</span></a>
-                                                    <a class="tp-btn tp-btn-border" rel="noreferrer" href="contact.html"
-                                                        target="_blank"><span>Contact Us</span></a>
+                                                    <a class="tp-btn tp-btn-white" rel="noreferrer" href="contact.html" target="_blank"><span>Get Started</span></a>
+                                                    <a class="tp-btn tp-btn-border" rel="noreferrer" href="contact.html" target="_blank"><span>Contact Us</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -86,10 +82,8 @@
                                                         Development</h1>
                                                 </div>
                                                 <div class="tp-slider-btn-box d-inline-flex mt-45">
-                                                    <a class="tp-btn tp-btn-white" rel="noreferrer" href="contact.html"
-                                                        target="_blank"><span>Get Started</span></a>
-                                                    <a class="tp-btn tp-btn-border" rel="noreferrer" href="contact.html"
-                                                        target="_blank"><span>Contact Us</span></a>
+                                                    <a class="tp-btn tp-btn-white" rel="noreferrer" href="contact.html" target="_blank"><span>Get Started</span></a>
+                                                    <a class="tp-btn tp-btn-border" rel="noreferrer" href="contact.html" target="_blank"><span>Contact Us</span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -107,12 +101,10 @@
                         <i class="fa-regular fa-arrow-right"></i>
                     </button>
                 </div>
-                <div
-                    class="tp-slider-dots tp-slider-dots-2 dots-color swiper-pagination-clickable swiper-pagination-bullets">
+                <div class="tp-slider-dots tp-slider-dots-2 dots-color swiper-pagination-clickable swiper-pagination-bullets">
                     <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span>
                     <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span>
-                    <span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button"
-                        aria-label="Go to slide 3"></span>
+                    <span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 3"></span>
                 </div>
             </div>
         </section>
@@ -144,12 +136,11 @@
                         <div class="tp-about-2-wrapper wow fadeInRight">
                             <div class="tp-section-title-wrapper mb-35">
                                 <span class="tp-section-subtitle style-2">KNOW ABOUT OUR CORTIA</span>
-                                <h3 class="tp-section-title style-2">Improve and innovate <br>
-                                    the CORTIA trends</h3>
-                                <p class="tp-section-paragraph">Middle removes the guesswork by organising and sharing
-                                    all the information
-                                    your broker Middle needs to recommend the best home loan for your situation
-                                    Get. your mortgage journey moving with less admin</p>
+                                <h4 class="tp-section-title style-2">At Cortia Technologies, we are <br> more than just a technology company</h4>
+                                <p class="tp-section-paragraph">We are a dynamic force driving innovation, invention and collaboration across industries.
+                                    Our name, "Cortia," signifies our commitment to connecting, developing exceptional resources and forging a path
+                                    toward technological advancement. We believe in the power of collaboration, knowledge sharing, innovation,
+                                    invention and mentorship to solve problems at large.</p>
                             </div>
                             <div class="tp-about-2-feature-item d-flex mb-15">
                                 <div class="tp-about-2-feature-icon">
@@ -157,8 +148,7 @@
                                 </div>
                                 <div class="tp-about-2-feature-content">
                                     <h4 class="tp-about-2-fc-title">Professional IT Solutions</h4>
-                                    <p class="tp-about-2-fc-paragraph">Neque porro quisquam est, qui dolorem ipsum
-                                        ctetur, adipisci velit, sed eligendi optio</p>
+                                    <p class="tp-about-2-fc-paragraph">Welcome to Cortia, where we deliver professional IT solutions tailored to meet your business needs.</p>
                                 </div>
                             </div>
                             <div class="tp-about-2-feature-item d-flex mb-40">
@@ -167,24 +157,23 @@
                                 </div>
                                 <div class="tp-about-2-feature-content">
                                     <h4 class="tp-about-2-fc-title">Experience Team Member</h4>
-                                    <p class="tp-about-2-fc-paragraph">Neque porro quisquam est, qui dolorem ipsum
-                                        ctetur, adipisci velit, sed eligendi optio</p>
+                                    <p class="tp-about-2-fc-paragraph">Our experienced team members are dedicated to providing exceptional service and innovative technology to help your company thrive.</p>
                                 </div>
                             </div>
 
                             <div class="tp-about-2-button-item d-flex">
                                 <div class="tp-about-2-btn">
-                                    <a class="tp-btn" rel="noreferrer" href="about.html" target="_blank"><span>Discover
+                                    <a class="tp-btn" rel="noreferrer" href="#" target="_blank"><span>Discover
                                             More</span></a>
                                 </div>
 
                                 <div class="tp-about-2-call-item d-flex align-items-center ml-20">
                                     <div class="tp-about-2-call-icon">
-                                        <a href="tel:+9978687653695"><i class="flaticon-phone-call"></i></a>
+                                        <a href="https://wa.me/2347067526404"><i class="flaticon-phone-call"></i></a>
                                     </div>
                                     <div class="tp-about-2-call-number ml-20">
                                         <span>Talk to an expert </span>
-                                        <a href="tel:+9978687653695">+99 (786) 8765 3695</a>
+                                        <a href="https://wa.me/2347067526404">0706 752 6407</a>
                                     </div>
                                 </div>
 
@@ -208,8 +197,8 @@
                         <div class="col-xl-8 col-lg-9 col-md-9">
                             <div class="tp-feature-2-wrapper wow fadeInUp">
                                 <div class="tp-section-title-wrapper mb-35">
-                                    <span class="tp-section-subtitle style-2 tp-feature-2-section-subtitle">RECENTLY
-                                        COMPLETED PORTFOLIO</span>
+                                    <span class="tp-section-subtitle style-2 tp-feature-2-section-subtitle">Values and Messaging</span>
+
                                     <h3 class="tp-section-title style-2 tp-feature-2-section-title">We advise more than
                                         25 <br>
                                         companies from all sectors</h3>
@@ -241,12 +230,9 @@
                                             <div class="tp-feature-2-item-wrapper">
                                                 <div class="tp-feature-2-content p-relative z-index-1 fix">
                                                     <div class="tp-feature-2-content-box">
-                                                        <div
-                                                            class="tp-feature-2-content-top d-flex justify-content-between">
+                                                        <div class="tp-feature-2-content-top d-flex justify-content-between">
                                                             <div class="tp-feature-2-content-title">
-                                                                <h3 class="tp-feature-2-cnt-title"><a
-                                                                        href="portfolio-details.html"> Higher <br>
-                                                                        education</a></h3>
+                                                                <h3 class="tp-feature-2-cnt-title"><a href="#">Innovation</a></h3>
                                                             </div>
                                                             <div class="tp-feature-2-cnt-icon">
                                                                 <span><i class="flaticon-open-book"></i></span>
@@ -254,12 +240,11 @@
                                                         </div>
                                                         <div class="tp-feature-2-content-bottom">
                                                             <div class="tp-feature-2-content-paragraph">
-                                                                <p>What we offer for the higher
-                                                                    education sector?</p>
+                                                                <p>We thrive on pushing boundaries and exploring the uncharted.
+                                                                    Innovation fuels our drive to create novel solutions that make a lasting impact.</p>
                                                             </div>
                                                             <div class="tp-feature-2-icon">
-                                                                <a href="portfolio-details.html"><span><i
-                                                                            class="flaticon-right-arrow"></i></span></a>
+                                                                <a href="#"><span><i class="flaticon-right-arrow"></i></span></a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -272,12 +257,9 @@
                                             <div class="tp-feature-2-item-wrapper">
                                                 <div class="tp-feature-2-content p-relative z-index-1 fix">
                                                     <div class="tp-feature-2-content-box">
-                                                        <div
-                                                            class="tp-feature-2-content-top d-flex justify-content-between">
+                                                        <div class="tp-feature-2-content-top d-flex justify-content-between">
                                                             <div class="tp-feature-2-content-title">
-                                                                <h3 class="tp-feature-2-cnt-title"><a
-                                                                        href="portfolio-details.html">Enterprise <br>
-                                                                        technology</a></h3>
+                                                                <h3 class="tp-feature-2-cnt-title"><a href="#">Collaboration</a></h3>
                                                             </div>
                                                             <div class="tp-feature-2-cnt-icon">
                                                                 <span><i class="flaticon-technology-1"></i></span>
@@ -285,12 +267,11 @@
                                                         </div>
                                                         <div class="tp-feature-2-content-bottom">
                                                             <div class="tp-feature-2-content-paragraph">
-                                                                <p>What we offer for the higher
-                                                                    education sector?</p>
+                                                                <p>Together, we achieve greatness. Collaboration is the cornerstone of our success, as we unite diverse talents and perspectives to achieve common goals.
+                                                                </p>
                                                             </div>
                                                             <div class="tp-feature-2-icon">
-                                                                <a href="portfolio-details.html"><span><i
-                                                                            class="flaticon-right-arrow"></i></span></a>
+                                                                <a href="#"><span><i class="flaticon-right-arrow"></i></span></a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -304,12 +285,9 @@
                                                 <div class="tp-feature-2-item-wrapper">
                                                     <div class="tp-feature-2-content p-relative z-index-1 fix">
                                                         <div class="tp-feature-2-content-box">
-                                                            <div
-                                                                class="tp-feature-2-content-top d-flex justify-content-between">
+                                                            <div class="tp-feature-2-content-top d-flex justify-content-between">
                                                                 <div class="tp-feature-2-content-title">
-                                                                    <h3 class="tp-feature-2-cnt-title"><a
-                                                                            href="portfolio-details.html">Software <br>
-                                                                            agency</a></h3>
+                                                                    <h3 class="tp-feature-2-cnt-title"><a href="#">Empowerment</a></h3>
                                                                 </div>
                                                                 <div class="tp-feature-2-cnt-icon">
                                                                     <span><i class="flaticon-layers"></i></span>
@@ -317,12 +295,12 @@
                                                             </div>
                                                             <div class="tp-feature-2-content-bottom">
                                                                 <div class="tp-feature-2-content-paragraph">
-                                                                    <p>What we offer for the higher
-                                                                        education sector?</p>
+                                                                    <p>We believe in the power of technology to empower individuals and communities,
+                                                                        enabling them to shape their futures and overcome challenges.
+                                                                    </p>
                                                                 </div>
                                                                 <div class="tp-feature-2-icon">
-                                                                    <a href="portfolio-details.html"><span><i
-                                                                                class="flaticon-right-arrow"></i></span></a>
+                                                                    <a href="#"><span><i class="flaticon-right-arrow"></i></span></a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -336,12 +314,9 @@
                                             <div class="tp-feature-2-item-wrapper">
                                                 <div class="tp-feature-2-content p-relative z-index-1 fix">
                                                     <div class="tp-feature-2-content-box">
-                                                        <div
-                                                            class="tp-feature-2-content-top d-flex justify-content-between">
+                                                        <div class="tp-feature-2-content-top d-flex justify-content-between">
                                                             <div class="tp-feature-2-content-title">
-                                                                <h3 class="tp-feature-2-cnt-title"><a
-                                                                        href="portfolio-details.html">Large <br>
-                                                                        enterprise</a></h3>
+                                                                <h3 class="tp-feature-2-cnt-title"><a href="#">Integrity</a></h3>
                                                             </div>
                                                             <div class="tp-feature-2-cnt-icon">
                                                                 <span><i class="flaticon-management-1"></i></span>
@@ -349,12 +324,11 @@
                                                         </div>
                                                         <div class="tp-feature-2-content-bottom">
                                                             <div class="tp-feature-2-content-paragraph">
-                                                                <p>What we offer for the higher
-                                                                    education sector?</p>
+                                                                <p>Our actions are guided by unwavering ethical principles.
+                                                                    Transparency, honesty, and accountability are integral to every endeavor we undertake.</p>
                                                             </div>
                                                             <div class="tp-feature-2-icon">
-                                                                <a href="portfolio-details.html"><span><i
-                                                                            class="flaticon-right-arrow"></i></span></a>
+                                                                <a href="#"><span><i class="flaticon-right-arrow"></i></span></a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -362,7 +336,7 @@
                                             </div>
 
                                         </div>
-                                        <div class="tp-feature-item swiper-slide">
+                                        <!-- <div class="tp-feature-item swiper-slide">
 
                                             <div class="tp-feature-2-item-wrapper">
                                                 <div class="tp-feature-2-content p-relative z-index-1 fix">
@@ -423,7 +397,7 @@
                                                 </div>
                                             </div>
 
-                                        </div>
+                                        </div> -->
                                     </div>
                                 </div>
                             </div>
@@ -462,17 +436,13 @@
                                                     <div class="tp-service-2-icon">
                                                         <div class="tp-service-2-inner-item">
                                                             <span><i class="flaticon-it-service"></i></span>
-                                                            <h3 class="tp-service-2-icon-title"><a
-                                                                    href="service-details.html">IT management</a></h3>
+                                                            <h3 class="tp-service-2-icon-title"><a href="service-details.html">Cybersecurity</a></h3>
                                                         </div>
                                                         <div class="tp-service-2-paragraph">
-                                                            <p>Software development
-                                                                outsourcing is just a tool to
-                                                                achieve business...</p>
+                                                            <p>Conducting thorough evaluations of security measures and identifying vulnerabilities...</p>
                                                         </div>
                                                     </div>
-                                                    <a class="tp-service-2-btn" href="service-details.html">Read More <i
-                                                            class="flaticon-right-arrow"></i></a>
+                                                    <a class="tp-service-2-btn" href="service-details.html">Read More <i class="flaticon-right-arrow"></i></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -486,14 +456,11 @@
                                                         <div class="tp-service-2-icon p-relative">
                                                             <div class="tp-service-2-inner-item">
                                                                 <span><i class="flaticon-it-service"></i></span>
-                                                                <h3 class="tp-service-2-icon-title"><a
-                                                                        href="service-details.html">Network Security</a>
+                                                                <h3 class="tp-service-2-icon-title"><a href="service-details.html">Managed IT Services</a>
                                                                 </h3>
                                                             </div>
                                                             <div class="tp-service-2-paragraph">
-                                                                <p>Software development
-                                                                    outsourcing is just a tool to
-                                                                    achieve business...</p>
+                                                                <p>Monitoring and maintaining network infrastructure to ensure optimal performance and security...</p>
                                                             </div>
                                                         </div>
                                                         <a class="tp-service-2-btn" href="service-details.html">Read
@@ -513,17 +480,13 @@
                                                     <div class="tp-service-2-icon">
                                                         <div class="tp-service-2-inner-item">
                                                             <span><i class="flaticon-it-service"></i></span>
-                                                            <h3 class="tp-service-2-icon-title"><a
-                                                                    href="service-details.html">IT Solution</a></h3>
+                                                            <h3 class="tp-service-2-icon-title"><a href="service-details.html">IT Consulting</a></h3>
                                                         </div>
                                                         <div class="tp-service-2-paragraph">
-                                                            <p>Software development
-                                                                outsourcing is just a tool to
-                                                                achieve business...</p>
+                                                            <p>Helping businesses develop a comprehensive IT strategy aligned with their goals...</p>
                                                         </div>
                                                     </div>
-                                                    <a class="tp-service-2-btn" href="service-details.html">Read More <i
-                                                            class="flaticon-right-arrow"></i></a>
+                                                    <a class="tp-service-2-btn" href="service-details.html">Read More <i class="flaticon-right-arrow"></i></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -538,18 +501,13 @@
                                                     <div class="tp-service-2-icon">
                                                         <div class="tp-service-2-inner-item">
                                                             <span><i class="flaticon-it-service"></i></span>
-                                                            <h3 class="tp-service-2-icon-title"><a
-                                                                    href="service-details.html">Platform
-                                                                    Integration</a></h3>
+                                                            <h3 class="tp-service-2-icon-title"><a href="service-details.html">Software Development</a></h3>
                                                         </div>
                                                         <div class="tp-service-2-paragraph">
-                                                            <p>Software development
-                                                                outsourcing is just a tool to
-                                                                achieve business...</p>
+                                                            <p>Designing and developing mobile applications for iOS and Android platforms...</p>
                                                         </div>
                                                     </div>
-                                                    <a class="tp-service-2-btn" href="service-details.html">Read More <i
-                                                            class="flaticon-right-arrow"></i></a>
+                                                    <a class="tp-service-2-btn" href="service-details.html">Read More <i class="flaticon-right-arrow"></i></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -579,15 +537,13 @@
                         <div class="col-lg-7">
                             <div class="tp-section-title-wrapper mb-50 wow fadeInUp">
                                 <span class="tp-section-subtitle style-2">WHY ARE YOU CHOOSE CORTIA</span>
-                                <h3 class="tp-section-title style-2">We execute our ideas <br>
-                                    from the start to finish</h3>
+                                <h4 class="tp-section-title style-2">we deliver innovative, collaborative, and reliable IT solutions
+                                    with unwavering integrity, empowering businesses to thrive in the digital age.</h4>
                             </div>
                         </div>
                         <div class="col-lg-5">
-                            <div
-                                class="tp-chose-us-2-right-btn d-flex justify-content-end align-items-center mt-90 wow fadeInUp">
-                                <a class="tp-btn tp-btn-border" rel="noreferrer" href="portfolio.html"
-                                    target="_blank"><span>Know More</span></a>
+                            <div class="tp-chose-us-2-right-btn d-flex justify-content-end align-items-center mt-90 wow fadeInUp">
+                                <a class="tp-btn tp-btn-border" rel="noreferrer" href="portfolio.html" target="_blank"><span>Know More</span></a>
                             </div>
                         </div>
                     </div>
@@ -601,43 +557,35 @@
 
                                 <ul class="nav nav-pills d-flex" id="pills-tab" role="tablist">
                                     <li class="nav-item tp-chose-us-2-tab-li" role="presentation">
-                                        <button class="nav-link tp-chose-us-2-tab-btn active" id="pills-home-tab"
-                                            data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab"
-                                            aria-controls="pills-home" aria-selected="true">Personalized
-                                            Consultation</button>
+                                        <button class="nav-link tp-chose-us-2-tab-btn active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Innovation</button>
                                     </li>
                                     <li class="nav-item tp-chose-us-2-tab-li" role="presentation">
-                                        <button class="nav-link tp-chose-us-2-tab-btn tab-btn-2" id="pills-profile-tab"
-                                            data-bs-toggle="pill" data-bs-target="#pills-profile" type="button"
-                                            role="tab" aria-controls="pills-profile" aria-selected="false">End to End
+                                        <button class="nav-link tp-chose-us-2-tab-btn tab-btn-2" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">End to End
                                             Support</button>
                                     </li>
                                     <li class="nav-item tp-chose-us-2-tab-li" role="presentation">
-                                        <button class="nav-link tp-chose-us-2-tab-btn tab-btn-3" id="pills-contact-tab"
-                                            data-bs-toggle="pill" data-bs-target="#pills-contact" type="button"
-                                            role="tab" aria-controls="pills-contact" aria-selected="false">Intergrated
-                                            Digital Platforms</button>
+                                        <button class="nav-link tp-chose-us-2-tab-btn tab-btn-3" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Unwavering Integrity</button>
                                     </li>
                                 </ul>
 
                                 <div class="tab-content" id="pills-tabContent">
-                                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
-                                        aria-labelledby="pills-home-tab">
+                                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                                         <div class="tp-chose-us-2-box">
                                             <div class="row">
                                                 <div class="col-xl-6 col-lg-6">
                                                     <div class="tp-chose-us-2-left-wrapper">
                                                         <div class="tp-chose-us-2-left-content">
                                                             <div class="tp-chose-us-2-left-heading">
-                                                                <h3 class="tp-chose-us-2-left-title">Your comprehensive
-                                                                    guide <br>
-                                                                    through integration </h3>
-                                                                <p>We recognize many challenges today's complex world
-                                                                    require a
-                                                                    multifaceted approach. Our integrated consultation.
+                                                                <h3 class="tp-chose-us-2-left-title" style="font-size: 20px;">We thrive on pushing boundaries and exploring the uncharted. Innovation fuels our drive to create novel solutions that make a lasting impact.
+                                                                </h3>
+                                                                <p>Choose Cortia for relentless innovation that drives transformative IT solutions.
+                                                                </p>
+                                                                <p>At Cortia, innovation is at the core of our approach, continuously driving us to develop advanced IT solutions.
+                                                                </p>
+                                                                <p>Our commitment to innovation ensures that we provide cutting-edge technology to keep your business ahead.
                                                                 </p>
                                                             </div>
-                                                            <div class="tp-chose-us-2-left-item d-flex">
+                                                            <!-- <div class="tp-chose-us-2-left-item d-flex">
                                                                 <div class="tp-chose-us-2-left-icon-box">
                                                                     <span><i class="flaticon-feedback"></i></span>
                                                                     <h4 class="tp-chose-us-2-left-icon-title">Feedback
@@ -652,23 +600,17 @@
                                                                     <p>Customized insights tailored <br>
                                                                         to your unique challenges</p>
                                                                 </div>
-                                                            </div>
+                                                            </div> -->
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="col-xl-6 col-lg-6">
                                                     <div class="tp-chose-us-2-right-wrapper">
                                                         <div class="tp-chose-us-2-right-thumb p-relative">
-                                                            <img class="main-thumb"
-                                                                src="views/assets/img/chose-us/chose-us-2-right-thum.jpg"
-                                                                alt="">
+                                                            <img class="main-thumb" src="views/assets/img/chose-us/chose-us-2-right-thum.jpg" alt="">
                                                             <div class="tp-chose-us-2-right-thumb-shape">
-                                                                <img class="tp-chose-us-2-right-thumb-shape1"
-                                                                    src="views/assets/img/chose-us/chose-us-2-shape1.jpg"
-                                                                    alt="">
-                                                                <img class="tp-chose-us-2-right-thumb-shape2"
-                                                                    src="views/assets/img/chose-us/chose-us-2-shape2.jpg"
-                                                                    alt="">
+                                                                <img class="tp-chose-us-2-right-thumb-shape1" src="views/assets/img/chose-us/chose-us-2-shape1.jpg" alt="">
+                                                                <img class="tp-chose-us-2-right-thumb-shape2" src="views/assets/img/chose-us/chose-us-2-shape2.jpg" alt="">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -677,23 +619,23 @@
                                         </div>
 
                                     </div>
-                                    <div class="tab-pane fade" id="pills-profile" role="tabpanel"
-                                        aria-labelledby="pills-profile-tab">
+                                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
                                         <div class="tp-chose-us-2-box">
                                             <div class="row">
                                                 <div class="col-xl-6 col-lg-6">
                                                     <div class="tp-chose-us-2-left-wrapper">
                                                         <div class="tp-chose-us-2-left-content">
                                                             <div class="tp-chose-us-2-left-heading">
-                                                                <h3 class="tp-chose-us-2-left-title">Your comprehensive
-                                                                    guide <br>
-                                                                    through integration </h3>
-                                                                <p>We recognize many challenges today's complex world
-                                                                    require a
-                                                                    multifaceted approach. Our integrated consultation.
+                                                                <h3 class="tp-chose-us-2-left-title" style="font-size: 20px;">At Cortia, we provide comprehensive end-to-end support, ensuring your IT systems run smoothly from start to finish.
+                                                                </h3>
+                                                                <p>Our end-to-end support services cover every aspect of your IT needs, from initial setup to ongoing maintenance.
+                                                                </p>
+                                                                <p>Cortia’s end-to-end support guarantees seamless integration and continuous optimization of your IT infrastructure.
+                                                                </p>
+                                                                <p>Experience peace of mind with Cortia’s end-to-end support, knowing that every IT challenge is expertly handled.
                                                                 </p>
                                                             </div>
-                                                            <div class="tp-chose-us-2-left-item d-flex">
+                                                            <!-- <div class="tp-chose-us-2-left-item d-flex">
                                                                 <div class="tp-chose-us-2-left-icon-box">
                                                                     <span><i class="flaticon-feedback"></i></span>
                                                                     <h4 class="tp-chose-us-2-left-icon-title">Feedback
@@ -708,39 +650,38 @@
                                                                     <p>Customized insights tailored <br>
                                                                         to your unique challenges</p>
                                                                 </div>
-                                                            </div>
+                                                            </div> -->
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="col-xl-6 col-lg-6">
                                                     <div class="tp-chose-us-2-right-wrapper">
                                                         <div class="tp-chose-us-2-right-thumb p-relative">
-                                                            <img class="main-thumb"
-                                                                src="views/assets/img/chose-us/chose-us-2-right-thum2.jpg"
-                                                                alt="">
+                                                            <img class="main-thumb" src="views/assets/img/chose-us/chose-us-2-right-thum2.jpg" alt="">
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="tab-pane fade" id="pills-contact" role="tabpanel"
-                                        aria-labelledby="pills-contact-tab">
+                                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
                                         <div class="tp-chose-us-2-box">
                                             <div class="row">
                                                 <div class="col-xl-6 col-lg-6">
                                                     <div class="tp-chose-us-2-left-wrapper">
                                                         <div class="tp-chose-us-2-left-content">
                                                             <div class="tp-chose-us-2-left-heading">
-                                                                <h3 class="tp-chose-us-2-left-title">Tailored HR
-                                                                    guidance to <br>
-                                                                    navigate your challenges </h3>
-                                                                <p>We recognize many challenges today's complex world
-                                                                    require a
-                                                                    multifaceted approach. Our integrated consultation.
+                                                                <h3 class="tp-chose-us-2-left-title" style="font-size: 20px;">At Cortia, integrity is the foundation of our business, guiding every decision and action we take.
+
+                                                                </h3>
+                                                                <p>We believe that honesty and transparency are crucial, which is why integrity is at the heart of our services.
+                                                                </p>
+                                                                <p>Our commitment to integrity ensures that we build long-lasting, trust-based relationships with our clients.
+                                                                </p>
+                                                                <p>With Cortia, you can trust that our solutions are delivered with the highest ethical standards.
                                                                 </p>
                                                             </div>
-                                                            <div class="tp-chose-us-2-left-item d-flex">
+                                                            <!-- <div class="tp-chose-us-2-left-item d-flex">
                                                                 <div class="tp-chose-us-2-left-icon-box">
                                                                     <span><i class="flaticon-feedback"></i></span>
                                                                     <h4 class="tp-chose-us-2-left-icon-title">Data
@@ -755,16 +696,14 @@
                                                                     <p>Customized insights tailored <br>
                                                                         to your unique challenges</p>
                                                                 </div>
-                                                            </div>
+                                                            </div> -->
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="col-xl-6 col-lg-6">
                                                     <div class="tp-chose-us-2-right-wrapper">
                                                         <div class="tp-chose-us-2-right-thumb p-relative">
-                                                            <img class="main-thumb"
-                                                                src="views/assets/img/chose-us/chose-us-2-right-thum3.jpg"
-                                                                alt="">
+                                                            <img class="main-thumb" src="views/assets/img/chose-us/chose-us-2-right-thum3.jpg" alt="">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -800,8 +739,7 @@
                 </div>
                 <div class="row tp-project-2-with">
                     <div class="col-xl-3 col-lg-3 col-md-6">
-                        <div class="tp-project-2-wrapper mb-30 wow fadeInUp" data-wow-delay=".3s"
-                            data-wow-duration="1s">
+                        <div class="tp-project-2-wrapper mb-30 wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
                             <div class="tp-project-2-item">
                                 <div class="tp-project-2-thumb p-relative">
                                     <img src="views/assets/img/project/project-2-img1.jpg" alt="">
@@ -812,21 +750,18 @@
                                 <div class="tp-project-2-inner-item">
                                     <div class="tp-project-2-content">
                                         <span>Design</span>
-                                        <h4 class="tp-project-2-content-title"><a href="portfolio-details.html">Social
-                                                media app</a></h4>
+                                        <h4 class="tp-project-2-content-title"><a href="portfolio-details.html">Mobile app</a></h4>
                                     </div>
                                     <div class="tp-project-2-button d-flex align-items-center">
                                         <a class="tp-project-2-btn" href="portfolio-details.html">Read More </a>
-                                        <a href="portfolio-details.html"><span><i
-                                                    class="flaticon-right-arrow"></i></span></a>
+                                        <a href="portfolio-details.html"><span><i class="flaticon-right-arrow"></i></span></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-3 col-md-6">
-                        <div class="tp-project-2-wrapper mb-30 wow fadeInUp" data-wow-delay=".5s"
-                            data-wow-duration="1s">
+                        <div class="tp-project-2-wrapper mb-30 wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">
                             <div class="tp-project-2-item">
                                 <div class="tp-project-2-thumb p-relative">
                                     <img src="views/assets/img/project/project-2-img2.jpg" alt="">
@@ -842,16 +777,14 @@
                                     </div>
                                     <div class="tp-project-2-button d-flex align-items-center">
                                         <a class="tp-project-2-btn" href="portfolio-details.html">Read More</a>
-                                        <a href="portfolio-details.html"><span><i
-                                                    class="flaticon-right-arrow"></i></span></a>
+                                        <a href="portfolio-details.html"><span><i class="flaticon-right-arrow"></i></span></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-3 col-md-6">
-                        <div class="tp-project-2-wrapper mb-30 wow fadeInUp" data-wow-delay=".7s"
-                            data-wow-duration="1s">
+                        <div class="tp-project-2-wrapper mb-30 wow fadeInUp" data-wow-delay=".7s" data-wow-duration="1s">
                             <div class="tp-project-2-item">
                                 <div class="tp-project-2-thumb p-relative">
                                     <img src="views/assets/img/project/project-2-img3.jpg" alt="">
@@ -867,16 +800,14 @@
                                     </div>
                                     <div class="tp-project-2-button d-flex align-items-center">
                                         <a class="tp-project-2-btn" href="portfolio-details.html">Read More</a>
-                                        <a href="portfolio-details.html"><span><i
-                                                    class="flaticon-right-arrow"></i></span></a>
+                                        <a href="portfolio-details.html"><span><i class="flaticon-right-arrow"></i></span></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-3 col-md-6">
-                        <div class="tp-project-2-wrapper mb-30 wow fadeInUp" data-wow-delay=".9s"
-                            data-wow-duration="1s">
+                        <div class="tp-project-2-wrapper mb-30 wow fadeInUp" data-wow-delay=".9s" data-wow-duration="1s">
                             <div class="tp-project-2-item">
                                 <div class="tp-project-2-thumb p-relative">
                                     <img src="views/assets/img/project/project-2-img4.jpg" alt="">
@@ -887,13 +818,11 @@
                                 <div class="tp-project-2-inner-item">
                                     <div class="tp-project-2-content">
                                         <span>Branding</span>
-                                        <h4 class="tp-project-2-content-title"><a
-                                                href="portfolio-details.html">Technology solution</a></h4>
+                                        <h4 class="tp-project-2-content-title"><a href="portfolio-details.html">Technology solution</a></h4>
                                     </div>
                                     <div class="tp-project-2-button d-flex align-items-center">
                                         <a class="tp-project-2-btn" href="portfolio-details.html">Read More</a>
-                                        <a href="portfolio-details.html"><span><i
-                                                    class="flaticon-right-arrow"></i></span></a>
+                                        <a href="portfolio-details.html"><span><i class="flaticon-right-arrow"></i></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -910,8 +839,7 @@
 
 
         <!-- Technology area start -->
-        <section class="tp-technology-2-area pt-120 pb-105 p-relative z-index-1"
-            data-background="views/assets/img/technology/technology-2-bg.jpg">
+        <section class="tp-technology-2-area pt-120 pb-105 p-relative z-index-1" data-background="views/assets/img/technology/technology-2-bg.jpg">
             <div class="tp-technology-2-bg-overlay"></div>
             <div class="tp-technology-2-bg-shape">
                 <img src="views/assets/img/technology/technology-2-bg-shape.png" alt="">
@@ -923,40 +851,43 @@
 
                             <ul class="nav nav-tabs tp-technology-2-nav-tabs mb-50" id="myTab" role="tablist">
                                 <li class="nav-item" role="presentation">
-                                    <button class="nav-link tp-technology-2-nav-link active" id="home-tab"
-                                        data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab"
-                                        aria-controls="home" aria-selected="true">VISSION</button>
+                                    <button class="nav-link tp-technology-2-nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">MISSION</button>
                                 </li>
                                 <li class="nav-item" role="presentation">
-                                    <button class="nav-link tp-technology-2-nav-link" id="profile-tab"
-                                        data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab"
-                                        aria-controls="profile" aria-selected="false">MISSION</button>
+                                    <button class="nav-link tp-technology-2-nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">VISION</button>
                                 </li>
-                                <li class="nav-item" role="presentation">
+                                <!-- <li class="nav-item" role="presentation">
                                     <button class="nav-link tp-technology-2-nav-link" id="contact-tab"
                                         data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab"
                                         aria-controls="contact" aria-selected="false">ANALYTICS</button>
-                                </li>
+                                </li> -->
                             </ul>
 
                             <div class="tab-content" id="myTabContent">
 
-                                <div class="tab-pane fade show active" id="home" role="tabpanel"
-                                    aria-labelledby="home-tab">
+                                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                                     <div class="tp-technology-2-item d-flex">
-                                        <div class="tp-technology-2-thumb p-relative">
+                                        <!-- <div class="tp-technology-2-thumb p-relative">
                                             <img src="views/assets/img/technology/technology-2-img.jpg" alt="">
                                             <div class="tp-technology-2-thumb-icon">
                                                 <a class="tp-technology-2-play-btn popup-video"
                                                     href="https://www.youtube.com/watch?v=PO_fBTkoznc"><span><i
                                                             class="flaticon-play-button"></i></span></a>
                                             </div>
-                                        </div>
+                                        </div> -->
                                         <div class="tp-technology-2-content ml-30">
-                                            <h4 class="tp-technology-2-heading mb-20">We deal with the aspects of
-                                                professional IT services </h4>
+                                            <h4 class="tp-technology-2-heading mb-20">We empower individuals
+                                                and organizations to use
+                                                technology to solve
+                                                problems. We do this by
+                                                building strategic
+                                                partnerships, providing
+                                                educational initiatives, and
+                                                developing cutting-edge
+                                                solutions.
+                                            </h4>
 
-                                            <div class="tp-technology-2-tab-icon d-flex mb-10">
+                                            <!-- <div class="tp-technology-2-tab-icon d-flex mb-10">
                                                 <span><img src="views/assets/img/technology/technology-2-tab-icon.png"
                                                         alt=""></span>
                                                 <h4 class="tp-technology-2-tab-title">Advertising and marketing </h4>
@@ -970,26 +901,31 @@
                                                 <span><img src="views/assets/img/technology/technology-2-tab-icon.png"
                                                         alt=""></span>
                                                 <h4 class="tp-technology-2-tab-title">Advertising and marketing </h4>
-                                            </div>
+                                            </div> -->
 
                                         </div>
                                     </div>
                                 </div>
                                 <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                                     <div class="tp-technology-2-item d-flex">
-                                        <div class="tp-technology-2-thumb p-relative">
+                                        <!-- <div class="tp-technology-2-thumb p-relative">
                                             <img src="views/assets/img/technology/technology-2-img2.jpg" alt="">
                                             <div class="tp-technology-2-thumb-icon">
                                                 <a class="tp-technology-2-play-btn popup-video"
                                                     href="https://www.youtube.com/watch?v=PO_fBTkoznc"><span><i
                                                             class="flaticon-play-button"></i></span></a>
                                             </div>
-                                        </div>
+                                        </div> -->
                                         <div class="tp-technology-2-content ml-30">
-                                            <h4 class="tp-technology-2-heading mb-20">Professional IT services can
-                                                encompass a wide</h4>
+                                            <h4 class="tp-technology-2-heading mb-20">Cortia Tech envisions a
+                                                boundless world where
+                                                technology catalyzes
+                                                innovative solutions,
+                                                addresses global
+                                                challenges, and empowers
+                                                everyone to prosper.</h4>
 
-                                            <div class="tp-technology-2-tab-icon d-flex mb-10">
+                                            <!-- <div class="tp-technology-2-tab-icon d-flex mb-10">
                                                 <span><img src="views/assets/img/technology/technology-2-tab-icon.png"
                                                         alt=""></span>
                                                 <h4 class="tp-technology-2-tab-title">Advertising and marketing </h4>
@@ -1003,12 +939,12 @@
                                                 <span><img src="views/assets/img/technology/technology-2-tab-icon.png"
                                                         alt=""></span>
                                                 <h4 class="tp-technology-2-tab-title">Advertising and marketing </h4>
-                                            </div>
+                                            </div> -->
 
                                         </div>
                                     </div>
                                 </div>
-                                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                                <!-- <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
                                     <div class="tp-technology-2-item d-flex">
                                         <div class="tp-technology-2-thumb p-relative">
                                             <img src="views/assets/img/technology/technology-2-img3.jpg" alt="">
@@ -1040,7 +976,7 @@
 
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -1049,11 +985,11 @@
                             <div class="tp-technology-2-contact text-right">
                                 <div class="tp-section-title-wrapper mb-30">
                                     <span class="tp-section-subtitle style-2">CONTACT US</span>
-                                    <h3 class="tp-technology-2-title">Need technology <br>
+                                    <h3 class="tp-technology-2-title">Need an expert <br>
                                         support
                                     </h3>
                                     <span class="tp-technology-2-sec-paragraph">Don’t hesitate to call us on any
-                                        elctrical service, our <br>
+                                        technical service, our <br>
                                         team wait for your call</span>
                                 </div>
                                 <div class="tp-technology-2-call-item d-flex align-items-center">
@@ -1062,7 +998,7 @@
                                     </div>
                                     <div class="tp-technology-2-call-number ml-25">
                                         <span>Talk to an expert </span>
-                                        <a href="tel:+999454594569">+999 4545 94569</a>
+                                        <a href="tel:+2347067526407">+234 706 752 6407</a>
                                     </div>
                                 </div>
                             </div>
@@ -1077,7 +1013,7 @@
 
         <!-- Counter area start -->
         <section class="tp-counter-2-area pt-185 pb-85 p-relative">
-            <div class="container">
+            <!-- <div class="container">
                 <div class="row">
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                         <div class="tp-counter-2-wrapper text-center mb-30 wow fadeInUp" data-wow-delay=".3s"
@@ -1143,14 +1079,14 @@
             </div>
             <div class="tp-counter-2-bg-shape">
                 <img src="views/assets/img/counter/counter-2-shape.png" alt="">
-            </div>
+            </div> -->
         </section>
         <!-- Counter area end -->
 
 
 
         <!-- Pricing area start -->
-        <section class="tp-pricing-area pt-115 pb-120">
+        <!-- <section class="tp-pricing-area pt-115 pb-120">
             <div class="container">
                 <div class="row">
                     <div class="tp-section-title-wrapper text-center mb-100 wow fadeInUp">
@@ -1271,7 +1207,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- Pricing area end -->
 
 
@@ -1296,13 +1232,11 @@
                         </div>
                         <div class="tp-contact-project justify-content-lg-end d-flex">
                             <div class="tp-contact-complete text-center wow fadeInLeft">
-                                <h4 class="tp-contact-count"><span class="purecounter" data-purecounter-duration="2"
-                                        data-purecounter-end="140">140</span>+</h4>
+                                <h4 class="tp-contact-count"><span class="purecounter" data-purecounter-duration="2" data-purecounter-end="140">140</span>+</h4>
                                 <span class="tp-contact-paragraph">Completed projects</span>
                             </div>
                             <div class="tp-contact-complete text-center wow fadeInRight">
-                                <h4 class="tp-contact-count"><span class="purecounter" data-purecounter-duration="2"
-                                        data-purecounter-end="90">240</span>+</h4>
+                                <h4 class="tp-contact-count"><span class="purecounter" data-purecounter-duration="2" data-purecounter-end="90">240</span>+</h4>
                                 <span class="tp-contact-paragraph">Completed projects</span>
                             </div>
                         </div>
@@ -1347,12 +1281,10 @@
                             <div class="tp-blog-2-slider-active swiper-container">
                                 <div class="swiper-wrapper">
 
-                                    <div class="tp-blog-2-item swiper-slide wow fadeInUp" data-wow-delay=".3s"
-                                        data-wow-duration="1s">
+                                    <div class="tp-blog-2-item swiper-slide wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
                                         <div class="tp-blog-2-wrapper">
                                             <div class="tp-blog-2-thumb">
-                                                <a href="blog-details.html"><img
-                                                        src="views/assets/img/blog/blog-2-img1.jpg" alt=""></a>
+                                                <a href="blog-details.html"><img src="views/assets/img/blog/blog-2-img1.jpg" alt=""></a>
                                             </div>
                                             <div class="tp-blog-2-item-box">
                                                 <div class="tp-blog-2-date d-flex">
@@ -1362,14 +1294,13 @@
                                                 <div class="tp-blog-2-content">
                                                     <h3 class="tp-blog-2-title"><a href="blog-details.html">How to
                                                             become a successful businessman </a></h3>
-                                                    <a class="tp-blog-2-btn" rel="noreferrer" href="blog-details.html"
-                                                        target="_blank"><span>Read More</span></a>
+                                                    <a class="tp-blog-2-btn" rel="noreferrer" href="blog-details.html" target="_blank"><span>Read More</span></a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div class="tp-blog-2-item swiper-slide wow fadeInUp" data-wow-delay=".5s"
+                                    <!-- <div class="tp-blog-2-item swiper-slide wow fadeInUp" data-wow-delay=".5s"
                                         data-wow-duration="1s">
                                         <div class="tp-blog-2-wrapper">
                                             <div class="tp-blog-2-thumb">
@@ -1434,7 +1365,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                             <div class="tp-blog-2-slider-dot text-center mt-50"></div>

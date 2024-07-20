@@ -55,13 +55,11 @@
                                 </div>
                             </div>
                             <ul>
-                                <li><a href="tel:999212354685894"><i class="flaticon-phone-call"></i> + 999 2123 5468
-                                        5894</a></li>
-                                <li><a href="mailto:techubinfo@mail.com"><i class="fal fa-envelope"></i>
-                                        techubinfo@mail.com</a></li>
+                                <li><a href="tel:07067526407"><i class="flaticon-phone-call"></i> +234 706 7526 407</a></li>
+                                <li><a href="mailto:cortiatechnology@gmail.com"><i class="fal fa-envelope"></i>
+                                        cortiatechnology@gmail.com</a></li>
                                 <li><a href="https://www.google.com/maps/@41.6758525,-86.2531698,18.17z"><i
-                                            class="fa-light fa-location-dot"></i> <span>2307 Beverley Rd brook <br> New
-                                            York 11226 U.S.</span></a></li>
+                                            class="fa-light fa-location-dot"></i> <span>12, Iwo Road, IWo<br> Osun State Nigeria</span></a></li>
                             </ul>
                         </div>
                     </div>
@@ -99,7 +97,7 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="tp-footer-copy-right text-center wow fadeInUp">
-                        <p class="tp-footer-copy-paragraph">Full Copyright & Design By @<a href="#">Theme pure</a> –
+                        <p class="tp-footer-copy-paragraph">Full Copyright & Design By @<a href="#">Cortiatech</a> –
                             2024</p>
                     </div>
                 </div>

@@ -22,8 +22,10 @@ function abort($code = 404)
 $url = parse_url($_SERVER['REQUEST_URI'])['path'];
 
 $routes = [
-    '/' => 'controllers/index.php',
-    '/contact/' => 'controllers/contact.php',
+    '/cortia/' => 'controllers/index.php',
+    '/cortia/contact/' => 'controllers/contact.php',
+    '/cortia/services/' => 'controllers/services.php',
+    '/cortia/about/' => 'controllers/about.php',
 ];
 
 routeToController($url, $routes);

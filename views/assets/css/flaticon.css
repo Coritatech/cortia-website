@@ -167,6 +167,9 @@ i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
 .flaticon-phone-call:before {
     content: "\f12e";
 }
+.flaticon-whatsapp:before {
+    content: "\f232";
+}
 .flaticon-check-1:before {
     content: "\f12f";
 }

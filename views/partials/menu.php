@@ -128,7 +128,11 @@
                                             <li><a href="/about">About Us</a></li>
                                             <li><a href="/about">Service</a></li>
                                             <li><a href="/about">Blog</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
+                                            <!-- <li><a href="../index.view.php">Contact</a></li> -->
+                                            <li><a href="/">Contact</a></li>
+
+
+                                           
                                         </ul>
                                     </nav>
                                 </div>
@@ -137,12 +141,12 @@
                                 <div class="tp-header-right d-flex justify-content-end align-items-center">
 
                                     <!-- header search button -->
-                                    <div class="tp-header-search search-box-outer style-2 d-none d-md-block">
+                                    <!-- <div class="tp-header-search search-box-outer style-2 d-none d-md-block">
                                         <button><i class="flaticon-search"></i></button>
-                                    </div>
+                                    </div> -->
 
                                     <!-- header Shop button -->
-                                    <div class="tp-header-shop d-none d-md-block p-relative">
+                                    <!-- <div class="tp-header-shop d-none d-md-block p-relative">
                                         <div class="tp-header-shop-btn">
                                             <button><i class="flaticon-shopping-cart"></i></button>
                                             <div class="minicart">
@@ -184,10 +188,11 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
 
                                     <!-- header site-ber button -->
                                     <div class="tp-header-toggle-line tp-menu-bar">
+                                        <span></span>
                                         <span></span>
                                         <span></span>
                                     </div>
