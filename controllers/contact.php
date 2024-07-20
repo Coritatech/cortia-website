@@ -1,7 +1,7 @@
 <?php
 
 
-$name = 'Home';
+$name = 'Contact';
 
 function generateUUID()
 {
