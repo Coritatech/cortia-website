@@ -1,4 +1,4 @@
 <?php
 
 $name = 'Home';
-require "views/about.view.php";
+require "views/index.view.php";

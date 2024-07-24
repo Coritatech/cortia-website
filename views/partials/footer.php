@@ -1,16 +1,16 @@
 <section class="tp-footer-area">
-    <div class="tp-footer-top pt-110 pb-55" data-background="assets/img/footer/footer-bg.jpg">
+    <div class="tp-footer-top pt-110 pb-55" data-background="views/assets/img/footer/footer-bg.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-50">
                     <div class="tp-footer-widget footer-cols-1 wow fadeInUp" data-wow-delay=".3s"
                         data-wow-duration="1s">
                         <div class="tp-footer-logo">
-                            <a href="index.html"><img src="assets/img/footer/footer-logo.png" alt=""></a>
+                            <a href="/"><img src="views/assets/img/logo/logo3.png" alt=""></a>
                         </div>
                         <div class="tp-footer-text">
-                            <p>West Palm Besach,304 Donald <br>Gardens 234 FL 33410</p>
-                            <a class="tp-footer-call" href="tel:+0067834598568">(+00) 678 345 98568</a>
+                            <!-- <p>West Palm Besach,304 Donald <br>Gardens 234 FL 33410</p> -->
+                            <a class="tp-footer-call" href="tel:+2347067526407">(+234) 70 675 26407</a>
                         </div>
                         <div class="tp-footer-social">
                             <a href="#"><i class="flaticon-facebook-circular-logo"></i></a>
@@ -47,7 +47,7 @@
                         <div class="tp-footer-list">
                             <div class="tp-footer-widget-member d-flex">
                                 <div class="tp-footer-widget-img">
-                                    <img src="assets/img/footer/footer-member.png" alt="">
+                                    <img src="views/assets/img/logo/preloder.png" alt="">
                                 </div>
                                 <div class="tp-footer-widget-img-content">
                                     <p>Chat with an expert</p>
@@ -58,8 +58,8 @@
                                 <li><a href="tel:07067526407"><i class="flaticon-phone-call"></i> +234 706 7526 407</a></li>
                                 <li><a href="mailto:cortiatechnology@gmail.com"><i class="fal fa-envelope"></i>
                                         cortiatechnology@gmail.com</a></li>
-                                <li><a href="https://www.google.com/maps/@41.6758525,-86.2531698,18.17z"><i
-                                            class="fa-light fa-location-dot"></i> <span>12, Iwo Road, IWo<br> Osun State Nigeria</span></a></li>
+                                <!-- <li><a href="https://www.google.com/maps/@41.6758525,-86.2531698,18.17z"><i
+                                            class="fa-light fa-location-dot"></i> <span>12, Iwo Road, IWo<br> Osun State Nigeria</span></a></li> -->
                             </ul>
                         </div>
                     </div>
@@ -97,8 +97,8 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="tp-footer-copy-right text-center wow fadeInUp">
-                        <p class="tp-footer-copy-paragraph">Full Copyright & Design By @<a href="#">Cortiatech</a> –
-                            2024</p>
+                        <p class="tp-footer-copy-paragraph">Full Copyright & Design By @ <a href="#">Cortiatech</a> –
+                            <?php echo date('Y') ?></p>
                     </div>
                 </div>
             </div>

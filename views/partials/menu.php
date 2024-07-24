@@ -90,112 +90,48 @@
 
     <!-- header area start -->
     <header class="tp-header-height">
-        <div class="tp-header-top black-bg pt-10 pb-10 pl-110 pr-110 d-none d-xl-block">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-6">
-                        <div class="tp-header-top-address">
-                            <span><i class="fa-light fa-envelope"></i> <a href="mailto:cortiatechnology@gmail.com">cortiatechnology@gmail.com</a></span>
-                        </div>
-                    </div>
-                    <div class="col-xl-6">
-                        <div class="tp-header-top-right d-flex justify-content-end">
-                            <div class="tp-header-top-menu">
-                                <ul>
-                                    <li><a href="contact">Contact</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="header-sticky" class="tp-header-bottom">
+        <?php
+
+        if($url == '/') {
+            echo '<div class="tp-header-bottom tp-header-bottom tp-header-transparent">';
+        }
+        
+        ?>
+        <div id="header-sticky" class="tp-header-area">
             <div class="tp-header-area">
                 <div class="container">
                     <div class="tp-header-3-wrapper p-relative">
                         <div class="row align-items-center">
                             <div class="col-xl-2 col-lg-6 col-md-5 col-6">
                                 <div class="logo">
-                                    <a href="/"><img src="views/assets/img/logo/logo.png" alt=""></a>
+                                    <a href="/"><img src="views/assets/img/logo/logo<?php echo $url == '/' ? '3' : ''; ?>.png" alt=""></a>
                                 </div>
                             </div>
-                            <div class="col-xl-8 d-none d-xl-block">
-                                <div class="main-menu main-menu-2 main-mega-menu text-center">
+
+                            <div class="col-xl-7 d-none d-xl-block">
+                                <div class="main-menu main-menu-<?php echo $url == '/' ? '3' : '2'; ?> main-mega-menu text-center">
                                     <nav class="tp-main-menu-content">
                                         <ul>
                                             <li><a class="active" href="/">Home</a></li>
                                             <li><a href="/about">About Us</a></li>
-                                            <li><a href="/about">Service</a></li>
-                                            <li><a href="/about">Blog</a></li>
+                                            <!-- <li><a href="/about">Service</a></li>
+                                            <li><a href="/about">Blog</a></li> -->
                                             <!-- <li><a href="../index.view.php">Contact</a></li> -->
-                                            <li><a href="/">Contact</a></li>
-
-
-                                           
+                                            <li><a href="/contact">Contact</a></li>
                                         </ul>
                                     </nav>
                                 </div>
                             </div>
-                            <div class="col-xl-2 col-lg-6 col-md-7 col-6">
+
+                            <div class="col-xl-3 col-lg-8 col-md-6 col-6">
                                 <div class="tp-header-right d-flex justify-content-end align-items-center">
 
-                                    <!-- header search button -->
-                                    <!-- <div class="tp-header-search search-box-outer style-2 d-none d-md-block">
-                                        <button><i class="flaticon-search"></i></button>
-                                    </div> -->
-
-                                    <!-- header Shop button -->
-                                    <!-- <div class="tp-header-shop d-none d-md-block p-relative">
-                                        <div class="tp-header-shop-btn">
-                                            <button><i class="flaticon-shopping-cart"></i></button>
-                                            <div class="minicart">
-                                                <div class="cart-content-wrap d-flex align-items-center justify-content-between">
-                                                    <div class="cart-img-info d-flex align-items-center">
-                                                        <div class="cart-thumb">
-                                                            <a href="shop-details.html"> <img src="views/assets/img/shop/shop-1.jpg" alt=""></a>
-                                                        </div>
-                                                        <div class="cart-content">
-                                                            <h5 class="cart-title"><a href="shop-details.html">Mug with pencil</a></h5>
-                                                            <span> $ 22.9 <del>$39.9</del></span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="cart-del-icon">
-                                                        <span><i class="fa-light fa-trash-can"></i></span>
-                                                    </div>
-                                                </div>
-                                                <div class="cart-content-wrap d-flex justify-content-between align-items-center">
-                                                    <div class="cart-img-info  d-flex align-items-center">
-                                                        <div class="cart-thumb">
-                                                            <a href="shop-details.html"> <img src="views/assets/img/shop/shop-2.jpg" alt=""></a>
-                                                        </div>
-                                                        <div class="cart-content">
-                                                            <h5 class="cart-title"><a href="shop-details.html">Student bag</a></h5>
-                                                            <span> $ 22.9 <del>$39.9 </del></span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="cart-del-icon">
-                                                        <span><i class="fa-light fa-trash-can"></i></span>
-                                                    </div>
-                                                </div>
-                                                <div class="cart-total-price d-flex align-items-center justify-content-between">
-                                                    <span>Total:</span>
-                                                    <span>$100.0</span>
-                                                </div>
-                                                <div class="minicart-btn">
-                                                    <a class="cart-btn mb-10" href="cart.html"><span>Shopping Cart</span></a>
-                                                    <a class="cart-btn cart-btn-black" href="checkout.html"><span>Checkout</span></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div> -->
-
-                                    <!-- header site-ber button -->
-                                    <div class="tp-header-toggle-line tp-menu-bar">
-                                        <span></span>
-                                        <span></span>
-                                        <span></span>
+                                    <!-- header button -->
+                                    <div class="tp-header-button">
+                                        <a class="tp-header-btn tp-header-btn-white d-none d-md-block" rel="noreferrer" href="contact.html" target="_blank"><span>Get a Quete</span></a>
                                     </div>
+
+                                    <button class="d-xl-none tp-header-3-bar tp-menu-bar"><i class="fa-solid fa-bars"></i></button>
 
                                 </div>
                             </div>
@@ -204,5 +140,12 @@
                 </div>
             </div>
         </div>
+        <?php
+
+        if ($url == '/') {
+            echo ' </div>';
+        }
+
+        ?>
     </header>
     <!-- header area end -->
