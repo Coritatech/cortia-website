@@ -10,7 +10,7 @@
 
 
         <!-- service breadcrumb area start -->
-        <section class="tp-portfolio-breadcrumb-area tp-service-inner-breadcrumb-area" data-background="assets/img/service/service-breadcrumb-bg.jpg">
+        <section class="tp-portfolio-breadcrumb-area tp-service-inner-breadcrumb-area" data-background="views/assets/img/service/service-breadcrumb-bg.jpg">
             <div class="container">
                 <div class="row">
                     <div class="tp-portfolio-breadcrumb-content">
@@ -32,7 +32,7 @@
                         <div class="tp-2-service-item mb-170 wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
                             <div class="tp-service-2-item-wrapper tp-service-2-item-wrapper-2">
                                 <div class="tp-service-2-thum p-relative">
-                                    <img src="assets/img/service/service-2-img1.jpg" alt="">
+                                    <img src="views/assets/img/service/service-2-img3.jpg" alt="">
                                     <div class="tp-service-2-box text-center">
                                         <div class="tp-service-2-icon p-relative">
                                             <div class="tp-service-2-inner-item">
@@ -45,30 +45,30 @@
                                                     achieve business...</p>
                                             </div>
                                         </div>
-                                        <a class="tp-service-2-btn" href="service-details.html">Read More</a>
+                                        <a class="tp-service-2-btn" href="#">Read More</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="col-xl-4 col-lg-6 col-md-6">
+                    <div class="col-xl-4 col-lg-6 col-md-6">
                         <div class="tp-2-service-item mb-170 wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">
                             <div class="tp-service-2-item-wrapper tp-service-2-item-wrapper-2">
                                 <div class="tp-service-2-thum p-relative">
-                                    <img src="assets/img/service/service-2-img2.jpg" alt="">
+                                    <img src="views/assets/img/service/service-2-img1.jpg" alt="">
                                     <div class="tp-service-2-box text-center">
                                         <div class="tp-service-2-icon p-relative">
                                             <div class="tp-service-2-inner-item">
                                                 <span><i class="flaticon-it-service"></i></span>
-                                                <h3 class="tp-service-2-icon-title"><a href="service-details.html">Web Developer</a></h3>
+                                                <h3 class="tp-service-2-icon-title"><a href="#">Cybersecurity</a></h3>
                                             </div>
                                             <div class="tp-service-2-paragraph">
-                                                <p>Software development
+                                                <p>Cybersecurity
                                                     outsourcing is just a tool to
                                                     achieve business...</p>
                                             </div>
                                         </div>
-                                        <a class="tp-service-2-btn" href="service-details.html">Read More</a>
+                                        <a class="tp-service-2-btn" href="#">Read More</a>
                                     </div>
                                 </div>
                             </div>
@@ -78,12 +78,12 @@
                         <div class="tp-2-service-item mb-170 wow fadeInUp" data-wow-delay=".7s" data-wow-duration="1s">
                             <div class="tp-service-2-item-wrapper tp-service-2-item-wrapper-2">
                                 <div class="tp-service-2-thum p-relative">
-                                    <img src="assets/img/service/service-2-img3.jpg" alt="">
+                                    <img src="views/assets/img/service/service-2-img3.jpg" alt="">
                                     <div class="tp-service-2-box text-center">
                                         <div class="tp-service-2-icon p-relative">
                                             <div class="tp-service-2-inner-item">
                                                 <span><i class="flaticon-it-service"></i></span>
-                                                <h3 class="tp-service-2-icon-title"><a href="service-details.html">Data visualization</a></h3>
+                                                <h3 class="tp-service-2-icon-title"><a href="#">UI/UX Design</a></h3>
                                             </div>
                                             <div class="tp-service-2-paragraph">
                                                 <p>Software development
@@ -91,7 +91,7 @@
                                                     achieve business...</p>
                                             </div>
                                         </div>
-                                        <a class="tp-service-2-btn" href="service-details.html">Read More</a>
+                                        <a class="tp-service-2-btn" href="#">Read More</a>
                                     </div>
                                 </div>
                             </div>
@@ -101,12 +101,12 @@
                         <div class="tp-2-service-item mb-170 wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
                             <div class="tp-service-2-item-wrapper tp-service-2-item-wrapper-2">
                                 <div class="tp-service-2-thum p-relative">
-                                    <img src="assets/img/service/service-2-img4.jpg" alt="">
+                                    <img src="views/assets/img/service/service-2-img4.jpg" alt="">
                                     <div class="tp-service-2-box text-center">
                                         <div class="tp-service-2-icon p-relative">
                                             <div class="tp-service-2-inner-item">
                                                 <span><i class="flaticon-it-service"></i></span>
-                                                <h3 class="tp-service-2-icon-title"><a href="service-details.html">Ui/Ux Designing</a></h3>
+                                                <h3 class="tp-service-2-icon-title"><a href="#">Software Development</a></h3>
                                             </div>
                                             <div class="tp-service-2-paragraph">
                                                 <p>Software development
@@ -114,7 +114,7 @@
                                                     achieve business...</p>
                                             </div>
                                         </div>
-                                        <a class="tp-service-2-btn" href="service-details.html">Read More</a>
+                                        <a class="tp-service-2-btn" href="#">Read More</a>
                                     </div>
                                 </div>
                             </div>
@@ -124,12 +124,12 @@
                         <div class="tp-2-service-item mb-170 wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">
                             <div class="tp-service-2-item-wrapper tp-service-2-item-wrapper-2">
                                 <div class="tp-service-2-thum p-relative">
-                                    <img src="assets/img/service/service-2-img5.jpg" alt="">
+                                    <img src="views/assets/img/service/service-2-img5.jpg" alt="">
                                     <div class="tp-service-2-box text-center">
                                         <div class="tp-service-2-icon p-relative">
                                             <div class="tp-service-2-inner-item">
                                                 <span><i class="flaticon-it-service"></i></span>
-                                                <h3 class="tp-service-2-icon-title"><a href="service-details.html">Digital marketing</a></h3>
+                                                <h3 class="tp-service-2-icon-title"><a href="#">Project Management</a></h3>
                                             </div>
                                             <div class="tp-service-2-paragraph">
                                                 <p>Software development
@@ -137,7 +137,7 @@
                                                     achieve business...</p>
                                             </div>
                                         </div>
-                                        <a class="tp-service-2-btn" href="service-details.html">Read More</a>
+                                        <a class="tp-service-2-btn" href="#">Read More</a>
                                     </div>
                                 </div>
                             </div>
@@ -147,12 +147,12 @@
                         <div class="tp-2-service-item mb-170 wow fadeInUp" data-wow-delay=".7s" data-wow-duration="1s">
                             <div class="tp-service-2-item-wrapper tp-service-2-item-wrapper-2">
                                 <div class="tp-service-2-thum p-relative">
-                                    <img src="assets/img/service/service-2-img6.jpg" alt="">
+                                    <img src="views/assets/img/service/service-2-img6.jpg" alt="">
                                     <div class="tp-service-2-box text-center">
                                         <div class="tp-service-2-icon p-relative">
                                             <div class="tp-service-2-inner-item">
                                                 <span><i class="flaticon-it-service"></i></span>
-                                                <h3 class="tp-service-2-icon-title"><a href="service-details.html">Security systems</a></h3>
+                                                <h3 class="tp-service-2-icon-title"><a href="#">Responsive Web Development</a></h3>
                                             </div>
                                             <div class="tp-service-2-paragraph">
                                                 <p>Software development
@@ -160,12 +160,12 @@
                                                     achieve business...</p>
                                             </div>
                                         </div>
-                                        <a class="tp-service-2-btn" href="service-details.html">Read More</a>
+                                        <a class="tp-service-2-btn" href="#">Read More</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div> -->
+                    </div>
                 </div>
             </div>
         </section>
@@ -185,20 +185,7 @@
 
 
     <!-- JS here -->
-    <script src="assets/js/vendor/jquery.js"></script>
-    <script src="assets/js/vendor/waypoints.js"></script>
-    <script src="assets/js/bootstrap-bundle.js"></script>
-    <script src="assets/js/swiper-bundle.js"></script>
-    <script src="assets/js/slick.js"></script>
-    <script src="assets/js/range-slider.js"></script>
-    <script src="assets/js/magnific-popup.js"></script>
-    <script src="assets/js/nice-select.js"></script>
-    <script src="assets/js/purecounter.js"></script>
-    <script src="assets/js/wow.js"></script>
-    <script src="assets/js/isotope-pkgd.js"></script>
-    <script src="assets/js/imagesloaded-pkgd.js"></script>
-    <script src="assets/js/ajax-form.js"></script>
-    <script src="assets/js/main.js"></script>
+    <?php require "partials/js.php"; ?>
 </body>
 
 

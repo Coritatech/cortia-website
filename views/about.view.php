@@ -326,6 +326,5 @@
 </body>
 
 
-<!-- Mirrored from html.hixstudio.net/Cortia-prev/Cortia/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 20 Jun 2024 03:15:51 GMT -->
 
 </html>

@@ -16,7 +16,8 @@ function abort($code = 404)
 }
 
 $url = parse_url($_SERVER['REQUEST_URI'])['path'];
-
+// echo $url;
+// die();
 $routes = [
     '/' => 'controllers/index.php',
     '/contact' => 'controllers/contact.php',
