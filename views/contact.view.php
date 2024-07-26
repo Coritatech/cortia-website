@@ -1,3 +1,9 @@
+<?php
+
+session_start()
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <?php require "partials/head.php"; ?>
@@ -17,22 +23,25 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- Contact breadcrumb area end -->
+        </div>
 
-        <!-- Contact inner page area start -->
-        <section class="tp-contact-area">
+
+
+
+        <section class="contact sec-padd2">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-12">
-                        <!-- Form starts -->
-                        <form id="contact-form" action="" method="POST" class="tp-contact-inner-page-wrapper">
-                            <div class="tp-contact-box tp-contact-inner-page-box mb-120">
-                                <h3 class="tp-contact-title tp-contact-title-inner-page wow fadeInUp">Send your message</h3>
-                                <div class="tp-contact-form tp-contact-form-inner-page wow fadeInUp">
-                                    <div class="row">
-                                        <div class="col-xl-6 col-lg-6">
-                                            <input name="name" type="text" placeholder="Enter your name" required>
+                    <div class="col-md-8 col-sm-12 col-xs-12">
+                        <div class="section-title">
+                            <h2>Send Your <span class="thm-color">Message</span></h2>
+                        </div>
+                        <div class="default-form-area">
+                            <form id="contact-form" name="contact_form" class="default-form" action="http://st.ourhtmldemo.com/new/humanity-html/inc/sendmail.php" method="post">
+                                <div class="row clearfix">
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+
+                                        <div class="form-group">
+                                            <input type="text" name="form_name" class="form-control" value="" placeholder="Your Name *" required="">
                                         </div>
                                         <div class="col-xl-6 col-lg-6">
                                             <input name="email" type="email" placeholder="Enter your email" required>
@@ -124,5 +133,6 @@
 
 </body>
 
+<!-- Mirrored from st.ourhtmldemo.com/new/humanity-html/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 18 Nov 2023 14:33:34 GMT -->
 
 </html>
