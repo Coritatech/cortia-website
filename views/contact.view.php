@@ -5,287 +5,124 @@
 <body>
     <?php require "partials/menu.php"; ?>
 
-
-    <div class="boxed_wrapper">
-
+    <main>
 
 
-        <div class="inner-banner has-base-color-overlay text-center" style="background: url(images/background/4.jpg);">
-            <div class="container">
-                <div class="box">
-                    <h1>Contact us</h1>
-                </div>
-            </div>
-        </div>
-        <div class="breadcumb-wrapper">
-            <div class="container">
-                <div class="pull-left">
-                    <ul class="list-inline link-list">
-                        <li>
-                            <a href="index.view.php">Home</a>
-                        </li>
-                        <li>
-                            <a href="#">Pages</a>
-                        </li>
-
-                        <li>
-                            Contact us
-                        </li>
-                    </ul>
-                </div>
-                <div class="pull-right">
-                    <a href="#" class="get-qoute"><i class="fa fa-arrow-circle-right"></i>Become a Volunteer</a>
-                </div>
-            </div>
-        </div>
-
-
-
-
-        <section class="contact sec-padd2">
+        <!-- Contact breadcrumb area start -->
+        <section class="tp-portfolio-breadcrumb-area p-relative" data-background="assets/img/contact/contact-brdcmb-bg.jpg">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8 col-sm-12 col-xs-12">
-                        <div class="section-title">
-                            <h2>Send Your <span class="thm-color">Message</span></h2>
-                        </div>
-                        <div class="default-form-area">
-                            <form id="contact-form" name="contact_form" class="default-form" action="http://st.ourhtmldemo.com/new/humanity-html/inc/sendmail.php" method="post">
-                                <div class="row clearfix">
-                                    <div class="col-md-6 col-sm-6 col-xs-12">
-
-                                        <div class="form-group">
-                                            <input type="text" name="form_name" class="form-control" value="" placeholder="Your Name *" required="">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-sm-6 col-xs-12">
-                                        <div class="form-group">
-                                            <input type="email" name="form_email" class="form-control required email" value="" placeholder="Your Mail *" required="">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-sm-6 col-xs-12">
-                                        <div class="form-group">
-                                            <input type="text" name="form_phone" class="form-control" value="" placeholder="Phone">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-sm-6 col-xs-12">
-                                        <div class="form-group">
-                                            <input type="text" name="form_subject" class="form-control" value="" placeholder="Subject">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12 col-sm-12 col-xs-12">
-                                        <div class="form-group">
-                                            <textarea name="form_message" class="form-control textarea required" placeholder="Your Message...."></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12 col-sm-12 col-xs-12">
-                                        <div class="form-group">
-                                            <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value="">
-                                            <button class="thm-btn" type="submit" data-loading-text="Please wait...">send message</button>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </form>
-                        </div>
+                    <div class="tp-portfolio-breadcrumb-content text-center">
+                        <h2 class="tp-portfolio-breadcrumb-title tp-portfolio-breadcrumb-title-cntct-us">Contact Us</h2>
                     </div>
-                    <div class="col-md-4 col-sm-12 col-xs-12">
-                        <div class="section-title">
-                            <h2>Quick <span class="thm-color">Contact</span></h2>
-                        </div>
-                        <div class="content">
-                            <div class="text">
-                                <p>If you are passionate about helping people: through education, or preventing then you are in the right place. </p>
-                            </div>
-                            <ul class="contact-info">
-                                <li><i class="icon-arrows"></i><span>Address:</span> 121, humanity Apple Street <br>Iwo, Osun State, Nigeria</li>
-                                <li><i class="icon-phone"></i><span> Phone:</span> +234 706 752 6407 & <br>+234 706 752 6407</li>
-                                <li><i class="icon-back"></i><span>Email:</span> cortia@gmail.com</li>
-                            </ul>
-                            <ul class="social-icon">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-feed"></i></a></li>
-                                <li><a href="#"><i class="fa fa-skype"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-
                 </div>
             </div>
         </section>
+        <!-- Contact breadcrumb area end -->
 
+        <!-- Contact inner page area start -->
+        <section class="tp-contact-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <!-- Form starts -->
+                        <form id="contact-form" action="" method="POST" class="tp-contact-inner-page-wrapper">
+                            <div class="tp-contact-box tp-contact-inner-page-box mb-120">
+                                <h3 class="tp-contact-title tp-contact-title-inner-page wow fadeInUp">Send your message</h3>
+                                <div class="tp-contact-form tp-contact-form-inner-page wow fadeInUp">
+                                    <div class="row">
+                                        <div class="col-xl-6 col-lg-6">
+                                            <input name="name" type="text" placeholder="Enter your name" required>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-6">
+                                            <input name="email" type="email" placeholder="Enter your email" required>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-6">
+                                            <input name="org" type="text" placeholder="Your Organization" required>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-6">
+                                            <input name="subject" type="text" placeholder="Your Subject" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-12">
+                                        <textarea name="message" placeholder="Write Your Message" required></textarea>
+                                    </div>
+                                    <div class="tp-contact-submit">
+                                        <button class="tp-btn" type="submit" name="send_msg"><span>Send Message</span></button>
+                                    </div>
+                                    <p class="ajax-response">
+                                        <!-- Display session message -->
+                                        <?php
+                                        if (isset($_SESSION['response'])) {
+                                            echo $_SESSION['response'];
+                                            unset($_SESSION['response']); // Clear the response after displaying
+                                        }
+                                        ?>
+                                    </p>
+                                </div>
+                            </div>
+                        </form>
+                        <!-- Form ends -->
+                    </div>
+                </div>
 
+                <div class="tp-contact-inner-page-bottom">
+                    <div class="row">
 
-        <section class="home-google-map">
-            <div class="google-map" id="contact-google-map" data-map-lat="42.568692" data-map-lng="72.930105" data-icon-path="images/logo/map-marker.png" data-map-title="Chester" data-map-zoom="8">
-
+                        <div class="col-lg-6 col-md-6">
+                            <div class="tp-contact-inner-page-item mb-30 text-center wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">
+                                <div class="tp-contact-inner-page-icon">
+                                    <span><i class="fa-light fa-envelope"></i></span>
+                                </div>
+                                <div class="tp-contact-inner-page-content">
+                                    <h3 class="tp-contact-inner-page-title">Contact us</h3>
+                                    <a href="#">cortiatechnology@gmail.com <br>
+                                        +234 706 752 6407</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="tp-contact-inner-page-item mb-30 text-center wow fadeInUp" data-wow-delay=".7s" data-wow-duration="1s">
+                                <div class="tp-contact-inner-page-icon">
+                                    <span><i class="fa-light fa-clock"></i></span>
+                                </div>
+                                <div class="tp-contact-inner-page-content">
+                                    <h3 class="tp-contact-inner-page-title">Avalability</h3>
+                                    <a href="#">Five days 8:00 am - 5:00 pm <br> Firday is closed</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-
         </section>
+        <!-- Contact inner pagearea end -->
+
+
+
+        <!-- map area start -->
+        <div class="tp-map-area">
+            <div class="tp-map-content">
+                <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3178401.37203209!2d35.68689745030553!3d38.926089619386694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1696137917870!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+            </div>
+        </div>
+        <!-- map area end -->
 
 
 
 
+    </main>
 
-       
+
+
+
     <!-- Footer area start -->
     <?php require "partials/footer.php"; ?>
     <!-- Footer area end -->
 
     <?php require "partials/js.php"; ?>
 
-        <!--Footer Bottom-->
-      
-
-        <!-- Scroll Top  -->
-        <button class="scroll-top tran3s color2_bg"><span class="fa fa-angle-up"></span></button>
-        <!-- preloader  -->
-        <div class="preloader"></div>
-        <div id="donate-popup" class="donate-popup">
-            <div class="close-donate theme-btn"><span class="fa fa-close"></span></div>
-            <div class="popup-inner">
-
-
-                <div class="container">
-                    <div class="donate-form-area">
-                        <div class="section-title center">
-                            <h2>Donation Information</h2>
-                        </div>
-
-                        <h4>How much would you like to donate:</h4>
-
-                        <form action="#" class="donate-form default-form">
-                            <ul class="chicklet-list clearfix">
-                                <li>
-                                    <input type="radio" id="donate-amount-1" name="donate-amount" />
-                                    <label for="donate-amount-1" data-amount="1000">$1000</label>
-                                </li>
-                                <li>
-                                    <input type="radio" id="donate-amount-2" name="donate-amount" checked="checked" />
-                                    <label for="donate-amount-2" data-amount="2000">$2000</label>
-                                </li>
-                                <li>
-                                    <input type="radio" id="donate-amount-3" name="donate-amount" />
-                                    <label for="donate-amount-3" data-amount="3000">$3000</label>
-                                </li>
-                                <li>
-                                    <input type="radio" id="donate-amount-4" name="donate-amount" />
-                                    <label for="donate-amount-4" data-amount="4000">$4000</label>
-                                </li>
-                                <li>
-                                    <input type="radio" id="donate-amount-5" name="donate-amount" />
-                                    <label for="donate-amount-5" data-amount="5000">$5000</label>
-                                </li>
-                                <li class="other-amount">
-
-                                    <div class="input-container" data-message="Every dollar you donate helps end hunger.">
-                                        <span>Or</span><input type="text" id="other-amount" placeholder="Other Amount" />
-                                    </div>
-                                </li>
-                            </ul>
-
-                            <h3>Donor Information</h3>
-
-                            <div class="form-bg">
-                                <div class="row clearfix">
-                                    <div class="col-md-6 col-sm-6 col-xs-12">
-
-                                        <div class="form-group">
-                                            <p>Your Name*</p>
-                                            <input type="text" name="fname" placeholder="">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-sm-6 col-xs-12">
-                                        <div class="form-group">
-                                            <p>Email*</p>
-                                            <input type="text" name="fname" placeholder="">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-sm-6 col-xs-12">
-                                        <div class="form-group">
-                                            <p>Address*</p>
-                                            <input type="text" name="fname" placeholder="">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-sm-6 col-xs-12">
-                                        <div class="form-group">
-                                            <p>Phn Num*</p>
-                                            <input type="text" name="fname" placeholder="">
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <ul class="payment-option">
-                                <li>
-                                    <h4>Choose your payment method:</h4>
-                                </li>
-                                <li>
-                                    <div class="checkbox">
-                                        <label>
-                                            <input name="pay-us" type="checkbox">
-                                            <span>Paypal</span>
-                                        </label>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="checkbox">
-                                        <label>
-                                            <input name="pay-us" type="checkbox">
-                                            <span>Offline Donation</span>
-                                        </label>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="checkbox">
-                                        <label>
-                                            <input name="pay-us" type="checkbox">
-                                            <span>Credit Card</span>
-                                        </label>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="checkbox">
-                                        <label>
-                                            <input name="pay-us" type="checkbox">
-                                            <span>Debit Card</span>
-                                        </label>
-                                    </div>
-                                </li>
-                            </ul>
-
-                            <div class="center"><button class="thm-btn" type="submit">Donate Now</button></div>
-
-
-                        </form>
-                    </div>
-                </div>
-
-
-
-            </div>
-        </div>
-
-        <!-- jQuery -->
-     
-        <!-- google map js -->
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRvBPo3-t31YFk588DpMYS6EqKf-oGBSI"></script>
-        <script src="js/gmap.js"></script>
-
-        <script id="map-script" src="js/default-map.js"></script>
-
-
-        <script src="js/custom.js"></script>
-
-    </div>
-
 </body>
 
-<!-- Mirrored from st.ourhtmldemo.com/new/humanity-html/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 18 Nov 2023 14:33:34 GMT -->
 
 </html>
