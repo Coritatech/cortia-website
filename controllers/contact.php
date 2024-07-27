@@ -1,36 +1,25 @@
 <?php
+// Check if the form was submitted
+if (isset($_POST['send_msg'])) {
+    // Sanitize and fetch form inputs
+    $name = $_POST['name'];
+    $subject = $_POST['subject'];
+    $email = $_POST['email'];
+    $org = $_POST['org'];
+    $content = $_POST['message'];
 
+    $msg = "<center><h3>Message from $name </h3></center>
+            <p><strong>Organization:</strong> $org </p>
+            <p><strong>Email:</strong> $email </p>
+            <p><strong>Message:</strong><br> $content</p>";
+
+    if(mailingMethod($email, $name, $subject, $msg) == 1){
+        $response = 'Thanks, Your message has been sent successfully. We will get back to you soon.';
+    }else{
+        $response = 'There was an error sending your message. Please try again later.';
+    }
+
+}
 
 $name = 'Contact';
-
-function generateUUID()
-{
-    // Generate 16 bytes of random data
-    $data = random_bytes(16);
-
-    // Set the version (4) and variant (2 bits of '10') bits
-    $data[6] = chr(ord($data[6]) & 0x0f | 0x40); // version 4
-    $data[8] = chr(ord($data[8]) & 0x3f | 0x80); // variant 2
-
-    // Format as a UUID (16 bytes)
-    return vsprintf('%s%s-%s-%s-%s-%s%s%s', str_split(bin2hex($data), 4));
-}
-
-// Generate 200 UUIDs
-$uuids = [];
-for ($i = 0; $i < 121; $i++) {
-    $uuids[] = generateUUID();
-}
-
-// Output the generated UUIDs
-echo "<table>";
-
-
-foreach ($uuids as $uuid) {
-    echo "<tr><td>";
-    echo $uuid;
-    echo "<td>
-</tr>";
-}
-echo "</table>";
-// require "views/contact.view.php";
+require "views/contact.view.php";

@@ -5,13 +5,13 @@ function routeToController($url, $routes)
     if (array_key_exists($url, $routes)) {
         require $routes[$url];
     } else {
-        abort();
+        require $routes['/404'];
     }
 }
-function abort($code = 404)
+function abort($code = 404, )
 {
+    global $routes;
     http_response_code($code);
-    echo "Sorry Not Found.";
     die();
 }
 
@@ -22,6 +22,7 @@ $routes = [
     '/' => 'controllers/index.php',
     '/contact' => 'controllers/contact.php',
     '/services' => 'controllers/services.php',
+    '/404' => 'controllers/404.php',
     '/about' => 'controllers/about.php',
 ];
 routeToController($url, $routes);
