@@ -149,7 +149,7 @@
                             <div class="tp-header-right d-flex justify-content-end align-items-center">
                                 <!-- header button -->
                                 <div class="tp-header-button d-none d-lg-block">
-                                    <a class="tp-header-btn" rel="noreferrer" href="contact.html" target="_blank"><span>Get a Quete</span></a>
+                                    <a class="tp-header-btn" rel="noreferrer" href="/contact" target="_blank"><span>Let Talk</span></a>
                                 </div>
 
                                 <!-- header site-ber button -->
