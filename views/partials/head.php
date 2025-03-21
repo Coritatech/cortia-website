@@ -4,21 +4,28 @@
     <title>Cortia - <?php echo $name; ?></title>
     
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Cortia Technologies - Leading in innovative tech solutions. provides top-notch services.">
-    <meta name="keywords" content="Cortia Technologies, Tech Solutions, , IT Services, Software Development">
+    <meta name="description" content="Cortia Technologies - Leading provider of innovative tech solutions. Explore our IT services, software development, and more. Contact us today!">
+    <meta name="keywords" content="Cortia Technologies, Tech Solutions, IT Services, Software Development, Web Development, Mobile App Development, Cloud Solutions, Digital Transformation">
     <meta name="author" content="Cortia Technologies">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes">
+    <meta http-equiv="content-language" content="en">
     
     <!-- Canonical URL -->
     <link rel="canonical" href="https://cortia.com.ng/">
 
     <!-- Open Graph (Facebook, LinkedIn) -->
     <meta property="og:title" content="Cortia - <?php echo $name; ?>">
-    <meta property="og:description" content="Cortia Technologies offers innovative tech solutions including .">
+    <meta property="og:description" content="Cortia Technologies offers innovative tech solutions including <?php echo $name; ?>.">
     <meta property="og:image" content="https://cortia.com.ng/views/assets/img/logo/og-image.png">
     <meta property="og:url" content="https://cortia.com.ng/">
     <meta property="og:type" content="website">
     
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Cortia - <?php echo $name; ?>">
+    <meta name="twitter:description" content="Cortia Technologies offers innovative tech solutions including <?php echo $name; ?>.">
+    <meta name="twitter:image" content="https://cortia.com.ng/views/assets/img/logo/og-image.png">
+
     <!-- Robots Meta Tag -->
     <meta name="robots" content="index, follow">
     
@@ -52,4 +59,22 @@
         ]
     }
     </script>
+
+    <!-- Additional Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Cortia Technologies",
+        "url": "https://cortia.com.ng",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://cortia.com.ng/search?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+
+    <!-- Sitemap Link -->
+    <!-- <link rel="sitemap" type="application/xml" title="Sitemap" href="https://cortia.com.ng/sitemap.xml"> -->
 </head>
