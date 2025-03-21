@@ -6,9 +6,6 @@
     <?php require "partials/menu.php"; ?>
 
     <main>
-
-
-
         <!-- service breadcrumb area start -->
         <section class="tp-portfolio-breadcrumb-area tp-service-inner-breadcrumb-area" data-background="views/assets/img/service/service-breadcrumb-bg.jpg">
             <div class="container">
@@ -21,8 +18,6 @@
             </div>
         </section>
         <!-- service breadcrumb area end -->
-
-
 
         <!-- Service area start -->
         <section class="tp-service-2-area tp-service-inner-main-area tp-service-inner-main-area-2 p-relative fix">
@@ -187,8 +182,5 @@
     <!-- JS here -->
     <?php require "partials/js.php"; ?>
 </body>
-
-
-<!-- Mirrored from html.hixstudio.net/Cortia-prev/Cortia/service.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 20 Jun 2024 03:13:46 GMT -->
 
 </html>

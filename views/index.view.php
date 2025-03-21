@@ -4,30 +4,29 @@
 
 <body>
     <?php require "partials/menu.php"; ?>
+
     <main>
+
+
         <!-- Slider area start -->
         <section class="tp-slider-area p-relative fix">
             <div class="tp-slider-wrapper">
                 <div class="tp-slider-3-height p-relative">
-                    <div class="tp-slider-3-bg" data-background="views/assets/img/slider/slider-3-bg-1.jpg"></div>
+                    <div class="tp-slider-3-bg" data-background="views/assets/img/slider/slider-3-bg-1.svg"></div>
                     <div class="container">
                         <div class="row align-items-end">
-                            <div class="col-xl-6 col-lg-7">
+                            <div class="col-xl-12 col-lg-12">
                                 <div class="tp-slider-3-content p-relative z-index-11">
-                                    <div class="tp-slider-3-title-box wow fadeInUp" data-wow-delay=".3s"
-                                        data-wow-duration="1s">
-                                        <span class="tp-slider-3-sub-title">CORTIA TECHNOLOGIES</span>
-                                        <h5 class="tp-slider-3-title">Trusted Technology Service Provider</h5>
-                                        <p class="tp-slider-3-paragraph">With boundless world where technology
-                                            <br>catalyzes innovative solutions.
-                                        </p>
+                                    <div class="tp-slider-3-title-box wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
+                                        <span class="tp-slider-3-sub-title" style="background-color: white; padding-right: 10px; padding-left: 10px; border-radius:5px; font-weight:900; color:#7d2df4;">CORTIA TECHNOLOGIES</span>
+                                        <h5 class="tp-slider-3-title">Empowering Solutions Through Innovation & Collaboration</h5>
+                                        <p class="tp-slider-3-paragraph">Empowered by technology, we craft innovative solutions that tackle local challenges through collaboration and invention across industries.</p>
                                     </div>
-                                    <div class="tp-slider-3-btn-box d-flex wow fadeInUp" data-wow-delay=".5s"
-                                        data-wow-duration="1s">
-                                        <a class="tp-btn tp-btn-white" rel="noreferrer" href="about"
-                                            target="_blank"><span>Discover More</span></a>
+                                    <div class="tp-slider-3-btn-box d-flex wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">
+                                        <a class="tp-btn tp-btn-white" rel="noreferrer" href="/about"><span>Discover More</span></a>
                                         <!-- <div class="tp-slider-3-play-icon d-flex align-items-center ml-40">
                                             <a class="popup-video" href="https://www.youtube.com/watch?v=PO_fBTkoznc"><i class="fa-light fa-play"></i></a>
+
                                             <div class="tp-slider-3-play-text">
                                                 <span>Watch Showreel</span>
                                             </div>
@@ -35,34 +34,23 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-5">
-                                <div class="tp-slider-3-thumb p-relative z-index-1">
-                                    <img class="tp-slider-3-main-img"
-                                        src="views/assets/img/slider/shape/slider-3-man.png" alt="">
-                                    <img class="tp-slider-3-shape1"
-                                        src="views/assets/img/slider/shape/slider-3-shape1.png" alt="">
-                                    <img class="tp-slider-3-shape2"
-                                        src="views/assets/img/slider/shape/slider-3-shape3.png" alt="">
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="tp-slider-3-bottom-shape p-relative">
-                    <img class="tp-slider-3-bottom-shape1" src="views/assets/img/slider/shape/slider-3-shape4.png"
-                        alt="">
+                    <img class="tp-slider-3-bottom-shape1" src="views/assets/img/slider/shape/slider-3-shape4.png" alt="">
                 </div>
             </div>
         </section>
         <!-- Slider area end -->
+
 
         <!-- Feature area start -->
         <section class="tp-feature-3-area pt-45 pb-90">
             <div class="container">
                 <div class="row row-cols-xl-5">
                     <div class="col col-lg-4 col-md-4 col-12">
-                        <div class="tp-feature-3-wrapper fix p-relative mb-30 text-center wow fadeInUp"
-                            data-wow-delay=".3s" data-wow-duration="1s">
+                        <div class="tp-feature-3-wrapper fix p-relative mb-30 text-center wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
                             <div class="tp-feature-3-icon">
                                 <span><i class="flaticon-worldwide"></i></span>
                             </div>
@@ -76,8 +64,7 @@
                         </div>
                     </div>
                     <div class="col col-lg-4 col-md-4 col-12">
-                        <div class="tp-feature-3-wrapper fix p-relative mb-30 text-center wow fadeInUp"
-                            data-wow-delay=".4s" data-wow-duration="1s">
+                        <div class="tp-feature-3-wrapper fix p-relative mb-30 text-center wow fadeInUp" data-wow-delay=".4s" data-wow-duration="1s">
                             <div class="tp-feature-3-icon">
                                 <span><i class="flaticon-talk"></i></span>
                             </div>
@@ -91,8 +78,7 @@
                         </div>
                     </div>
                     <div class="col col-lg-4 col-md-4 col-12">
-                        <div class="tp-feature-3-wrapper active fix p-relative mb-30 text-center wow fadeInUp"
-                            data-wow-delay=".5s" data-wow-duration="1s">
+                        <div class="tp-feature-3-wrapper active fix p-relative mb-30 text-center wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">
                             <div class="tp-feature-3-icon">
                                 <span><i class="flaticon-coding"></i></span>
                             </div>
@@ -106,8 +92,7 @@
                         </div>
                     </div>
                     <div class="col col-lg-4 col-md-4 col-12">
-                        <div class="tp-feature-3-wrapper fix p-relative mb-30 text-center wow fadeInUp"
-                            data-wow-delay=".6s" data-wow-duration="1s">
+                        <div class="tp-feature-3-wrapper fix p-relative mb-30 text-center wow fadeInUp" data-wow-delay=".6s" data-wow-duration="1s">
                             <div class="tp-feature-3-icon">
                                 <span><i class="flaticon-ux-design"></i></span>
                             </div>
@@ -121,8 +106,7 @@
                         </div>
                     </div>
                     <div class="col col-lg-4 col-md-4 col-12">
-                        <div class="tp-feature-3-wrapper fix p-relative mb-30 text-center wow fadeInUp"
-                            data-wow-delay=".7s" data-wow-duration="1s">
+                        <div class="tp-feature-3-wrapper fix p-relative mb-30 text-center wow fadeInUp" data-wow-delay=".7s" data-wow-duration="1s">
                             <div class="tp-feature-3-icon">
                                 <span><i class="flaticon-management-1"></i></span>
                             </div>
@@ -140,82 +124,67 @@
         </section>
         <!-- Feature area end -->
 
-
-
-        <!-- About area Start -->
-        <section class="tp-about-2-area pt-120 pb-120 p-relative z-index-1 fix">
-            <div class="tp-about-2-bg-overlay"></div>
-            <div class="tp-about-2-bg-shape">
-                <img class="tp-about-2-bg-shape1" src="views/assets/img/about/about-2-shape-left.png" alt="">
-                <img class="tp-about-2-bg-shape2" src="views/assets/img/about/about-2-shape-right.png" alt="">
-            </div>
+        <!-- About area start -->
+        <section class="tp-about-3-area pb-120">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-6 col-lg-5">
-                        <div class="tp-about-2-thumb-wrapper wow fadeInLeft">
-                            <div class="tp-about-2-thumb p-relative">
-                                <img src="views/assets/img/about/about-2-img.jpg" alt=""
-                                    style="border-radius:20px; border: 1px solid #7d2df4;">
-                                <!-- <div class="tp-about-2-shape-top text-center">
-                                    <h3 class="tp-about-2-shape-top-title">35</h3>
-                                    <span class="tp-about-2-shape-top-paragraph">YEARS <br>EXPERIENCE</span>
-                                </div> -->
+                    <div class="col-xl-5">
+                        <div class="tp-about-3-wrapper p-relative wow fadeInLeft">
+                            <div class="tp-about-3-thumb">
+                                <img src="views/assets/img/about/about-3-thumb.png" alt="">
+                            </div>
+                            <div class="tp-about-3-shape">
+                                <img class="tp-about-3-shape1" src="views/assets/img/about/about-3-shape1.png" alt="">
+                                <img class="tp-about-3-shape2" src="views/assets/img/about/about-3-shape2.png" alt="">
+                                <img class="tp-about-3-shape3" src="views/assets/img/about/about-3-shape3.png" alt="">
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-6 col-lg-7">
-                        <div class="tp-about-2-wrapper wow fadeInRight">
-                            <div class="tp-section-title-wrapper mb-35">
-                                <span class="tp-section-subtitle style-2">KNOW ABOUT OUR CORTIA</span>
-                                <h4 class="tp-section-title style-2">At Cortia Technologies, we are <br> more than just
-                                    a technology company</h4>
-                                <p class="tp-section-paragraph">We are a dynamic force driving innovation, invention,
-                                    and collaboration across industries, dedicated to solving local problems through the
-                                    power of technology. We believe that by leveraging the power of collaboration,
-                                    knowledge sharing, innovation, and invention, we can create solutions that address
-                                    challenges in diverse sectors.</p>
+                    <div class="col-xl-7 col-lg-8">
+                        <div class="tp-about-3-right-wrappr ml-70 wow">
+                            <div class="tp-section-title-wrapper mb-45">
+                                <span class="tp-section-subtitle tp-section-subtitle-3">KNOW ABOUT OUR CORTIA</span>
+                                <h3 class="tp-section-title style-2" style="font-size: 45px;">Innovators, collaborators, and problem-solvers we are driven to create change</h3>
+                                <p class="tp-section-paragraph tp-section-paragraph-3">
+                                    We are a dynamic force driving innovation, invention, and collaboration across industries, committed to solving local challenges through technology. By harnessing the power of collaboration, knowledge sharing, and innovation, we create impactful solutions for diverse sectors.
+                                </p>
                             </div>
-                            <div class="tp-about-2-feature-item d-flex mb-15">
-                                <div class="tp-about-2-feature-icon">
-                                    <span><i class="flaticon-technology-1"></i></span>
+
+                            <div class="tp-about-3-feature-item d-flex mb-10">
+                                <div class="tp-about-3-feature-icon">
+                                    <span><i class="flaticon-check"></i></span>
                                 </div>
-                                <div class="tp-about-2-feature-content">
-                                    <h4 class="tp-about-2-fc-title">Professional IT Solutions</h4>
-                                    <p class="tp-about-2-fc-paragraph">Welcome to Cortia, where we deliver professional
-                                        IT solutions tailored to meet your business needs.</p>
-                                </div>
-                            </div>
-                            <div class="tp-about-2-feature-item d-flex mb-40">
-                                <div class="tp-about-2-feature-icon">
-                                    <span><i class="flaticon-management"></i></span>
-                                </div>
-                                <div class="tp-about-2-feature-content">
-                                    <h4 class="tp-about-2-fc-title">Experience Team Member</h4>
-                                    <p class="tp-about-2-fc-paragraph">Our experienced team members are dedicated to
-                                        providing exceptional service and innovative technology to help your company
-                                        thrive.</p>
+                                <div class="tp-about-3-feature-content ml-10">
+                                    <h5>Mission</h5>
+                                    <p>We empower individuals and organisations to use technology in solving indigenous problems. We achieve this by building strategic partnerships and developing cutting-edge technological solutions.</p>
                                 </div>
                             </div>
 
+                            <div class="tp-about-3-feature-item d-flex mb-10">
+                                <div class="tp-about-3-feature-icon">
+                                    <span><i class="flaticon-check"></i></span>
+                                </div>
+                                <div class="tp-about-3-feature-content ml-10">
+                                    <h5>Vision</h5>
+                                    <p>Cortia Technologies envisions a boundless world where technology catalyzes innovative solutions, addresses global challenges, and empowers prosperity among individuals and organizations</p>
+                                </div>
+                            </div>
                             <div class="tp-about-2-button-item d-flex">
                                 <div class="tp-about-2-btn">
-                                    <a class="tp-btn" rel="noreferrer" href="about" target="_blank"><span>Discover
-                                            More</span></a>
+                                    <a class="tp-btn" rel="noreferrer" href="about" target="_blank"><span>Discover More</span></a>
                                 </div>
 
-                                <div class="tp-about-2-call-item d-flex align-items-center ml-20">
+                                <div class="tp-about-2-call-item d-flex align-items-center ml-40">
                                     <div class="tp-about-2-call-icon">
-                                        <a href="https://wa.me/2347067526404"><i class="flaticon-phone-call"></i></a>
+                                        <a href="tel:+2347067526407"><i class="flaticon-phone-call"></i></a>
                                     </div>
                                     <div class="tp-about-2-call-number ml-20">
                                         <span>Talk to an expert </span>
-                                        <a href="https://wa.me/2347067526404">0706 752 6407</a>
+                                        <a href="https://wa.me/2347067526407">+234 706 752 6407</a>
                                     </div>
                                 </div>
 
                             </div>
-
-
                         </div>
                     </div>
                 </div>
@@ -223,451 +192,73 @@
         </section>
         <!-- About area end -->
 
-
-
-        <!-- Feature area start -->
-        <section class="tp-feature-2-area p-relative z-index-11">
-            <div class="tp-feature-2-top pt-115 pb-160" data-background="views/assets/img/project/project-2-bg.jpg">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-xl-8 col-lg-9 col-md-9">
-                            <div class="tp-feature-2-wrapper wow fadeInUp">
-                                <div class="tp-section-title-wrapper mb-35">
-                                    <span class="tp-section-subtitle style-2 tp-feature-2-section-subtitle">Our Core
-                                        Values</span>
-
-                                    <h5 class="tp-section-title style-2 tp-feature-2-section-title">At Cortia
-                                        Technologies, our core values are the driving force behind our mission and shape
-                                        every aspect of our work.</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="tp-feature-2-bottom">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xxl-12">
-                            <div class="tp-feature-slider p-relative">
-                                <div class="tp-feature-slider-active swiper-container">
-                                    <div class="swiper-wrapper">
-                                        <div class="tp-feature-item swiper-slide">
-
-                                            <div class="tp-feature-2-item-wrapper">
-                                                <div class="tp-feature-2-content p-relative z-index-1 fix">
-                                                    <div class="tp-feature-2-content-box">
-                                                        <div
-                                                            class="tp-feature-2-content-top d-flex justify-content-between">
-                                                            <div class="tp-feature-2-content-title">
-                                                                <h3 class="tp-feature-2-cnt-title"><a
-                                                                        href="#">Innovation</a></h3>
-                                                            </div>
-                                                            <div class="tp-feature-2-cnt-icon">
-                                                                <span><i class="flaticon-open-book"></i></span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="tp-feature-2-content-bottom">
-                                                            <div class="tp-feature-2-content-paragraph">
-                                                                <p>We thrive on pushing boundaries and exploring the
-                                                                    uncharted.
-                                                                    Innovation fuels our drive to create novel solutions
-                                                                    that make a lasting impact.</p>
-                                                            </div>
-                                                            <div class="tp-feature-2-icon">
-                                                                <a href="#"><span><i
-                                                                            class="flaticon-right-arrow"></i></span></a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                        <div class="tp-feature-item swiper-slide">
-
-                                            <div class="tp-feature-2-item-wrapper">
-                                                <div class="tp-feature-2-content p-relative z-index-1 fix">
-                                                    <div class="tp-feature-2-content-box">
-                                                        <div
-                                                            class="tp-feature-2-content-top d-flex justify-content-between">
-                                                            <div class="tp-feature-2-content-title">
-                                                                <h3 class="tp-feature-2-cnt-title"><a
-                                                                        href="#">Collaboration</a></h3>
-                                                            </div>
-                                                            <div class="tp-feature-2-cnt-icon">
-                                                                <span><i class="flaticon-technology-1"></i></span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="tp-feature-2-content-bottom">
-                                                            <div class="tp-feature-2-content-paragraph">
-                                                                <p>Together, we achieve greatness. Collaboration is the
-                                                                    cornerstone of our success, as we unite diverse
-                                                                    talents and perspectives to achieve common goals.
-                                                                </p>
-                                                            </div>
-                                                            <div class="tp-feature-2-icon">
-                                                                <a href="#"><span><i
-                                                                            class="flaticon-right-arrow"></i></span></a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                        <div class="tp-feature-item swiper-slide">
-                                            <div class="tp-feature-2-item-wrapper">
-
-                                                <div class="tp-feature-2-item-wrapper">
-                                                    <div class="tp-feature-2-content p-relative z-index-1 fix">
-                                                        <div class="tp-feature-2-content-box">
-                                                            <div
-                                                                class="tp-feature-2-content-top d-flex justify-content-between">
-                                                                <div class="tp-feature-2-content-title">
-                                                                    <h3 class="tp-feature-2-cnt-title"><a
-                                                                            href="#">Empowerment</a></h3>
-                                                                </div>
-                                                                <div class="tp-feature-2-cnt-icon">
-                                                                    <span><i class="flaticon-layers"></i></span>
-                                                                </div>
-                                                            </div>
-                                                            <div class="tp-feature-2-content-bottom">
-                                                                <div class="tp-feature-2-content-paragraph">
-                                                                    <p>We believe in the power of technology to empower
-                                                                        individuals and communities,
-                                                                        enabling them to shape their futures and
-                                                                        overcome challenges.
-                                                                    </p>
-                                                                </div>
-                                                                <div class="tp-feature-2-icon">
-                                                                    <a href="#"><span><i
-                                                                                class="flaticon-right-arrow"></i></span></a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                        <div class="tp-feature-item swiper-slide">
-
-                                            <div class="tp-feature-2-item-wrapper">
-                                                <div class="tp-feature-2-content p-relative z-index-1 fix">
-                                                    <div class="tp-feature-2-content-box">
-                                                        <div
-                                                            class="tp-feature-2-content-top d-flex justify-content-between">
-                                                            <div class="tp-feature-2-content-title">
-                                                                <h3 class="tp-feature-2-cnt-title"><a
-                                                                        href="#">Integrity</a></h3>
-                                                            </div>
-                                                            <div class="tp-feature-2-cnt-icon">
-                                                                <span><i class="flaticon-management-1"></i></span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="tp-feature-2-content-bottom">
-                                                            <div class="tp-feature-2-content-paragraph">
-                                                                <p>Our actions are guided by unwavering ethical
-                                                                    principles.
-                                                                    Transparency, honesty, and accountability are
-                                                                    integral to every endeavor we undertake.</p>
-                                                            </div>
-                                                            <div class="tp-feature-2-icon">
-                                                                <a href="#"><span><i
-                                                                            class="flaticon-right-arrow"></i></span></a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                        <!-- <div class="tp-feature-item swiper-slide">
-
-                                            <div class="tp-feature-2-item-wrapper">
-                                                <div class="tp-feature-2-content p-relative z-index-1 fix">
-                                                    <div class="tp-feature-2-content-box">
-                                                        <div
-                                                            class="tp-feature-2-content-top d-flex justify-content-between">
-                                                            <div class="tp-feature-2-content-title">
-                                                                <h3 class="tp-feature-2-cnt-title"><a
-                                                                        href="portfolio-details.html">Higher <br>
-                                                                        education</a></h3>
-                                                            </div>
-                                                            <div class="tp-feature-2-cnt-icon">
-                                                                <span><i class="flaticon-startup"></i></span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="tp-feature-2-content-bottom">
-                                                            <div class="tp-feature-2-content-paragraph">
-                                                                <p>What we offer for the higher
-                                                                    education sector?</p>
-                                                            </div>
-                                                            <div class="tp-feature-2-icon">
-                                                                <a href="portfolio-details.html"><span><i
-                                                                            class="flaticon-right-arrow"></i></span></a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                        <div class="tp-feature-item swiper-slide">
-
-                                            <div class="tp-feature-2-item-wrapper">
-                                                <div class="tp-feature-2-content p-relative z-index-1 fix">
-                                                    <div class="tp-feature-2-content-box">
-                                                        <div
-                                                            class="tp-feature-2-content-top d-flex justify-content-between">
-                                                            <div class="tp-feature-2-content-title">
-                                                                <h3 class="tp-feature-2-cnt-title"><a
-                                                                        href="portfolio-details.html">Enterprise <br>
-                                                                        technology</a></h3>
-                                                            </div>
-                                                            <div class="tp-feature-2-cnt-icon">
-                                                                <span><i class="flaticon-it-service"></i></span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="tp-feature-2-content-bottom">
-                                                            <div class="tp-feature-2-content-paragraph">
-                                                                <p>What we offer for the higher
-                                                                    education sector?</p>
-                                                            </div>
-                                                            <div class="tp-feature-2-icon">
-                                                                <a href="portfolio-details.html"><span><i
-                                                                            class="flaticon-right-arrow"></i></span></a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </div> -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Feature area end -->
-
-        <!-- Service area start -->
-        <section class="tp-service-2-area p-relative fix z-index-1">
-            <div class="container">
-                <div class="row">
-                    <div class="tp-section-title-wrapper text-center mb-40 wow fadeInUp">
-                        <span class="tp-section-subtitle style-2">WHAT WE OFFER</span>
-                        <h3 class="tp-section-title style-2 tp-section-title-xs">We offer quality service <br>
-                            for our clients
-                        </h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xxl-12">
-                        <div class="tp-service-2-slider">
-                            <div class="tp-service-2-slider-active swiper-container tp-service-2-swiper-container">
-                                <div class="swiper-wrapper">
-                                    <div class="tp-service-2 swiper-slide">
-                                        <div class="tp-service-2-item-wrapper">
-                                            <div class="tp-service-2-item-wrapper">
-                                                <div class="tp-service-2-thum">
-                                                    <img src="views/assets/img/service/service-2-img1.jpg" alt="">
-                                                </div>
-                                                <div class="tp-service-2-box text-center">
-                                                    <div class="tp-service-2-icon">
-                                                        <div class="tp-service-2-inner-item">
-                                                            <span><i class="flaticon-it-service"></i></span>
-                                                            <h3 class="tp-service-2-icon-title"><a
-                                                                    href="contact">Cybersecurity</a></h3>
-                                                        </div>
-                                                        <div class="tp-service-2-paragraph">
-                                                            <p>Conducting thorough evaluations of security measures and
-                                                                identifying vulnerabilities...</p>
-                                                        </div>
-                                                    </div>
-                                                    <a class="tp-service-2-btn" href="contact">Get a Quete <i
-                                                            class="flaticon-right-arrow"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="tp-2-service-item swiper-slide">
-                                        <div class="tp-service-2-item-wrapper">
-                                            <div class="tp-service-2-item-wrapper">
-                                                <div class="tp-service-2-thum p-relative">
-                                                    <img src="views/assets/img/service/service-2-img2.jpg" alt="">
-                                                    <div class="tp-service-2-box text-center">
-                                                        <div class="tp-service-2-icon p-relative">
-                                                            <div class="tp-service-2-inner-item">
-                                                                <span><i class="flaticon-it-service"></i></span>
-                                                                <h3 class="tp-service-2-icon-title"><a
-                                                                        href="contact">Managed IT Services</a>
-                                                                </h3>
-                                                            </div>
-                                                            <div class="tp-service-2-paragraph">
-                                                                <p>Monitoring and maintaining network infrastructure to
-                                                                    ensure optimal performance and security...</p>
-                                                            </div>
-                                                        </div>
-                                                        <a class="tp-service-2-btn" href="contact">Get a Quete <i
-                                                                class="flaticon-right-arrow"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="tp-2-service-item swiper-slide">
-                                        <div class="tp-service-2-item-wrapper">
-                                            <div class="tp-service-2-item-wrapper">
-                                                <div class="tp-service-2-thum">
-                                                    <img src="views/assets/img/service/service-2-img3.jpg" alt="">
-                                                </div>
-                                                <div class="tp-service-2-box text-center">
-                                                    <div class="tp-service-2-icon">
-                                                        <div class="tp-service-2-inner-item">
-                                                            <span><i class="flaticon-it-service"></i></span>
-                                                            <h3 class="tp-service-2-icon-title"><a href="contact">IT
-                                                                    Consulting</a></h3>
-                                                        </div>
-                                                        <div class="tp-service-2-paragraph">
-                                                            <p>Helping businesses develop a comprehensive IT strategy
-                                                                aligned with their goals...</p>
-                                                        </div>
-                                                    </div>
-                                                    <a class="tp-service-2-btn" href="contact">Get a Quete <i
-                                                            class="flaticon-right-arrow"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="tp-2-service-item swiper-slide">
-                                        <div class="tp-service-2-item-wrapper">
-                                            <div class="tp-service-2-item-wrapper">
-                                                <div class="tp-service-2-thum">
-                                                    <img src="views/assets/img/service/service-2-img5.jpg"
-                                                        style="height:323px;" alt="">
-                                                </div>
-                                                <div class="tp-service-2-box text-center">
-                                                    <div class="tp-service-2-icon">
-                                                        <div class="tp-service-2-inner-item">
-                                                            <span><i class="flaticon-it-service"></i></span>
-                                                            <h3 class="tp-service-2-icon-title"><a
-                                                                    href="contact">Software Development</a></h3>
-                                                        </div>
-                                                        <div class="tp-service-2-paragraph">
-                                                            <p>Designing and developing mobile applications for iOS and
-                                                                Android platforms...</p>
-                                                        </div>
-                                                    </div>
-                                                    <a class="tp-service-2-btn" href="contact">Get a Quete <i
-                                                            class="flaticon-right-arrow"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="team-slider-dot tp-service-2-slider-dot tp-swiper-dot text-center mt-50"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="tp-service-2-shape">
-                <img class="tp-service-2-bg-shape1" src="views/assets/img/service/service-2-shape1.png" alt="">
-                <img class="tp-service-2-bg-shape2" src="views/assets/img/service/service-2-shape22.png" alt="">
-                <img class="tp-service-2-bg-shape3" src="views/assets/img/service/service-2-shape3.png" alt="">
-            </div>
-        </section>
-        <!-- Service area end -->
-
-
-
-        <!-- Choose us start -->
-        <!-- <section class="tp-technology-3-area p-relative pt-120">
+        <!-- Service -->
+        <span id="service" style="height: 30px;"></span>
+        <section class="tp-technology-3-area p-relative pt-40">
             <div class="tp-technology-3-bg" data-background="views/assets/img/technology/technology-3-bg.jpg"></div>
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-6 col-lg-6">
+                    <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
                         <div class="tp-technology-3-wrapper wow fadeInLeft">
-                            <div class="tp-section-title-wrapper mb-35">
-                                <span class="tp-section-subtitle tp-technology-3-subtitle">WHY ARE YOU CHOOSE
-                                    CORTIA</span>
-                                <h3 class="tp-section-title style-2 white">Your success with the <br>
-                                    best IT solutions</h3>
-                                <p class="tp-section-paragraph tp-section-paragraph-3 white">Cortia is the partner of
-                                    choice for many of the world’s leading enterprises
-                                    SME and technology challengers. We help businesses elevate express
+
+                            <div class="tp-section-title-wrapper mb-20">
+                                <span class="tp-section-subtitle tp-technology-3-subtitle" style="background-color: white; padding-right: 10px; padding-left: 10px; border-radius:5px; font-weight:900; color:#7d2df4;">Our Service</span>
+                                <h3 class="tp-section-title style-2 white" style="font-size: 38px;">Empowering Your Success with Innovative IT <br>
+                                    Solutions</h3>
+                                <p class="tp-section-paragraph tp-section-paragraph-3 white">
+                                    We deliver cutting-edge technology solutions that solve challenges, drive growth, and create a better future for individuals and organizations.
                                 </p>
                             </div>
-                            <div class="tp-technology-3-left-box d-flex">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="tp-technology-3-icon d-flex">
-                                            <span><i class="flaticon-check"></i></span>
-                                            <div class="tp-technology-3-icon-content">
-                                                <h4>Innovation</h4>
-                                                <p>We constantly push boundaries and explore new frontiers. Innovation
-                                                    is at the heart of our efforts, driving us to develop unique
-                                                    solutions that make a significant difference.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="tp-technology-3-icon d-flex ml-10">
-                                            <span><i class="flaticon-check"></i></span>
-                                            <div class="tp-technology-3-icon-content">
-                                                <h4>Collaboration</h4>
-                                                <p>We believe in the power of working together. By combining our diverse
-                                                    talents and perspectives, we achieve more and create greater value
-                                                    for our partners and communities.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="tp-technology-3-icon d-flex">
-                                            <span><i class="flaticon-check"></i></span>
-                                            <div class="tp-technology-3-icon-content">
-                                                <h4>Innovation</h4>
-                                                <p>We constantly push boundaries and explore new frontiers. Innovation
-                                                    is at the heart of our efforts, driving us to develop unique
-                                                    solutions that make a significant difference.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                     <div class="col-md-6">
-                                        <div class="tp-technology-3-icon d-flex ml-10">
-                                            <span><i class="flaticon-check"></i></span>
-                                            <div class="tp-technology-3-icon-content">
-                                                <h4>Collaboration</h4>
-                                                <p>We believe in the power of working together. By combining our diverse
-                                                    talents and perspectives, we achieve more and create greater value
-                                                    for our partners and communities.</p>
-                                            </div>
-                                        </div>
+
+                            <div class="tp-technology-3-left-box d-flex flex-wrap">
+                                <div class="tp-technology-3-icon d-flex">
+                                    <span><i class="flaticon-check"></i></span>
+                                    <div class="tp-technology-3-icon-content">
+                                        <h4>Digital Transformation</h4>
+                                        <p>We help businesses modernize, innovate, and thrive through advanced, future-ready technology.</p>
                                     </div>
                                 </div>
 
-                            </div>
-                            <div class="tp-technology-3-left-btn mt-30">
-                                <a class="tp-technology-3-dis-btn" rel="noreferrer" href="about"><span>Discover
-                                        More</span></a>
+                                <div class="tp-technology-3-icon d-flex">
+                                    <span><i class="flaticon-check"></i></span>
+                                    <div class="tp-technology-3-icon-content">
+                                        <h4>Collaborative Innovation</h4>
+                                        <p>We partner with you to design tailored solutions that address your unique challenges and unlock new opportunities.</p>
+                                    </div>
+                                </div>
+
+                                <div class="tp-technology-3-icon d-flex">
+                                    <span><i class="flaticon-check"></i></span>
+                                    <div class="tp-technology-3-icon-content">
+                                        <h4>Smart Solutions</h4>
+                                        <p>We build intelligent systems that automate processes, optimize operations, and drive innovation.</p>
+                                    </div>
+                                </div>
+
+                                <div class="tp-technology-3-icon d-flex">
+                                    <span><i class="flaticon-check"></i></span>
+                                    <div class="tp-technology-3-icon-content">
+                                        <h4>Future-Ready Strategies</h4>
+                                        <p>We create scalable technology roadmaps to ensure your long-term success and adaptability in a changing world.</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-6 col-lg-6">
+                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
                         <div class="tp-technology-3-box wow fadeInUp">
                             <div class="tp-technology-3-item p-relative">
-                                <h3 class="tp-technology-3-title">Our Core Value</h3>
+                                <h3 class="tp-technology-3-title">Our Key Services</h3>
                                 <div class="tp-technology-3-list">
                                     <ul>
-                                        <li><i class="flaticon-checked"></i> Innovation</li>
-                                        <li><i class="flaticon-checked"></i> Collaboration</li>
-                                        <li><i class="flaticon-checked"></i> Empowerment</li>
-                                        <li><i class="flaticon-checked"></i> Integrity</li>
+                                        <li><i class="flaticon-checked"></i> Mobile App Development</li>
+                                        <li><i class="flaticon-checked"></i> Robotical Software Solutions</li>
+                                        <li><i class="flaticon-checked"></i> Website Development & Design</li>
+                                        <li><i class="flaticon-checked"></i> AI-Powered Solution</li>
+                                        <li><i class="flaticon-checked"></i> Cloud-Based Solutions</li>
+                                        <li><i class="flaticon-checked"></i> Data Analytics & Business Intelligence</li>
+                                        <li><i class="flaticon-checked"></i> Consultancy</li>
+
                                     </ul>
                                 </div>
                                 <div class="tp-technology-3-shape">
@@ -675,14 +266,14 @@
                                 </div>
                             </div>
                             <div class="tp-technology-3-button text-center">
-                                <a class="tp-technology-3-btn" rel="noreferrer" href="contact"><span>Tell us How We Can
-                                        Help</span></a>
+                                <a class="tp-technology-3-btn" rel="noreferrer" href="contact" target="_blank"><span>Tell us How We Can Help</span></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section> -->
+        </section>
+        <!-- service end  -->
 
         <section class="tp-chose-us-2-area pt-115 pb-120 p-relative">
             <div class="tp-chose-us-2-top">
@@ -696,7 +287,7 @@
                         </div>
                         <div class="col-lg-5">
                             <div class="tp-chose-us-2-right-btn d-flex justify-content-end align-items-center mt-90 wow fadeInUp">
-                                <a class="tp-btn tp-btn-border" rel="noreferrer" href="about" ><span>Know More</span></a>
+                                <a class="tp-btn tp-btn-border" rel="noreferrer" href="about"><span>Know More</span></a>
                             </div>
                         </div>
                     </div>
@@ -757,7 +348,7 @@
                                                             <img class="main-thumb"
                                                                 src="views/assets/img/chose-us/chose-us-2-right-thum.jpg"
                                                                 alt="" style="height: 450px;">
-                                                            
+
                                                         </div>
                                                     </div>
                                                 </div>
@@ -810,7 +401,7 @@
                                                         <div class="tp-chose-us-2-right-thumb p-relative">
                                                             <img class="main-thumb"
                                                                 src="views/assets/img/chose-us/chose-us-2-right-thum3.jpg"
-                                                                alt="" style="height: 450px;" >
+                                                                alt="" style="height: 450px;">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -827,7 +418,7 @@
                                                         <div class="tp-chose-us-2-left-content">
                                                             <div class="tp-chose-us-2-left-heading">
                                                                 <h3 class="tp-chose-us-2-left-title">Integrity</h3>
-                                                               <p>We operate with the highest ethical standards. Our commitment to transparency, honesty, and accountability ensures that we build trust and maintain the highest levels of integrity in all our actions.</p>
+                                                                <p>We operate with the highest ethical standards. Our commitment to transparency, honesty, and accountability ensures that we build trust and maintain the highest levels of integrity in all our actions.</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -852,18 +443,471 @@
             </div>
 
             <div class="tp-chose-us-2-bg-shape">
-                <img class="tp-chose-us-2-bg-s1" src="views/assets/img/chose-us/chose-us-2-bg-shape1.png" alt="" >
-                <img class="tp-chose-us-2-bg-s2" src="views/assets/img/chose-us/chose-us-2-bg-shape2.png" alt="" >
-                <img class="tp-chose-us-2-bg-s3" src="views/assets/img/chose-us/chose-us-2-bg-shape3.png" alt="" >
-                <img class="tp-chose-us-2-bg-s4" src="views/assets/img/chose-us/chose-us-2-bg-shape3.png" alt="" >
+                <img class="tp-chose-us-2-bg-s1" src="views/assets/img/chose-us/chose-us-2-bg-shape1.png" alt="">
+                <img class="tp-chose-us-2-bg-s2" src="views/assets/img/chose-us/chose-us-2-bg-shape2.png" alt="">
+                <img class="tp-chose-us-2-bg-s3" src="views/assets/img/chose-us/chose-us-2-bg-shape3.png" alt="">
+                <img class="tp-chose-us-2-bg-s4" src="views/assets/img/chose-us/chose-us-2-bg-shape3.png" alt="">
             </div>
         </section>
-        <!-- Choose us end -->
+
+
+        <!-- Project area start -->
+        <!-- <section class="tp-project-3-area pt-90 pb-80 p-relative z-index-1 fix">
+            <div class="tp-project-3-bg" data-background="views/assets/img/project/project-3-bg.jpg"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12">
+                        <div class="tp-project-3-wrapper wow fadeInUp">
+
+                            <div class="tp-section-title-wrapper mb-40">
+                                <span class="tp-section-subtitle tp-section-subtitle-3 white" style="background-color: white; padding-right: 10px; padding-left: 10px; border-radius:5px; font-weight:900; color:#7d2df4;">CHECK OUR EXECUTED PROJECTS</span>
+                                <h3 class="tp-project-3-title">We’re delivering only <br>
+                                    expectional quality work</h3>
+                                <p class="text-white" style="font-size: 30px;">Our business experts come businesses
+                                    to promoting business and enabling</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xxl-12">
+                        <div class="tp-project-3-slider mt-20 p-relative">
+                            <div class="tp-project-3-slider-active swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="tp-project-3-item swiper-slide wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
+                                        <div class="tp-project-3-slide-wrapper">
+                                            <div class="tp-project-3-thumb p-relative">
+                                                <img src="views/assets/img/project/project-3-img1.jpg" alt="">
+                                                <div class="tp-project-3-down-content text-center">
+                                                    <span>Solution</span>
+                                                    <h4 class="tp-project-3-down-title"><a href="portfolio-details.html">Data visualization</a></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tp-project-3-item swiper-slide wow fadeInUp" data-wow-delay=".4s" data-wow-duration="1s">
+                                        <div class="tp-project-3-slide-wrapper">
+                                            <div class="tp-project-3-thumb p-relative">
+                                                <img src="views/assets/img/project/project-3-img2.jpg" alt="">
+                                                <div class="tp-project-3-down-content text-center">
+                                                    <span>Solution</span>
+                                                    <h4 class="tp-project-3-down-title"><a href="portfolio-details.html">Data Marketing</a></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tp-project-3-item swiper-slide wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">
+                                        <div class="tp-project-3-slide-wrapper">
+                                            <div class="tp-project-3-thumb p-relative">
+                                                <img src="views/assets/img/project/project-3-img3.jpg" alt="">
+                                                <div class="tp-project-3-down-content text-center">
+                                                    <span>Solution</span>
+                                                    <h4 class="tp-project-3-down-title"><a href="portfolio-details.html">Data Storytelling</a></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tp-project-3-item swiper-slide wow fadeInUp" data-wow-delay=".6s" data-wow-duration="1s">
+                                        <div class="tp-project-3-slide-wrapper">
+                                            <div class="tp-project-3-thumb p-relative">
+                                                <img src="views/assets/img/project/project-3-img44.jpg" alt="">
+                                                <div class="tp-project-3-down-content text-center">
+                                                    <span>Solution</span>
+                                                    <h4 class="tp-project-3-down-title"><a href="portfolio-details.html">Data Insightfully</a></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tp-project-3-arrow-box ">
+                                <button class="slider-prev" tabindex="0" aria-label="Previous slide">
+                                    <i class="fa-regular fa-arrow-left"></i>
+                                </button>
+                                <button class="slider-next" tabindex="0" aria-label="Next slide">
+                                    <i class="fa-regular fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- Project area end -->
+
+
+        <!-- Testimonoal area start -->
+        <!-- <section class="tp-testimonial-3-area pt-115 pb-120" data-background="views/assets/img/testimonial/testimonial-3-bg.png">
+            <div class="container">
+                <div class="row">
+                    <div class="tp-section-title-wrapper mb-50 text-center wow fadeInUp">
+                        <span class="tp-section-subtitle tp-section-subtitle-3">OUR CLIENT TESTIMONIALS</span>
+                        <h3 class="tp-section-title style-2">What our clients say <br>
+                            about CORTIA </h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xxl-12">
+                        <div class="tp-testimonial-3-slider">
+                            <div class="tp-testimonial-3-slider-active swiper-container">
+                                <div class="swiper-wrapper">
+
+                                    <div class="tp-testimonial-3-item swiper-slide wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
+                                        <div class="tp-testimonial-3-wrapper">
+                                            <div class="tp-testimonial-3-box">
+                                                <div class="tp-testimonial-3-member-top mb-20">
+                                                    <div class="tp-testimonial-3-member d-flex">
+                                                        <div class="tp-testimonial-3-img">
+                                                            <img src="views/assets/img/testimonial/testi3.png" alt="">
+                                                        </div>
+                                                        <div class="tp-testimonial-3-img-content">
+                                                            <h4>Bulbul Ahmed</h4>
+                                                            <p>Font-End Developer</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tp-testimonial-3-member-icon">
+                                                        <span><i class="fa-sharp fa-solid fa-quote-right"></i></span>
+                                                    </div>
+                                                </div>
+                                                <div class="tp-testimonial-3-content">
+                                                    <h5>The best IT company ever I seen</h5>
+                                                    <p>Software development outsourcing is just a tool to achieve
+                                                        But there is no way to get worthwhile results</p>
+                                                </div>
+
+                                                <div class="tp-testimonial-3-review">
+                                                    <div class="tp-testimonial-3-review-thumb">
+                                                        <img src="views/assets/img/testimonial/testi-star.png" alt="">
+                                                    </div>
+                                                    <div class="tp-testimonial-3-review-date">
+                                                        <span>03.25.2024</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="tp-testimonial-3-item swiper-slide wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">
+                                        <div class="tp-testimonial-3-wrapper">
+                                            <div class="tp-testimonial-3-box">
+                                                <div class="tp-testimonial-3-member-top mb-20">
+                                                    <div class="tp-testimonial-3-member d-flex">
+                                                        <div class="tp-testimonial-3-img">
+                                                            <img src="views/assets/img/testimonial/testi-3-img.png" alt="">
+                                                        </div>
+                                                        <div class="tp-testimonial-3-img-content">
+                                                            <h4>Hamim</h4>
+                                                            <p>Wp Developer</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tp-testimonial-3-member-icon">
+                                                        <span><i class="fa-sharp fa-solid fa-quote-right"></i></span>
+                                                    </div>
+                                                </div>
+                                                <div class="tp-testimonial-3-content">
+                                                    <h5>The best IT company ever I seen</h5>
+                                                    <p>Software development outsourcing is just a tool to achieve
+                                                        But there is no way to get worthwhile results</p>
+                                                </div>
+                                                <div class="tp-testimonial-3-review">
+                                                    <div class="tp-testimonial-3-review-thumb">
+                                                        <img src="views/assets/img/testimonial/testi-star.png" alt="">
+                                                    </div>
+                                                    <div class="tp-testimonial-3-review-date">
+                                                        <span>03.25.2024</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tp-testimonial-3-slider-dot text-center mt-50"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- Testimonoal area end -->
+
+        <!-- Faq area start -->
+        <section class="tp-faq-area p-relative pt-105 pb-120">
+            <div class="tp-faq-bg" data-background="views/assets/img/faq/faq-bg.jpg"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="tp-section-title-wrapper mt-5 mb-125 wow fadeInUp">
+                            <span class="tp-section-subtitle tp-section-subtitle-3 white">freequently asked question</span>
+                            <h3 class="tp-section-title style-2 white">What people want <br>
+                                to know ?</h3>
+                        </div>
+                        <div class="tp-faq-3-accordion accordion-flush wow fadeInLeft" id="accordionFlushExample">
+                            <!-- FAQ Item 1 -->
+                            <div class="tp-faq-3-accordion-item accordion-item mb-10">
+                                <h2 class="accordion-header">
+                                    <button class="tp-faq-3-accordion-title accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                        What services do you offer for digital transformation?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="tp-faq-3-accordion-pera accordion-body">
+                                        We offer a range of services to help businesses modernize and innovate, including cloud migration, process automation, AI integration, and data analytics. Our goal is to make your business future-ready and efficient.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ Item 2 -->
+                            <div class="tp-faq-3-accordion-item accordion-item mb-10">
+                                <h2 class="accordion-header">
+                                    <button class="tp-faq-3-accordion-title accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                        How do you ensure the security of your solutions?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="tp-faq-3-accordion-pera accordion-body">
+                                        We prioritize security by implementing industry-standard practices such as encryption, multi-factor authentication, and regular security audits. Our team also stays updated on the latest cybersecurity trends to protect your data.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ Item 3 -->
+                            <div class="tp-faq-3-accordion-item accordion-item mb-10">
+                                <h2 class="accordion-header">
+                                    <button class="tp-faq-3-accordion-title accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                        Can you customize solutions for my business needs?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="tp-faq-3-accordion-pera accordion-body">
+                                        Absolutely! We specialize in collaborative innovation and work closely with you to design tailored solutions that address your unique challenges and unlock new opportunities for growth.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ Item 4 -->
+                            <div class="tp-faq-3-accordion-item accordion-item mb-10">
+                                <h2 class="accordion-header">
+                                    <button class="tp-faq-3-accordion-title accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                        What industries do you serve?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="tp-faq-3-accordion-pera accordion-body">
+                                        We serve a wide range of industries, including healthcare, finance, retail, manufacturing, and education. Our solutions are designed to be adaptable and scalable for any sector.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ Item 5 -->
+                            <div class="tp-faq-3-accordion-item accordion-item mb-10">
+                                <h2 class="accordion-header">
+                                    <button class="tp-faq-3-accordion-title accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                                        How do I get started with your services?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="tp-faq-3-accordion-pera accordion-body">
+                                        Getting started is easy! Simply contact us through our website or email, and our team will schedule a consultation to understand your needs and propose the best solutions for your business.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FAQ Item 6 -->
+                            <div class="tp-faq-3-accordion-item accordion-item mb-10">
+                                <h2 class="accordion-header">
+                                    <button class="tp-faq-3-accordion-title accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                                        Do you provide ongoing support after implementation?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="tp-faq-3-accordion-pera accordion-body">
+                                        Yes, we offer comprehensive support and maintenance services to ensure your systems run smoothly. Our team is available 24/7 to address any issues and provide updates as needed.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="tp-contact-box tp-faq-contact wow fadeInUp">
+                            <span>CONTACT US ANYTIME</span>
+                            <h3 class="tp-faq-title">Need any help?</h3>
+                            <div class="tp-contact-form tp-faq-3-form">
+                                <div class="col-lg-12 col-md-12">
+                                    <div class="tp-contact-inner-page-item mb-30 text-center wow fadeInUp" data-wow-delay=".5s"
+                                        data-wow-duration="1s">
+                                        <div class="tp-contact-inner-page-icon">
+                                            <span><i class="fa-light fa-envelope"></i></span>
+                                        </div>
+                                        <div class="tp-contact-inner-page-content">
+                                            <h3 class="tp-contact-inner-page-title">Contact us @</h3>
+                                            <a href="#">cortiatechnology@gmail.com <br>
+                                                +234 706 752 6407</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tp-faq-submit">
+                                    <a href="/about" class="tp-btn" type="submit"><span>Lean more about us</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Faq area end -->
+
+
+
+        <!-- Faq Service area start -->
+        <section class="tp-faq-4-services-area">
+            <div class="container-fluid tp-faq-4-services-width">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="tp-faq-4-services-item d-flex mb-30 wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
+                            <div class="tp-faq-4-services-item-head">
+                                <span class="img-1" data-background="views/assets/img/faq/faq-text-img.png">A</span>
+                            </div>
+                            <div class="tp-faq-4-services-item-icon">
+                                <span>01</span>
+                            </div>
+                            <div class="tp-faq-4-services-item-content">
+                                <h4 class="tp-faq-4-services-item-title"><a>Adoption</a></h4>
+                                <p>We take integral responsibility in seeing to the
+                                    success of your project, working tirelessly to achieve the
+                                    best outcomes</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="tp-faq-4-services-item d-flex mb-30 wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">
+                            <div class="tp-faq-4-services-item-icon">
+                                <span>02</span>
+                            </div>
+                            <div class="tp-faq-4-services-item-content">
+                                <h4 class="tp-faq-4-services-item-title"><a>Collaboration</h4>
+                                <p>By seamlessly integrating with your team,
+                                    we ensure a cooperative and productive working
+                                    relationship</p>
+                            </div>
+                            <div class="tp-faq-4-services-item-head">
+                                <span class="img-2" data-background="views/assets/img/faq/faq-text-img2.png">C</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="tp-faq-4-services-item d-flex mb-30 wow fadeInUp" data-wow-delay=".7s" data-wow-duration="1s">
+                            <div class="tp-faq-4-services-item-icon">
+                                <span>03</span>
+                            </div>
+                            <div class="tp-faq-4-services-item-content">
+                                <h4 class="tp-faq-4-services-item-title"><a>Reinforcements</a></h4>
+                                <p>Our diverse strengths and skill set in
+                                    various industries and ability to satisfy every project
+                                    requirements allows us to provide tailored solutions that
+                                    meet your unique needs</p>
+                            </div>
+                            <div class="tp-faq-4-services-item-head">
+                                <span class="img-3" data-background="views/assets/img/faq/faq-text-img3.png">R</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="tp-faq-4-services-item d-flex mb-30 wow fadeInUp" data-wow-delay=".7s" data-wow-duration="1s">
+                            <div class="tp-faq-4-services-item-icon">
+                                <span>04</span>
+                            </div>
+                            <div class="tp-faq-4-services-item-content">
+                                <h4 class="tp-faq-4-services-item-title"><a href="service-details.html">Quality</a></h4>
+                                <p>We maintain the highest standards in everything
+                                    we do, ensuring that each project is executed with precision
+                                    and excellence</p>
+                            </div>
+                            <div class="tp-faq-4-services-item-head">
+                                <span class="img-3" data-background="views/assets/img/faq/faq-text-img3.png">Q</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Faq Service area end -->
+
+
+
+        <!-- Blog area start -->
+        <!-- <section class="tp-blog-area pt-85 pb-25">
+            <div class="container">
+                <div class="row">
+                    <div class="tp-section-title-wrapper mb-50 text-center wow fadeInUp">
+                        <span class="tp-section-subtitle">OUR LATEST BLOG</span>
+                        <h3 class="tp-section-title">Read our blog & post</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="tp-blog-wrapper mb-30 wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
+                            <div class="tp-blog-thumb">
+                                <a href="blog-details.html"><img src="views/assets/img/blog/blog1.jpg" alt=""></a>
+                            </div>
+                            <div class="tp-blog-content">
+                                <div class="tp-blog-date d-flex">
+                                    <p>DESIGN</p>
+                                    <span>23 Mar, 2024</span>
+                                </div>
+                                <div class="tp-blog-content-inner">
+                                    <h4 class="tp-blog-content-inner-heading"><a href="blog-details.html">Necessity May Give us Best Virtual
+                                            Court </a></h4>
+                                    <a class="tp-blog-btn" href="blog-details.html">Read More <span><i class="flaticon-right-arrow"></i></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="tp-blog-wrapper mb-30 wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">
+                            <div class="tp-blog-thumb">
+                                <a href="blog-details.html"><img src="views/assets/img/blog/blog2.jpg" alt=""></a>
+                            </div>
+                            <div class="tp-blog-content">
+                                <div class="tp-blog-date d-flex">
+                                    <p>DESIGN</p>
+                                    <span>23 Mar, 2024</span>
+                                </div>
+                                <div class="tp-blog-content-inner">
+                                    <h4 class="tp-blog-content-inner-heading"><a href="blog-details.html">Wise spending habits, 13 tips
+                                            for maximizing your money</a></h4>
+                                    <a class="tp-blog-btn" href="blog-details.html">Read More <span><i class="flaticon-right-arrow"></i></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="tp-blog-wrapper mb-30 wow fadeInUp" data-wow-delay=".7s" data-wow-duration="1s">
+                            <div class="tp-blog-thumb">
+                                <a href="blog-details.html"><img src="views/assets/img/blog/blog3.jpg" alt=""></a>
+                            </div>
+                            <div class="tp-blog-content">
+                                <div class="tp-blog-date d-flex">
+                                    <p>DESIGN</p>
+                                    <span>23 Mar, 2024</span>
+                                </div>
+                                <div class="tp-blog-content-inner">
+                                    <h4 class="tp-blog-content-inner-heading"><a href="blog-details.html">Easy and Most Powerful Server and
+                                            Platform</a></h4>
+                                    <a class="tp-blog-btn" href="blog-details.html">Read More <span><i class="flaticon-right-arrow"></i></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- Blog area end -->
+
 
 
 
         <!-- Subscribe area Start -->
-        <section class="tp-subscribe-area pt-190 pb-80" data-background="views/assets/img/subscribe/subscribe-3-bg.jpg">
+        <!-- <section class="tp-subscribe-area pt-190 pb-80" data-background="views/assets/img/subscribe/subscribe-3-bg.jpg">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-2"></div>
@@ -885,19 +929,30 @@
                     <div class="col-xl-2"></div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- Subscribe area end -->
-
     </main>
 
     <!-- Footer area start -->
-    <?php require "partials/footer.php"; ?>
+    <?php include "partials/footer.php"; ?>
     <!-- Footer area end -->
 
-    <?php require "partials/js.php"; ?>
 
-
-
+    <!-- JS here -->
+    <script src="views/assets/js/vendor/jquery.js"></script>
+    <script src="views/assets/js/vendor/waypoints.js"></script>
+    <script src="views/assets/js/bootstrap-bundle.js"></script>
+    <script src="views/assets/js/swiper-bundle.js"></script>
+    <script src="views/assets/js/slick.js"></script>
+    <script src="views/assets/js/range-slider.js"></script>
+    <script src="views/assets/js/magnific-popup.js"></script>
+    <script src="views/assets/js/nice-select.js"></script>
+    <script src="views/assets/js/purecounter.js"></script>
+    <script src="views/assets/js/wow.js"></script>
+    <script src="views/assets/js/isotope-pkgd.js"></script>
+    <script src="views/assets/js/imagesloaded-pkgd.js"></script>
+    <script src="views/assets/js/ajax-form.js"></script>
+    <script src="views/assets/js/main.js"></script>
 </body>
 
 </html>

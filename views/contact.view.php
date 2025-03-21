@@ -121,20 +121,24 @@
     <?php require "partials/js.php"; ?>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
 
-   <?php if(!empty($response) ){
-       $type = 'success';
-   }else{
-       $type = 'error';
-   } ?>
-    <script type="text/javascript">
-        swal({
-                title: "<?php echo $response?>",
-                // text: "You clicked the button!",
-                type: "<?php echo $type ?>",
+    <?php
+    if (!empty($response)) {
+        $type = 'success'; // Set type to 'success' if response is not empty
+    } else {
+        $type = 'error';  // Set type to 'error' if response is empty
+    }
+    ?>
+
+    <?php if (!empty($response)): ?> <!-- Only execute the script if $response is not empty -->
+        <script type="text/javascript">
+            swal({
+                title: "<?php echo addslashes($response); ?>", // Sanitize output
+                type: "<?php echo addslashes($type); ?>", // Sanitize output
                 confirmButtonText: "OK",
                 confirmButtonColor: "#6222cc"
             });
-    </script>
+        </script>
+    <?php endif; ?>
 </body>
 
 </html>

@@ -1,4 +1,7 @@
 <?php
+
+include "../functions.php";
+
 // Check if the form was submitted
 if (isset($_POST['send_msg'])) {
     // Sanitize and fetch form inputs
