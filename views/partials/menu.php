@@ -138,7 +138,7 @@
                                 <nav class="tp-main-menu-content">
                                     <ul>
                                         <li><a class="active" href="/">Home</a></li>
-                                        <li><a href="/cortia/#service">Service</a></li>
+                                        <li><a href="/#service">Service</a></li>
                                         <li><a href="/about">About Us</a></li>
                                         <li><a href="/contact">Contact</a></li>
                                     </ul>
