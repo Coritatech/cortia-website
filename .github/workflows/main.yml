@@ -23,4 +23,4 @@ jobs:
           # Optional: Exclude files like Git metadata
           exclude: |
             **/.git*
-            **/.git*/  **
+            **/.git*/**
