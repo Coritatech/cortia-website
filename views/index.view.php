@@ -203,7 +203,7 @@
 
                             <div class="tp-section-title-wrapper mb-20">
                                 <span class="tp-section-subtitle tp-technology-3-subtitle" style="background-color: white; padding-right: 10px; padding-left: 10px; border-radius:5px; font-weight:900; color:#7d2df4;">Our Service</span>
-                                <h3 class="tp-section-title style-2 white" style="font-size: 38px;">Empowering Your Success with Innovative IT <br>
+                                <h3 class="tp-section-title style-2 white">Empowering Your Success with <br> Innovative IT
                                     Solutions</h3>
                                 <p class="tp-section-paragraph tp-section-paragraph-3 white">
                                     We deliver cutting-edge technology solutions that solve challenges, drive growth, and create a better future for individuals and organizations.
