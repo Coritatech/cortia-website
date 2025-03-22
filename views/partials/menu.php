@@ -22,18 +22,27 @@
     <!-- tp-offcanvus-area-start -->
     <div class="tpoffcanvas-area">
         <div class="tpoffcanvas">
+            <!-- Close Button -->
             <div class="tpoffcanvas__close-btn">
                 <button class="close-btn"><i class="fal fa-times"></i></button>
             </div>
+
+            <!-- Logo -->
             <div class="tpoffcanvas__logo">
                 <a href="/">
-                    <img src="assets/img/logo/logo.png" alt="">
+                    <img src="views/assets/img/logo/logo.png" alt="Cortia Logo">
                 </a>
             </div>
+
+            <!-- Description -->
             <div class="tpoffcanvas__title">
                 <p>Cortia is the partner of choice for many of the world’s leading enterprises. We help businesses grow, innovate, and achieve their goals through cutting-edge solutions and strategic collaboration.</p>
             </div>
+
+            <!-- Mobile Menu -->
             <div class="tp-main-menu-mobile d-xl-none"></div>
+
+            <!-- Contact Information -->
             <div class="tpoffcanvas__contact-info">
                 <div class="tpoffcanvas__contact-title">
                     <h5>Contact us</h5>
@@ -41,8 +50,7 @@
                 <ul>
                     <li>
                         <i class="fas fa-envelope"></i>
-                        <a href="mailto:cortiatechnology@gmail.com"><span
-                                class="__cf_email__">cortiatechnology@gmail.com</span></a>
+                        <a href="mailto:cortiatechnology@gmail.com">cortiatechnology@gmail.com</a>
                     </li>
                     <li>
                         <i class="fa-solid fa-phone-flip"></i>
@@ -50,29 +58,10 @@
                     </li>
                 </ul>
             </div>
-            <div class="tpoffcanvas__input">
-                <div class="tpoffcanvas__input-title">
-                    <h4>Get UPdate</h4>
-                </div>
-                <form action="#">
-                    <div class="p-relative">
-                        <input type="text" placeholder="Enter mail">
-                        <button>
-                            <i class="fas fa-paper-plane"></i>
-                        </button>
-                    </div>
-                </form>
-            </div>
-            <div class="tpoffcanvas__social">
-                <div class="social-icon">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                </div>
-            </div>
         </div>
     </div>
+
+    <!-- Body Overlay -->
     <div class="body-overlay"></div>
     <!-- tp-offcanvus-area-end -->
 
@@ -153,9 +142,9 @@
                                 </div>
 
                                 <!-- header site-ber button -->
-                                <!-- <div class="tp-header-toggle">
+                                <div class="tp-header-toggle">
                                     <button class="tp-menu-bar"><i class="flaticon-menu"></i></button>
-                                </div> -->
+                                </div>
 
                             </div>
                         </div>
